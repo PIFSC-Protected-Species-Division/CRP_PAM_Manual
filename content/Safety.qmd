@@ -1,0 +1,14 @@
+---
+title: Safety
+---
+
+Include the following information on this page
+
+-   Lab safety
+-   Field safety
+-   Link to your centers safety website
+-   Incident reporting directions
+-   Chemical inventory (if applicable)
+-   Lithium battery safety
+    -   This is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See [SAEL lab manual lithium battery page](https://sael-swfsc.github.io/SAEL-lab-manual/content/Safety_Lithium-Batteries.html)
+-   [SAEL Lab Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Safety-Lab.html) & [Glider Lab Manual](https://swfsc.github.io/glider-lab-manual/content/best-practices.html#safety)

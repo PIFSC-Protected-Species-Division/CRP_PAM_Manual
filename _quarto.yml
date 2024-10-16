@@ -1,0 +1,90 @@
+project: 
+  type: website
+
+website: 
+  page-navigation: true
+  title: "NOAA quarto simple" 
+  site-url: "https://nmfs-ost.github.io/PAM_template_lab_manual/" 
+  repo-url: "https://github.com/nmfs-ost/PAM_template_lab_manual"
+  repo-actions: [edit, source, issue]
+  favicon: images/favicon.ico
+  
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-1.0"
+  
+  sidebar:
+    background: "#D9E3E4"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
+    favicon: images/favicon.ico
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
+        text: "NMFS National Passive Acoustic Monitoring Network"
+      - icon: github
+        href: https://github.com/nmfs-ost/PAM_template_lab_manual
+        text: "NMFS PAM SI Lab Manual Template"
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Home
+      - section: content/LabManagement.qmd
+        contents: 
+          - href: content/Safety.qmd
+            text: Safety
+          - href: content/Inventory.qmd
+            text: Inventory
+          - href: content/Hardware.qmd
+            text: Hardware
+      - href: content/FieldMethods.qmd
+        text: "Field Methods"
+      - href: content/DataManagement.qmd
+        text: Data Management
+      - href: content/Hardware.qmd
+        text: Hardware
+      - section: content/SoftwareAnalysis.qmd
+#        text: "Software & Analysis"
+        contents: 
+          - content/Software.qmd
+          - content/AnalysisMethods.qmd
+      - href: content/Reporting.qmd
+        text: Reporting
+      - section: "Optional Pages"
+        contents: 
+          - content/SharedValues.qmd
+          - content/Onboarding.qmd
+          - content/Offboarding.qmd
+          - content/FieldMethods.qmd
+          - content/OpenScience.qmd
+          - content/PublicationsPresentations.qmd
+          - content/Resources.qmd
+      - section: "NMFS Open Science Directions"
+        contents:
+          - content/NMFS_OpenSciDirections/Intro.qmd
+          - content/NMFS_OpenSciDirections/add-content.qmd
+          - content/NMFS_OpenSciDirections/customizing.qmd
+          - content/NMFS_OpenSciDirections/rendering.qmd
+          - content/NMFS_OpenSciDirections/rmarkdown.Rmd
+          - content/NMFS_OpenSciDirections/code.qmd
+          - content/NMFS_OpenSciDirections/acknowledgements.qmd 
+        
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss] 
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+
+filters:
+  - include-files.lua
+  - quarto
+
+  

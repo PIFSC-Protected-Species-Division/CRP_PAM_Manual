@@ -1,0 +1,7 @@
+---
+title: Open Science
+---
+
+This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.
+
+[SAEL Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/OpenScience_Getting-Started.html)

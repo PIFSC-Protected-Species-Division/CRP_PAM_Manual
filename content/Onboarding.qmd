@@ -1,0 +1,7 @@
+---
+title: Onboarding
+---
+
+This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.
+
+[Faylab example](https://thefaylab.github.io/lab-manual/04-onboarding.html)

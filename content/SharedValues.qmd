@@ -1,0 +1,9 @@
+---
+title: Shared Values
+---
+
+A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.
+
+[SAEL example](https://sael-swfsc.github.io/SAEL-lab-manual/content/SharedValues-BestPractices.html)
+
+[Faylab example](https://thefaylab.github.io/lab-manual/02-lab-culture-philosophy.html)

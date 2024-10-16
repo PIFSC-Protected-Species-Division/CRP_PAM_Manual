@@ -1,0 +1,9 @@
+---
+title: Lab Management
+---
+
+A lab management section is required and should include the following information;
+
+-   Safety
+-   Inventory
+-   Hardware

@@ -1,0 +1,21 @@
+---
+title: Data Management
+---
+
+A data management section is required and should include the following information;
+
+-   Data Archive Methods
+    -   Information on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)
+    -   [SAEL Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Data-Archive.html)
+-   Species reference guide for your region
+    -   Develop a species and call type library for your region
+    -   This can include spectrograms of calls and sound clips
+    -   PIFSC working on this, use them as an example once finalized
+    -   [SAEL Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Data-SpeciesAndCallTypes.html)
+-   Media
+    -   Links to sound archives, media archives, web sites, blogs, etc.
+    -   [SAEL Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
+
+This can be a section with subpages or a qmd
+
+[Glider Lab Manual](https://swfsc.github.io/glider-lab-manual/content/data-management.html)

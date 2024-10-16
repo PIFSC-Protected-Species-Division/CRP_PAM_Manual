@@ -1,0 +1,97 @@
+---
+title: "Home"
+subtitle: "Template for development of regional lab manuals as part of the Passive Acoustic Monitoring Strategic Initiative"
+page-layout: full
+---
+
+## PAM SI Lab Manual Template
+
+A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.
+
+## Required Pages
+
+In order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.
+
+-   Home Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.
+-   [Lab Management](https://nmfs-ost.github.io/PAM_template_lab_manual/content/LabManagement.html)
+-   [Data Management](https://nmfs-ost.github.io/PAM_template_lab_manual/content/DataManagement.html)
+-   [Hardware](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Hardware.html)
+-   [Software](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Software.html)
+-   [Analysis](https://nmfs-ost.github.io/PAM_template_lab_manual/content/AnalysisMethods.html)
+-   [Reporting](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Reporting.html)
+
+## Optional Pages
+
+Here are some more ideas for pages to include in your lab manual. These are optional and will not be linked to the main National PAM Repo, but they may be helpful for your team
+
+-   [Shared values/lab culture](https://nmfs-ost.github.io/PAM_template_lab_manual/content/SharedValues.html)
+-   [Onboarding](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Onboarding.html)
+-   [Offboarding](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Offboarding.html)
+-   [Field Methods](https://nmfs-ost.github.io/PAM_template_lab_manual/content/FieldMethods.html)
+-   [Open Science](https://nmfs-ost.github.io/PAM_template_lab_manual/content/OpenScience.html)
+-   [Publications/Presentations](https://nmfs-ost.github.io/PAM_template_lab_manual/content/PublicationsPresentations.html)
+-   [Resources](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Resources.html)
+
+## How To Use This Template
+
+This template will create a Quarto website that each lab can copy and edit with their own lab information. Follow the steps below to copy this template to your lab's GitHub
+
+1.  Open [this repository on GitHub](https://github.com/nmfs-ost/PAM_template_lab_manual)
+
+2.  Click on the 'Use this template' button in the top right, select 'Create new repository'
+
+    ![](content/images/repoTemplate.png)
+
+3.  Edit repository settings
+
+    -   Select the 'Include all branches' option
+
+    -   Select your lab organization or yourself as the owner and set the repository name to 'Lab name Lab Manual'
+
+    -   Make description "Lab manual for 'insert lab name and FMC'"
+
+    -   Make the repo public
+
+        ![](content/images/RepoSettings.png)
+
+4.  Click create repository
+
+5.  Turn on GitHub pages under Settings-\>Pages. You will set pages to be made from the gh-pages branch and root directory
+
+    ![](content/images/branches.png)
+
+6.  Update 'Actions' settings
+
+    -   Under Settings -\> Actions -\> General -\> Actions permissions select 'Allow all actions and reusable workflows'. Select save
+
+        ![](content/images/actions.png){width="323"}
+
+    -   Under Settings -\> Actions -\> General -\> Workflow permissions select 'Read and write permissions'
+
+        ![](content/images/workflowPermissions.png)
+
+        ::: callout-important
+        ## Note: Both of these settings may already be selected but you have to click save for both
+        :::
+
+7.  Return to the main page of the repo to edit your website
+
+    -   Click on 'Code' in the top left
+
+    -   Click on the settings button next to the 'About' section on the right side of the repository
+
+    -   Select 'Use your GitHub Pages website'. This should autopopulate the website
+
+    -   Select 'Save Changes'
+
+        ![](content/images/website.png)
+
+8.  Your lab manual is now created! Go [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html) for more directions on how to start editing you manual using GitHub Desktop and R Studio (start at step 4)
+
+## Example Manuals
+
+Here are two lab manuals to pull inspiration from
+
+-   [SWFSC Southwest Acoustic Ecology Lab Manual](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
+-   [Faylab Manual](https://thefaylab.github.io/lab-manual/)
+-   [SWFSC Glider Lab Manual](https://swfsc.github.io/glider-lab-manual/)

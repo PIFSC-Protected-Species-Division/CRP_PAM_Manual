@@ -1,0 +1,9 @@
+---
+title: Field Methods
+---
+
+A field methods section is highly recommended to help your team keep track of all current and past fieldwork documentation. Things to include here can include hardware specifications, checklists for fieldwork prep, deployment and recovery methods, etc.
+
+You can make this a section with subpages or link directly to a separate repository that includes more detailed methods.
+
+[ADRIFT example](https://sael-swfsc.github.io/adrift-field-methods/)

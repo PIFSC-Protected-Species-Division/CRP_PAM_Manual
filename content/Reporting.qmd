@@ -1,0 +1,19 @@
+---
+title: Reporting
+---
+
+## Templates
+
+his is a required page and should include any templates you have created for reporting within NOAA or to other agencies.
+
+Examples include [NEFSC PAM data reporting templates](https://www.fisheries.noaa.gov/resource/document/passive-acoustic-reporting-system-templates) and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).
+
+## Permits
+
+You should also include any permit reporting guidelines here
+
+-   Permits and Permit Reporting Guidelines
+    -   Include permit numbers and links to your centers/groups permits
+    -   Include directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)
+    -   You can include links to past permit reports (these can be private google drive folders if needed)
+    -   [SAEL example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Data-Archive.html)

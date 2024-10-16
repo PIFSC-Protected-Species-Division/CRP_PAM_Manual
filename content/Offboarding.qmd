@@ -1,0 +1,7 @@
+---
+title: Offboarding
+---
+
+This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.
+
+[Faylab example](https://thefaylab.github.io/lab-manual/06-offboarding.html)

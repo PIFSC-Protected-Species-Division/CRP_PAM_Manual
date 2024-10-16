@@ -1,0 +1,25 @@
+---
+title: Analysis Methods
+---
+
+An analysis methods section is required and should include the following information;
+
+-   Data Prep and Archive
+    -   Data prep (decompressing, creating LTSAs, decimating, etc.)
+        -   [SAEL example](https://sael-swfsc.github.io/adrift-analysis-methods/content/DataArchive/DataPrep.html)
+    -   Data quality checks (QAQC scripts)
+        -   [SAEL example](https://sael-swfsc.github.io/adrift-analysis-methods/content/DataArchive/DataQualityCheck.html)
+    -   Data upload steps
+        -   If you have a internal storage include directions here on where data should be stored and in what format
+
+        -   You can also include a data managment structure with standardized naming and storage/folder structures
+
+        -   [SAEL example](https://sael-swfsc.github.io/adrift-analysis-methods/content/DataArchive/DataUpload.html)
+-   Analysis methods for each species, group, or sound source
+    -   You can break this down by baleen and toothed whales, soundscapes, etc.
+
+    -   Each section should include detailed and reproducible methods that anybody can recreate
+
+You can also link to a separate hardware repository if needed ([SAEL example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Analysis-adrift.html))
+
+[Glider Lab Manual example](https://swfsc.github.io/glider-lab-manual/content/dataproc-gliders.html)

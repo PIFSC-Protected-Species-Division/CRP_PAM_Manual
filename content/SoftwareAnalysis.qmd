@@ -1,0 +1,5 @@
+---
+title: Software & Analysis Methods
+---
+
+A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).
