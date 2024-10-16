@@ -1,4 +1,4 @@
-Template for development of regional lab manuals as part of the PAM SI
+Cetacean Research Program - Passive Acoustics Monitoring - Lab Manual (PIFSC)
 
 ### Disclaimer
 
