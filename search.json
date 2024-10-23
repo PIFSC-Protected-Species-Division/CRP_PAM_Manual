@@ -1,20 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#passive-acoustics-monitoring---lab-manual",
+    "href": "index.html#passive-acoustics-monitoring---lab-manual",
     "title": "Home",
-    "section": "",
-    "text": "A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#pam-si-lab-manual-template",
-    "href": "index.html#pam-si-lab-manual-template",
-    "title": "Home",
-    "section": "",
-    "text": "A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
+    "section": "Passive Acoustics Monitoring - Lab Manual",
+    "text": "Passive Acoustics Monitoring - Lab Manual\nA key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
     "crumbs": [
       "Home"
     ]
@@ -103,11 +93,44 @@
     ]
   },
   {
-    "objectID": "content/Hardware.html",
-    "href": "content/Hardware.html",
+    "objectID": "content/Hardware.html#towed-array",
+    "href": "content/Hardware.html#towed-array",
     "title": "Hardware",
-    "section": "",
-    "text": "A hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
+    "section": "Towed Array",
+    "text": "Towed Array",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
+    "href": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
+    "title": "Hardware",
+    "section": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
+    "text": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#glider",
+    "href": "content/Hardware.html#glider",
+    "title": "Hardware",
+    "section": "Glider",
+    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
+    "href": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
+    "title": "Hardware",
+    "section": "HARP: High-Frequency Acoustic Recording Package",
+    "text": "HARP: High-Frequency Acoustic Recording Package\n\n\n\n\n\nA hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
     "crumbs": [
       "Lab Management",
       "Hardware"
@@ -484,17 +507,7 @@
     "href": "content/Reporting.html",
     "title": "Reporting",
     "section": "",
-    "text": "his is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
-    "crumbs": [
-      "Reporting"
-    ]
-  },
-  {
-    "objectID": "content/Reporting.html#templates",
-    "href": "content/Reporting.html#templates",
-    "title": "Reporting",
-    "section": "",
-    "text": "his is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
+    "text": "## Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
     "crumbs": [
       "Reporting"
     ]
