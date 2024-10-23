@@ -26,6 +26,7 @@ website:
       - icon: github
         href: https://github.com/nmfs-ost/PAM_template_lab_manual
         text: "NMFS PAM SI Lab Manual Template"
+        
 
     style: "docked"
     search: true

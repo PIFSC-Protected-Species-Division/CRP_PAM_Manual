@@ -1,10 +1,12 @@
 ---
 title: "Home"
-subtitle: "Cetacean Research Program - Passive Acoustics Monitoring - Lab Manual (PIFSC)"
+# subtitle: "Cetacean Research Program - Passive Acoustics Monitoring"
 page-layout: full
 ---
 
-## PAM SI Lab Manual Template
+![](content/images/PSDwCRP_v3.png){width="427"}
+
+## Passive Acoustics Monitoring - Lab Manual
 
 A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.
 

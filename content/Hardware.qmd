@@ -2,6 +2,26 @@
 title: Hardware
 ---
 
+![](images/Wave_wWhales_v2.png)
+
+## Towed Array
+
+![](images/TowedArraywShip.jpg){fig-align="left"}
+
+## DASBR: Dirfting Acoustic Spar Buoy Recorder
+
+![](images/DASBR%20schematic_pifsc2021.jpg){fig-align="left" width="458"}
+
+## Glider
+
+[Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
+
+[![Schematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi](images/Glider_Path.jpg){fig-align="left"}](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
+
+## HARP: High-Frequency Acoustic Recording Package
+
+![](images/HARP.png){fig-align="left"}
+
 A hardware section is required and should include the following information;
 
 -   Information on your recorders
