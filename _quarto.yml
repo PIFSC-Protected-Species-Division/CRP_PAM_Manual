@@ -3,9 +3,9 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-ost.github.io/PAM_template_lab_manual/" 
-  repo-url: "https://github.com/nmfs-ost/PAM_template_lab_manual"
+  title: "CRP-PAM Lab Manual" 
+  site-url: "https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/" 
+  repo-url: "https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
-        text: "NMFS National Passive Acoustic Monitoring Network"
+        href: https://www.fisheries.noaa.gov/pacific-islands/population-assessments/passive-acoustics-pacific-islands
+        text: "NOAA Fisheries PIFSC - Passive Acoustic Monitoring"
       - icon: github
-        href: https://github.com/nmfs-ost/PAM_template_lab_manual
-        text: "NMFS PAM SI Lab Manual Template"
+        href: https://github.com/PIFSC-Protected-Species-Division
+        text: "NOAA Fisheries PIFSC Protected Species Division"
         
 
     style: "docked"
