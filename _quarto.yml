@@ -14,7 +14,9 @@ website:
     left: "&copy; CC-1.0"
   
   sidebar:
-    background: "#D9E3E4"
+    background: "#BDCCD2"
+    # background: "#CDFEFF"
+    # background: "#D9E3E4" #original
     logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
     favicon: images/favicon.ico
     pinned: true
@@ -43,7 +45,7 @@ website:
           - href: content/Hardware.qmd
             text: Hardware
       - href: content/FieldMethods.qmd
-        text: "Field Methods"
+        text: Field Methods
       - href: content/DataManagement.qmd
         text: Data Management
       - href: content/Hardware.qmd
@@ -55,15 +57,17 @@ website:
           - content/AnalysisMethods.qmd
       - href: content/Reporting.qmd
         text: Reporting
-      - section: "Optional Pages"
-        contents: 
-          - content/SharedValues.qmd
-          - content/Onboarding.qmd
-          - content/Offboarding.qmd
-          - content/FieldMethods.qmd
-          - content/OpenScience.qmd
-          - content/PublicationsPresentations.qmd
-          - content/Resources.qmd
+      - href: content/PublicationsPresentations.qmd
+        text: Publications Presentations
+      # - section: "Optional Pages"
+        # contents: 
+          # - content/SharedValues.qmd
+          # - content/Onboarding.qmd
+          # - content/Offboarding.qmd
+          # - content/FieldMethods.qmd
+          # - content/OpenScience.qmd
+          # - content/PublicationsPresentations.qmd
+          # - content/Resources.qmd
       - section: "NMFS Open Science Directions"
         contents:
           - content/NMFS_OpenSciDirections/Intro.qmd

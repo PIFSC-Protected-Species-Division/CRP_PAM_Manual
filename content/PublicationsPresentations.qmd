@@ -1,7 +1,21 @@
 ---
 title: Publications and Presentations
 ---
-![](images/Wave_wWhales_v2.png)
-This is an optional page but is a great opportunity to highlight some of your publications and presentations.
 
-SAEL example (add once this page is corrected)
+![](images/Wave_wWhales_v2.png)
+
+## Publications
+
+-   [CRP Publication Tracker](https://docs.google.com/spreadsheets/d/1Gr7wMm2XdoMDgiIKQhjz_TQthVucwrKmpxWa2dnLm7U/edit?usp=sharing)
+
+## Presenations
+
+-   [CIMAR Symposium 2024](http://www.soest.hawaii.edu/cimar/symposium2024/)
+
+## Blogs
+
+-   [Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
+
+## Podcasts
+
+-   [Dive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls](https://www.fisheries.noaa.gov/podcast/ai-identifies-mysterious-whale-calls)
