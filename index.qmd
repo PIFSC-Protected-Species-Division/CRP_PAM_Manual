@@ -42,7 +42,7 @@ Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.go
 
 [Janelle Badger]()
 
-[Amanda Bradford](https://www.fisheries.noaa.gov/contact/amanda-bradford-phd), Acting - Cetacean Program Lead
+[Amanda Bradford](https://www.fisheries.noaa.gov/contact/amanda-bradford-phd), Acting - Cetacean Research Program Lead
 
 ## Additional National Marine Fisheries Lab Manuals
 
@@ -57,3 +57,9 @@ Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.go
 -   [NEFSC: Northeast Fisheries](https://nefsc.github.io/NEFSC_PAB_lab_manual/)
 
 -   [National PAM Network](https://nmfs-ost.github.io/PAM_National_NMFS_Network/)
+
+## Location
+
+Our main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the [Inouye Regional Center](https://sites.google.com/noaa.gov/inouye-regional-center/home?pli=1).
+
+**Shipping Address:** NOAA/PIFSC/PSD, 1845 Wasp Blvd., Bldg 176, Honolulu, HI 96818
