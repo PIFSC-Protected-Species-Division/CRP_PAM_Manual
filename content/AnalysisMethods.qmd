@@ -1,7 +1,7 @@
 ---
 title: Analysis Methods
 ---
-![](images/Wave_wWhales_v2.png)
+![](images/Wave_wWhales_v4.png)
 An analysis methods section is required and should include the following information;
 
 -   Data Prep and Archive

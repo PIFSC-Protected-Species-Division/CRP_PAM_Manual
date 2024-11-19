@@ -2,7 +2,7 @@
 title: Hardware
 ---
 
-![](images/Wave_wWhales_v2.png)
+![](images/Wave_wWhales_v4.png)
 
 ## Towed Array
 

@@ -1,7 +1,7 @@
 ---
 title: Safety
 ---
-![](images/Wave_wWhales_v2.png)
+![](images/Wave_wWhales_v4.png)
 Include the following information on this page
 
 -   Lab safety
