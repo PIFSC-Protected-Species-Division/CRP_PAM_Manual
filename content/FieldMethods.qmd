@@ -6,7 +6,7 @@ title: Field Methods
 
 ## Manual
 
--   [Towed Array Acoustic Field Manual](https://docs.google.com/document/d/1pychZViPYkakuevGV-z3Us3N7luFbdQJiJBAxjVke-I/edit?usp=drive_link)
+-   [Acoustic Field Manual: Towed Array, Sonobuoy, DASBR](https://docs.google.com/document/d/1pychZViPYkakuevGV-z3Us3N7luFbdQJiJBAxjVke-I/edit?usp=drive_link)
 
 -   [DASBR: SoundTrap Instructions](https://docs.google.com/document/d/1RgkmSfc9LNinjjUxxHhaA5jzeAB7JF0VrN6PT-4XuVw/edit?usp=drive_link)
 
