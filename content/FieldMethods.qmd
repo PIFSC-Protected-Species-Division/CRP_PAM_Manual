@@ -38,6 +38,6 @@ title: Field Methods
 
 ## PAMGuard Field Setting Files
 
--   [Recording Computer]()
+-   [Recording Computer]()... links not set yet
 
--   [Tracking Computer]()
+-   [Tracking Computer]()... links not set yet
