@@ -35,3 +35,9 @@ title: Field Methods
 ![Towed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)](images/TA_Pin_Diagram.PNG){fig-align="left"}
 
 -   [Bench Testing Preamp Video](https://drive.google.com/file/d/1mnLMbmKtnywAR7eHzj7dy57UjTiVK5qx/view?usp=drive_link)
+
+## PAMGuard Field Setting Files
+
+-   [Recording Computer]()
+
+-   [Tracking Computer]()

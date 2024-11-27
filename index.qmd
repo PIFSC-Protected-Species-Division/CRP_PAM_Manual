@@ -46,7 +46,7 @@ Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.go
 
 ## Additional National Marine Fisheries Lab Manuals
 
--   [SWFSC: Southwest Fisheries](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
+-   [SWFSC: Southwest Fisheries](https://sael-swfsc.github.io/SAEL-lab-manual/)
 
 -   [NWFSC: Northwest Fisheries](https://noaa-nwfsc.github.io/NWFSC-PAM-Lab-Manual/)
 
