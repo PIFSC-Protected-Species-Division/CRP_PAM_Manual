@@ -54,11 +54,41 @@
     "text": "A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.\nSAEL example\nFaylab example"
   },
   {
-    "objectID": "content/DataManagement.html",
-    "href": "content/DataManagement.html",
+    "objectID": "content/DataManagement.html#metatdata",
+    "href": "content/DataManagement.html#metatdata",
     "title": "Data Management",
-    "section": "",
-    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nSpecies reference guide for your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nPIFSC working on this, use them as an example once finalized\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages or a qmd\nGlider Lab Manual",
+    "section": "Metatdata",
+    "text": "Metatdata\n\nTowed Array:\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#raw-data",
+    "href": "content/DataManagement.html#raw-data",
+    "title": "Data Management",
+    "section": "Raw Data",
+    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#focus-species-project-information",
+    "href": "content/DataManagement.html#focus-species-project-information",
+    "title": "Data Management",
+    "section": "Focus Species Project Information",
+    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
+    "href": "content/DataManagement.html#species-examples-pacific-island-region",
+    "title": "Data Management",
+    "section": "Species Examples (Pacific Island Region)",
+    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nx\n\n\nStriped dolphin\nStenella coeruleoalba\n013\nx\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nx\n\n\nBottlenose dolphin\nTursiops truncatus\n018\nx\n\n\nRisso’s dolphin\nGrampus griseus\n021\nx\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nx\n\n\nMelon-headed whale\nPeponocephala electra\n031\nx\n\n\nPygmy killer whale\nFeresa attenuata\n032\nx\n\n\nFalse killer whale\nPseudorca crassidens\n033\nx\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nx\n\n\nKiller whale\nOrcinus orca\n037\nx\n\n\nSperm whale\nPhyseter macrocephalus\n046\nx\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nx\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nx\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nx\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\nx\n\n\nSei whale\nBalaenoptera borealis\n073\nx\n\n\nFin whale\nBalaenoptera physalus\n074\nx\n\n\nBlue whale\nBalaenoptera musculus\n075\nx\n\n\nHumpback whale\nMegaptera novaeangliae\n076\nx\n\n\nKogia\nKogia sp.\n080\nx\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nx",
     "crumbs": [
       "Data Management"
     ]
@@ -326,6 +356,16 @@
     "title": "Field Methods",
     "section": "Troubleshooting Towed Array Equipment",
     "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
+    "href": "content/FieldMethods.html#pamguard-field-setting-files",
+    "title": "Field Methods",
+    "section": "PAMGuard Field Setting Files",
+    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
     "crumbs": [
       "Field Methods"
     ]
