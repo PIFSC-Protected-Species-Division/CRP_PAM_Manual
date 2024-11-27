@@ -55,7 +55,3 @@ title: Data Management
 | Humpback whale                | *Megaptera novaeangliae*     | 076           | [x]()            |
 | Kogia                         | *Kogia sp.*                  | 080           | [x]()            |
 | Cross Seamount beaked whale   | BWC                          | 049 (Unknown) | [x]()            |
-
-```{r}
-bsicons::bs_icon('soundwave')
-```
