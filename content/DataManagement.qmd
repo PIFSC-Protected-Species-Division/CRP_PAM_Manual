@@ -41,7 +41,7 @@ title: Data Management
 | Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [x]()            |
 | Melon-headed whale            | *Peponocephala electra*      | 031           | [x]()            |
 | Pygmy killer whale            | *Feresa attenuata*           | 032           | [x]()            |
-| False killer whale            | *Pseudorca crassidens*       | 033           | [x]()            |
+| False killer whale            | *Pseudorca crassidens*       | 033           | [x](033.qmd)     |
 | Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [x]()            |
 | Killer whale                  | *Orcinus orca*               | 037           | [x]()            |
 | Sperm whale                   | *Physeter macrocephalus*     | 046           | [x]()            |
