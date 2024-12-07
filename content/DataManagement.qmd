@@ -31,27 +31,27 @@ title: Data Management
 
 ## Species Examples (Pacific Island Region)
 
-| Common Name                   | Scientific Name              | PIFSC Code#   | Acoustic Signals |
-|-------------------------------|------------------------------|---------------|------------------|
-| Pantropical spotted dolphin   | *Stenella attenuata*         | 002           | [x]()            |
-| Striped dolphin               | *Stenella coeruleoalba*      | 013           | [x]()            |
-| Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [x]()            |
-| Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [x]()            |
-| Risso's dolphin               | *Grampus griseus*            | 021           | [x]()            |
-| Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [x]()            |
-| Melon-headed whale            | *Peponocephala electra*      | 031           | [x]()            |
-| Pygmy killer whale            | *Feresa attenuata*           | 032           | [x]()            |
-| False killer whale            | *Pseudorca crassidens*       | 033           | [x](033.qmd)     |
-| Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [x]()            |
-| Killer whale                  | *Orcinus orca*               | 037           | [x]()            |
-| Sperm whale                   | *Physeter macrocephalus*     | 046           | [x]()            |
-| Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [x]()            |
-| Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [x]()            |
-| Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [x]()            |
-| Common minke whale            | *Balaenoptera acutorostrata* | 071           | [x]()            |
-| Sei whale                     | *Balaenoptera borealis*      | 073           | [x]()            |
-| Fin whale                     | *Balaenoptera physalus*      | 074           | [x]()            |
-| Blue whale                    | *Balaenoptera musculus*      | 075           | [x]()            |
-| Humpback whale                | *Megaptera novaeangliae*     | 076           | [x]()            |
-| Kogia                         | *Kogia sp.*                  | 080           | [x]()            |
-| Cross Seamount beaked whale   | BWC                          | 049 (Unknown) | [x]()            |
+| Common Name                   | Scientific Name              | PIFSC Code#   | Acoustic Signals  |
+|-------------------------------|------------------------------|---------------|-------------------|
+| Pantropical spotted dolphin   | *Stenella attenuata*         | 002           | [Example](002.qmd)|
+| Striped dolphin               | *Stenella coeruleoalba*      | 013           | [Example]       |
+| Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [Example]       |
+| Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [Example]       |
+| Risso's dolphin               | *Grampus griseus*            | 021           | [Example]       |
+| Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [Example](026.qmd)|
+| Melon-headed whale            | *Peponocephala electra*      | 031           | [Example]       |
+| Pygmy killer whale            | *Feresa attenuata*           | 032           | [Example]       |
+| False killer whale            | *Pseudorca crassidens*       | 033           | [Example](033.qmd)|
+| Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [Example](036.qmd)|
+| Killer whale                  | *Orcinus orca*               | 037           | [Example]       |
+| Sperm whale                   | *Physeter macrocephalus*     | 046           | [Example](046.qmd)|
+| Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [Example]       |
+| Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [Example]       |
+| Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [Example]       |
+| Common minke whale            | *Balaenoptera acutorostrata* | 071           | [Example]       |
+| Sei whale                     | *Balaenoptera borealis*      | 073           | [Example]       |
+| Fin whale                     | *Balaenoptera physalus*      | 074           | [Example]       |
+| Blue whale                    | *Balaenoptera musculus*      | 075           | [Example]       |
+| Humpback whale                | *Megaptera novaeangliae*     | 076           | [Example]       |
+| Kogia                         | *Kogia sp.*                  | 080           | [Example]       |
+| Cross Seamount beaked whale   | BWC                          | 049 (Unknown) | [Example]       |
