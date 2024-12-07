@@ -2,106 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/index.html</loc>
-    <lastmod>2024-12-06T03:18:47.679Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.932Z</lastmod>
   </url>
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Onboarding.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/SharedValues.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/DataManagement.html</loc>
-    <lastmod>2024-12-06T03:18:47.647Z</lastmod>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/046.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/PublicationsPresentations.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Hardware.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/SoftwareAnalysis.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/rendering.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/customizing.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/add-content.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/rmarkdown.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/033.html</loc>
-    <lastmod>2024-12-06T03:18:47.647Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Resources.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/AnalysisMethods.html</loc>
-    <lastmod>2024-12-06T03:18:47.647Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/FieldMethods.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Safety.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/code.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/acknowledgements.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/Intro.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/publishing.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Offboarding.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/LabManagement.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/026.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Software.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/LabManagement.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Offboarding.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/publishing.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/Intro.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/acknowledgements.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/code.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Safety.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/036.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Resources.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/AnalysisMethods.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/FieldMethods.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/033.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/rmarkdown.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/add-content.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/customizing.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/NMFS_OpenSciDirections/rendering.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/SoftwareAnalysis.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Hardware.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/PublicationsPresentations.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/DataManagement.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/002.html</loc>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/OpenScience.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Inventory.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
   <url>
     <loc>https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/content/Reporting.html</loc>
-    <lastmod>2024-12-06T03:18:47.651Z</lastmod>
+    <lastmod>2024-12-07T01:17:55.888Z</lastmod>
   </url>
 </urlset>
