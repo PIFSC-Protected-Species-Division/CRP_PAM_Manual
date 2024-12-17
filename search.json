@@ -1,55 +1,5 @@
 [
   {
-    "objectID": "index.html#passive-acoustics-monitoring---lab-manual",
-    "href": "index.html#passive-acoustics-monitoring---lab-manual",
-    "title": "Home",
-    "section": "Passive Acoustics Monitoring - Lab Manual",
-    "text": "Passive Acoustics Monitoring - Lab Manual\nA key priority of the Passive Acoustic Monitoring - Strategic Initiative (PAM-SI) is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we have developed national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#team-members",
-    "href": "index.html#team-members",
-    "title": "Home",
-    "section": "Team Members",
-    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nAcousticians\nAnn Allen\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nVisual Experts (Photo ID, Biopsy, UAS)\nMarie Hill\nKym Yano\nQuantitative Ecologists\nJanelle Badger\nAmanda Bradford, Acting - Cetacean Research Program Lead",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#additional-national-marine-fisheries-lab-manuals",
-    "href": "index.html#additional-national-marine-fisheries-lab-manuals",
-    "title": "Home",
-    "section": "Additional National Marine Fisheries Lab Manuals",
-    "text": "Additional National Marine Fisheries Lab Manuals\n\nSWFSC: Southwest Fisheries\nNWFSC: Northwest Fisheries\nAFSC: Alaska Fisheries\nSEFSC: Southeast Fisheries\nNEFSC: Northeast Fisheries\nNational PAM Network",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#location",
-    "href": "index.html#location",
-    "title": "Home",
-    "section": "Location",
-    "text": "Location\nOur main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the Inouye Regional Center.\nShipping Address: NOAA/PIFSC/PSD, 1845 Wasp Blvd., Bldg 176, Honolulu, HI 96818",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#cetacean-research-program-calendar",
-    "href": "index.html#cetacean-research-program-calendar",
-    "title": "Home",
-    "section": "Cetacean Research Program Calendar",
-    "text": "Cetacean Research Program Calendar",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
     "objectID": "content/Onboarding.html",
     "href": "content/Onboarding.html",
     "title": "Onboarding",
@@ -57,39 +7,179 @@
     "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
   },
   {
-    "objectID": "content/SharedValues.html",
-    "href": "content/SharedValues.html",
-    "title": "Shared Values",
-    "section": "",
-    "text": "A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.\nSAEL example\nFaylab example"
-  },
-  {
-    "objectID": "content/Software.html",
-    "href": "content/Software.html",
-    "title": "Software",
-    "section": "",
-    "text": "A software section is required and should include the following information;\n\nList of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)\nSoftware packages or tools your team has built (PAMPal, PAMmisc, Banter, PAMscapes, Driftwatch, etc.)\n\nSAEL example",
-    "crumbs": [
-      "Software & Analysis Methods",
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/LabManagement.html",
-    "href": "content/LabManagement.html",
-    "title": "Lab Management",
-    "section": "",
-    "text": "A lab management section is required and should include the following information;\n\nSafety\nInventory\nHardware",
-    "crumbs": [
-      "Lab Management"
-    ]
-  },
-  {
     "objectID": "content/Offboarding.html",
     "href": "content/Offboarding.html",
     "title": "Offboarding",
     "section": "",
     "text": "This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.\nFaylab example"
+  },
+  {
+    "objectID": "content/Safety.html",
+    "href": "content/Safety.html",
+    "title": "Safety",
+    "section": "",
+    "text": "Include the following information on this page\n\nLab safety\nField safety\nLink to your centers safety website\nIncident reporting directions\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example & Glider Lab Manual",
+    "crumbs": [
+      "Lab Management",
+      "Safety"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#towed-array",
+    "href": "content/Hardware.html#towed-array",
+    "title": "Hardware",
+    "section": "Towed Array",
+    "text": "Towed Array",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
+    "href": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
+    "title": "Hardware",
+    "section": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
+    "text": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#glider",
+    "href": "content/Hardware.html#glider",
+    "title": "Hardware",
+    "section": "Glider",
+    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
+    "href": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
+    "title": "Hardware",
+    "section": "HARP: High-Frequency Acoustic Recording Package",
+    "text": "HARP: High-Frequency Acoustic Recording Package\n\n\n\n\n\nA hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
+  },
+  {
+    "objectID": "content/FieldMethods.html#manual",
+    "href": "content/FieldMethods.html#manual",
+    "title": "Field Methods",
+    "section": "Manual",
+    "text": "Manual\n\nAcoustic Field Manual: Towed Array, Sonobuoy, DASBR\nDASBR: SoundTrap Instructions\nDASBR: TDR Instructions",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#protocols",
+    "href": "content/FieldMethods.html#protocols",
+    "title": "Field Methods",
+    "section": "Protocols",
+    "text": "Protocols\n\nAcoustic Beaked Whale & Kogia\nAcoustic Chase\nAcoustic Pass\nAcoustic False Killer Whale Protocol\nSperm whale Protocol: Visual & Acoustics",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
+    "href": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
+    "title": "Field Methods",
+    "section": "Troubleshooting Towed Array Equipment",
+    "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
+    "href": "content/FieldMethods.html#pamguard-field-setting-files",
+    "title": "Field Methods",
+    "section": "PAMGuard Field Setting Files",
+    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html",
+    "href": "content/NMFS_OpenSciDirections/add-content.html",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
+    "title": "Customize",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/customizing.html",
+    "href": "content/NMFS_OpenSciDirections/customizing.html",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customization"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
+    "href": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customization"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/customizing.html#examples",
+    "href": "content/NMFS_OpenSciDirections/customizing.html#examples",
+    "title": "Customization",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customization"
+    ]
   },
   {
     "objectID": "content/NMFS_OpenSciDirections/publishing.html",
@@ -164,14 +254,203 @@
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/acknowledgements.html",
-    "href": "content/NMFS_OpenSciDirections/acknowledgements.html",
-    "title": "Acknowledgments",
+    "objectID": "content/AnalysisMethods.html",
+    "href": "content/AnalysisMethods.html",
+    "title": "Analysis Methods",
     "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example",
     "crumbs": [
-      "NMFS Open Science Directions",
-      "Acknowledgments"
+      "Software & Analysis Methods",
+      "Analysis Methods"
+    ]
+  },
+  {
+    "objectID": "content/OpenScience.html",
+    "href": "content/OpenScience.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
+  },
+  {
+    "objectID": "content/DataManagement.html#metatdata",
+    "href": "content/DataManagement.html#metatdata",
+    "title": "Data Management",
+    "section": "Metatdata",
+    "text": "Metatdata\n\nTowed Array: Stored \\PICCRPNAS_PAM_Metatdata\n\nDetection_Logs Contains the following folder structure:\n1_Field_SQLite_Databases\nSQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.\n2_Compiled_CSV_Excel\nR-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV.\n3_Finalized_EncounterTime-Species\nEdited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.\n\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#raw-data",
+    "href": "content/DataManagement.html#raw-data",
+    "title": "Data Management",
+    "section": "Raw Data",
+    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#focus-species-project-information",
+    "href": "content/DataManagement.html#focus-species-project-information",
+    "title": "Data Management",
+    "section": "Focus Species Project Information",
+    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
+    "href": "content/DataManagement.html#species-examples-pacific-island-region",
+    "title": "Data Management",
+    "section": "Species Examples (Pacific Island Region)",
+    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\n[Example]\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\n[Example]\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\n[Example]\n\n\nPygmy killer whale\nFeresa attenuata\n032\n[Example]\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\n[Example]\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\n[Example]\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\n[Example]\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\n[Example]\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\n[Example]\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\n[Example]\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\n[Example]\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\n[Example]",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/Reporting.html",
+    "href": "content/Reporting.html",
+    "title": "Reporting",
+    "section": "",
+    "text": "## Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
+    "crumbs": [
+      "Reporting"
+    ]
+  },
+  {
+    "objectID": "content/Reporting.html#permits",
+    "href": "content/Reporting.html#permits",
+    "title": "Reporting",
+    "section": "Permits",
+    "text": "Permits\nYou should also include any permit reporting guidelines here\n\nPermits and Permit Reporting Guidelines\n\nInclude permit numbers and links to your centers/groups permits\nInclude directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)\nYou can include links to past permit reports (these can be private google drive folders if needed)\nSAEL example",
+    "crumbs": [
+      "Reporting"
+    ]
+  },
+  {
+    "objectID": "index.html#passive-acoustics-monitoring---lab-manual",
+    "href": "index.html#passive-acoustics-monitoring---lab-manual",
+    "title": "Home",
+    "section": "Passive Acoustics Monitoring - Lab Manual",
+    "text": "Passive Acoustics Monitoring - Lab Manual\nA key priority of the Passive Acoustic Monitoring - Strategic Initiative (PAM-SI) is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we have developed national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#team-members",
+    "href": "index.html#team-members",
+    "title": "Home",
+    "section": "Team Members",
+    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nAcousticians\nAnn Allen\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nVisual Experts (Photo ID, Biopsy, UAS)\nMarie Hill\nKym Yano\nQuantitative Ecologists\nJanelle Badger\nAmanda Bradford, Acting - Cetacean Research Program Lead",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#additional-national-marine-fisheries-lab-manuals",
+    "href": "index.html#additional-national-marine-fisheries-lab-manuals",
+    "title": "Home",
+    "section": "Additional National Marine Fisheries Lab Manuals",
+    "text": "Additional National Marine Fisheries Lab Manuals\n\nSWFSC: Southwest Fisheries\nNWFSC: Northwest Fisheries\nAFSC: Alaska Fisheries\nSEFSC: Southeast Fisheries\nNEFSC: Northeast Fisheries\nNational PAM Network",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#location",
+    "href": "index.html#location",
+    "title": "Home",
+    "section": "Location",
+    "text": "Location\nOur main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the Inouye Regional Center.\nShipping Address: NOAA/PIFSC/PSD, 1845 Wasp Blvd., Bldg 176, Honolulu, HI 96818",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#cetacean-research-program-calendar",
+    "href": "index.html#cetacean-research-program-calendar",
+    "title": "Home",
+    "section": "Cetacean Research Program Calendar",
+    "text": "Cetacean Research Program Calendar",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
+    "section": "",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "crumbs": [
+      "Lab Management",
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#publications",
+    "href": "content/PublicationsPresentations.html#publications",
+    "title": "Publications and Presentations",
+    "section": "Publications",
+    "text": "Publications\n\nCRP Publication Tracker",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#presenations",
+    "href": "content/PublicationsPresentations.html#presenations",
+    "title": "Publications and Presentations",
+    "section": "Presenations",
+    "text": "Presenations\n\nCIMAR Symposium 2024",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#blogs",
+    "href": "content/PublicationsPresentations.html#blogs",
+    "title": "Publications and Presentations",
+    "section": "Blogs",
+    "text": "Blogs\n\nGlider Blog",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#podcasts",
+    "href": "content/PublicationsPresentations.html#podcasts",
+    "title": "Publications and Presentations",
+    "section": "Podcasts",
+    "text": "Podcasts\n\nDive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/LabManagement.html",
+    "href": "content/LabManagement.html",
+    "title": "Lab Management",
+    "section": "",
+    "text": "A lab management section is required and should include the following information;\n\nSafety\nInventory\nHardware",
+    "crumbs": [
+      "Lab Management"
+    ]
+  },
+  {
+    "objectID": "content/Software.html",
+    "href": "content/Software.html",
+    "title": "Software",
+    "section": "",
+    "text": "A software section is required and should include the following information;\n\nList of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)\nSoftware packages or tools your team has built (PAMPal, PAMmisc, Banter, PAMscapes, Driftwatch, etc.)\n\nSAEL example",
+    "crumbs": [
+      "Software & Analysis Methods",
+      "Software"
     ]
   },
   {
@@ -205,174 +484,6 @@
     "crumbs": [
       "NMFS Open Science Directions",
       "Rendering with Code"
-    ]
-  },
-  {
-    "objectID": "content/Safety.html",
-    "href": "content/Safety.html",
-    "title": "Safety",
-    "section": "",
-    "text": "Include the following information on this page\n\nLab safety\nField safety\nLink to your centers safety website\nIncident reporting directions\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example & Glider Lab Manual",
-    "crumbs": [
-      "Lab Management",
-      "Safety"
-    ]
-  },
-  {
-    "objectID": "content/Resources.html",
-    "href": "content/Resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
-  },
-  {
-    "objectID": "content/AnalysisMethods.html",
-    "href": "content/AnalysisMethods.html",
-    "title": "Analysis Methods",
-    "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example",
-    "crumbs": [
-      "Software & Analysis Methods",
-      "Analysis Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#manual",
-    "href": "content/FieldMethods.html#manual",
-    "title": "Field Methods",
-    "section": "Manual",
-    "text": "Manual\n\nAcoustic Field Manual: Towed Array, Sonobuoy, DASBR\nDASBR: SoundTrap Instructions\nDASBR: TDR Instructions",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#protocols",
-    "href": "content/FieldMethods.html#protocols",
-    "title": "Field Methods",
-    "section": "Protocols",
-    "text": "Protocols\n\nAcoustic Beaked Whale & Kogia\nAcoustic Chase\nAcoustic Pass\nAcoustic False Killer Whale Protocol\nSperm whale Protocol: Visual & Acoustics",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
-    "href": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
-    "title": "Field Methods",
-    "section": "Troubleshooting Towed Array Equipment",
-    "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
-    "href": "content/FieldMethods.html#pamguard-field-setting-files",
-    "title": "Field Methods",
-    "section": "PAMGuard Field Setting Files",
-    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html",
-    "href": "content/NMFS_OpenSciDirections/rmarkdown.html",
-    "title": "R Markdown",
-    "section": "",
-    "text": "You can include R Markdown files in your project.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "R Markdown"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
-    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
-    "title": "R Markdown",
-    "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "R Markdown"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
-    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
-    "title": "R Markdown",
-    "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "R Markdown"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html",
-    "href": "content/NMFS_OpenSciDirections/add-content.html",
-    "title": "Customize",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customize"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
-    "href": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
-    "title": "Customize",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customize"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
-    "href": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
-    "title": "Customize",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customize"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html",
-    "href": "content/NMFS_OpenSciDirections/customizing.html",
-    "title": "Customization",
-    "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
-    "href": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
-    "title": "Customization",
-    "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html#examples",
-    "href": "content/NMFS_OpenSciDirections/customizing.html#examples",
-    "title": "Customization",
-    "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
     ]
   },
   {
@@ -420,6 +531,50 @@
     ]
   },
   {
+    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html",
+    "href": "content/NMFS_OpenSciDirections/rmarkdown.html",
+    "title": "R Markdown",
+    "section": "",
+    "text": "You can include R Markdown files in your project.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "R Markdown"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
+    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "R Markdown"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
+    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "R Markdown"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/acknowledgements.html",
+    "href": "content/NMFS_OpenSciDirections/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Acknowledgments"
+    ]
+  },
+  {
     "objectID": "content/SoftwareAnalysis.html",
     "href": "content/SoftwareAnalysis.html",
     "title": "Software & Analysis Methods",
@@ -430,165 +585,10 @@
     ]
   },
   {
-    "objectID": "content/Hardware.html#towed-array",
-    "href": "content/Hardware.html#towed-array",
-    "title": "Hardware",
-    "section": "Towed Array",
-    "text": "Towed Array",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
-    "href": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
-    "title": "Hardware",
-    "section": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
-    "text": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#glider",
-    "href": "content/Hardware.html#glider",
-    "title": "Hardware",
-    "section": "Glider",
-    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
-    "href": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
-    "title": "Hardware",
-    "section": "HARP: High-Frequency Acoustic Recording Package",
-    "text": "HARP: High-Frequency Acoustic Recording Package\n\n\n\n\n\nA hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/PublicationsPresentations.html#publications",
-    "href": "content/PublicationsPresentations.html#publications",
-    "title": "Publications and Presentations",
-    "section": "Publications",
-    "text": "Publications\n\nCRP Publication Tracker",
-    "crumbs": [
-      "Publications Presentations"
-    ]
-  },
-  {
-    "objectID": "content/PublicationsPresentations.html#presenations",
-    "href": "content/PublicationsPresentations.html#presenations",
-    "title": "Publications and Presentations",
-    "section": "Presenations",
-    "text": "Presenations\n\nCIMAR Symposium 2024",
-    "crumbs": [
-      "Publications Presentations"
-    ]
-  },
-  {
-    "objectID": "content/PublicationsPresentations.html#blogs",
-    "href": "content/PublicationsPresentations.html#blogs",
-    "title": "Publications and Presentations",
-    "section": "Blogs",
-    "text": "Blogs\n\nGlider Blog",
-    "crumbs": [
-      "Publications Presentations"
-    ]
-  },
-  {
-    "objectID": "content/PublicationsPresentations.html#podcasts",
-    "href": "content/PublicationsPresentations.html#podcasts",
-    "title": "Publications and Presentations",
-    "section": "Podcasts",
-    "text": "Podcasts\n\nDive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls",
-    "crumbs": [
-      "Publications Presentations"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#metatdata",
-    "href": "content/DataManagement.html#metatdata",
-    "title": "Data Management",
-    "section": "Metatdata",
-    "text": "Metatdata\n\nTowed Array:\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#raw-data",
-    "href": "content/DataManagement.html#raw-data",
-    "title": "Data Management",
-    "section": "Raw Data",
-    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#focus-species-project-information",
-    "href": "content/DataManagement.html#focus-species-project-information",
-    "title": "Data Management",
-    "section": "Focus Species Project Information",
-    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
-    "href": "content/DataManagement.html#species-examples-pacific-island-region",
-    "title": "Data Management",
-    "section": "Species Examples (Pacific Island Region)",
-    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\n[Example]\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\n[Example]\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\n[Example]\n\n\nPygmy killer whale\nFeresa attenuata\n032\n[Example]\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\n[Example]\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\n[Example]\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\n[Example]\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\n[Example]\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\n[Example]\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\n[Example]\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\n[Example]",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/OpenScience.html",
-    "href": "content/OpenScience.html",
-    "title": "Open Science",
+    "objectID": "content/SharedValues.html",
+    "href": "content/SharedValues.html",
+    "title": "Shared Values",
     "section": "",
-    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
-  },
-  {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
-    "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
-    "crumbs": [
-      "Lab Management",
-      "Inventory"
-    ]
-  },
-  {
-    "objectID": "content/Reporting.html",
-    "href": "content/Reporting.html",
-    "title": "Reporting",
-    "section": "",
-    "text": "## Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
-    "crumbs": [
-      "Reporting"
-    ]
-  },
-  {
-    "objectID": "content/Reporting.html#permits",
-    "href": "content/Reporting.html#permits",
-    "title": "Reporting",
-    "section": "Permits",
-    "text": "Permits\nYou should also include any permit reporting guidelines here\n\nPermits and Permit Reporting Guidelines\n\nInclude permit numbers and links to your centers/groups permits\nInclude directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)\nYou can include links to past permit reports (these can be private google drive folders if needed)\nSAEL example",
-    "crumbs": [
-      "Reporting"
-    ]
+    "text": "A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.\nSAEL example\nFaylab example"
   }
 ]
