@@ -7,7 +7,21 @@ title: Data Management
 
 ## Metatdata
 
--   Towed Array:
+-   Towed Array: Stored \\PICCRPNAS\CRP3\_PAM_Metatdata
+
+Detection_Logs Contains the following folder structure:
+
+1_Field_SQLite_Databases
+
+**SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.**
+
+2_Compiled_CSV_Excel
+
+**R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV.**
+
+3_Finalized_EncounterTime-Species
+
+**Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.**
 
 -   DASBR:
 
@@ -45,6 +59,8 @@ title: Data Management
 | Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [Example](036.qmd)|
 | Killer whale                  | *Orcinus orca*               | 037           | [Example]       |
 | Sperm whale                   | *Physeter macrocephalus*     | 046           | [Example](046.qmd)|
+| Pygmy sperm whale             | *Kogia breviceps*            | 047           | [Example]       |
+| Dwarf sperm whale             | *Kogia sima*                 | 048           | [Example]       |
 | Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [Example]       |
 | Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [Example]       |
 | Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [Example]       |
