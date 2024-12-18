@@ -1,7 +1,11 @@
 ---
 title: Analysis Methods
 ---
+
 ![](images/Wave_wWhales_v4.png)
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
 An analysis methods section is required and should include the following information;
 
 -   Data Prep and Archive

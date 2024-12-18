@@ -2,6 +2,11 @@
 title: Reporting
 ---
 ![](images/Wave_wWhales_v4.png)
+
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
+
 ## Templates
 
 his is a required page and should include any templates you have created for reporting within NOAA or to other agencies.

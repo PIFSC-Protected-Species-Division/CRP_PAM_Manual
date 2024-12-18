@@ -4,6 +4,10 @@ title: Hardware
 
 ![](images/Wave_wWhales_v4.png)
 
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
+
 ## Towed Array
 
 ![](images/TowedArraywShip.jpg){fig-align="left"}

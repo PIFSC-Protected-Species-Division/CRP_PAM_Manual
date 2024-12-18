@@ -2,4 +2,8 @@
 title: Software & Analysis Methods
 ---
 ![](images/Wave_wWhales_v4.png)
+
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
 A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).

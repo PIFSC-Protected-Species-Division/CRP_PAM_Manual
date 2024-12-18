@@ -2,6 +2,10 @@
 title: Safety
 ---
 ![](images/Wave_wWhales_v4.png)
+
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
 Include the following information on this page
 
 -   Lab safety

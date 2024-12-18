@@ -2,6 +2,11 @@
 title: Software
 ---
 ![](images/Wave_wWhales_v4.png)
+
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
+
 A software section is required and should include the following information;
 
 -   List of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)

@@ -2,6 +2,11 @@
 title: Lab Management
 ---
 ![](images/Wave_wWhales_v4.png)
+
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
+
 A lab management section is required and should include the following information;
 
 -   Safety

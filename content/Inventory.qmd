@@ -2,6 +2,11 @@
 title: Inventory
 ---
 ![](images/Wave_wWhales_v4.png)
+
+
+![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+
+
 An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website
 
 -   [SAEL Lab Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Inventory.html)
