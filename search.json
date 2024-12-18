@@ -276,7 +276,7 @@
     "href": "content/DataManagement.html#metatdata",
     "title": "Data Management",
     "section": "Metatdata",
-    "text": "Metatdata\n\nTowed Array: Stored \\PICCRPNAS_PAM_Metatdata\n\nDetection_Logs Contains the following folder structure:\n1_Field_SQLite_Databases\nSQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.\n2_Compiled_CSV_Excel\nR-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV.\n3_Finalized_EncounterTime-Species\nEdited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.\n\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
+    "text": "Metatdata\n\nTowed Array: Stored PICCRPNAS –&gt; CRP3 –&gt; _PAM_Metatdata\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
     "crumbs": [
       "Data Management"
     ]
@@ -312,11 +312,11 @@
     ]
   },
   {
-    "objectID": "content/Reporting.html",
-    "href": "content/Reporting.html",
+    "objectID": "content/Reporting.html#templates",
+    "href": "content/Reporting.html#templates",
     "title": "Reporting",
-    "section": "",
-    "text": "## Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
+    "section": "Templates",
+    "text": "Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
     "crumbs": [
       "Reporting"
     ]
