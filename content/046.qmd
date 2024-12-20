@@ -1,5 +1,5 @@
 ---
-title: Sperm Whales
+title: Sperm Whale
 ---
 
 ![](images/046/046_01.PNG){fig-align="left"}

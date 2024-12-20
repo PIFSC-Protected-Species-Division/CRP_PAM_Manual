@@ -60,7 +60,7 @@ Detection_Logs contains the following folder structure:
 | Killer whale                  | *Orcinus orca*               | 037           | [Example]       |
 | Sperm whale                   | *Physeter macrocephalus*     | 046           | [Example](046.qmd)|
 | Pygmy sperm whale             | *Kogia breviceps*            | 047           | [Example]       |
-| Dwarf sperm whale             | *Kogia sima*                 | 048           | [Example]       |
+| Dwarf sperm whale             | *Kogia sima*                 | 048           | [Example](048.qmd)|
 | Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [Example]       |
 | Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [Example]       |
 | Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [Example]       |
