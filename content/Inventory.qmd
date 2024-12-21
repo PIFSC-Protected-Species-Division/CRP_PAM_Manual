@@ -3,10 +3,13 @@ title: Inventory
 ---
 ![](images/Wave_wWhales_v4.png)
 
+## TDR's (Time-Depth Recorders)
 
-![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+-   [Acoustics_TDR_Inventory](https://docs.google.com/spreadsheets/d/1xCnjYzTAU_upCom8s3gORx5M-JFv_9jfE6TenqkN79o/edit?usp=sharing)
 
+## Building 130 Equipment Storage
 
-An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website
+-   [PIFSC CRP Equipment Inventory-New](https://docs.google.com/spreadsheets/d/1xUrZsW_Nx-E3_3oALtiDEJyo_Iy7d_Jnh80XBW2SP9g/edit?usp=sharing) contains mainly the visual team's equipment inventory, but the B130 Inventory sheet lists all field equipment CRP has stored in Building 130 (Acoustic & Visual).
 
--   [SAEL Lab Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Inventory.html)
+-   Fill out this sheet to request or return field equipment to Building 130. [B130 Secured Storage Tracker](https://docs.google.com/spreadsheets/d/1uMA62MEhiozrX8F8zMi-QML5BxOOIykNnXn2QRHaK58/edit?usp=sharing)
+
