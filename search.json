@@ -160,7 +160,7 @@
     "href": "content/LabManagement.html",
     "title": "Lab Management",
     "section": "",
-    "text": "A lab management section is required and should include the following information;\n\nSafety\nInventory\nHardware",
+    "text": "Safety\nInventory\nHardware",
     "crumbs": [
       "Lab Management"
     ]
@@ -206,11 +206,22 @@
     ]
   },
   {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
+    "objectID": "content/Inventory.html#tdrs-time-depth-recorders",
+    "href": "content/Inventory.html#tdrs-time-depth-recorders",
     "title": "Inventory",
-    "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "section": "TDR’s (Time-Depth Recorders)",
+    "text": "TDR’s (Time-Depth Recorders)\n\nAcoustics_TDR_Inventory",
+    "crumbs": [
+      "Lab Management",
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html#building-130-equipment-storage",
+    "href": "content/Inventory.html#building-130-equipment-storage",
+    "title": "Inventory",
+    "section": "Building 130 Equipment Storage",
+    "text": "Building 130 Equipment Storage\n\nPIFSC CRP Equipment Inventory-New contains mainly the visual team’s equipment inventory, but the B130 Inventory sheet lists all field equipment CRP has stored in Building 130 (Acoustic & Visual).\nFill out this sheet to request or return field equipment to Building 130. B130 Secured Storage Tracker",
     "crumbs": [
       "Lab Management",
       "Inventory"
@@ -567,7 +578,7 @@
     "href": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
     "title": "Hardware",
     "section": "HARP: High-Frequency Acoustic Recording Package",
-    "text": "HARP: High-Frequency Acoustic Recording Package\n\n\n\n\n\nA hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
+    "text": "HARP: High-Frequency Acoustic Recording Package",
     "crumbs": [
       "Lab Management",
       "Hardware"
