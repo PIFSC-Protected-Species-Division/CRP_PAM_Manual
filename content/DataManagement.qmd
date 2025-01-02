@@ -5,9 +5,9 @@ title: Data Management
 
 ![](images/Wave_wWhales_v4.png)
 
-## Metatdata
+## Metadata
 
--   **Towed Array:** Stored PICCRPNAS --> CRP3 --> _PAM_Metatdata
+-   **Towed Array:** Stored `\\PICCRPNAS\CRP3\_PAM_Metatdata`
 
 Detection_Logs contains the following folder structure:
 
