@@ -7,7 +7,7 @@ website:
   site-url: "https://pifsc-protected-species-division.github.io/CRP_PAM_Manual/" 
   repo-url: "https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual"
   repo-actions: [edit, source, issue]
-  favicon: images/favicon.ico
+  favicon: content/images/favicon.ico
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
