@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Management – CRP-PAM Lab Manual</title>
+<title>Risso’s Dolphin – CRP-PAM Lab Manual</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/SoftwareAnalysis.html" rel="next">
-<link href="../content/FieldMethods.html" rel="prev">
 <link href="../content/images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/DataManagement.html">Data Management</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Risso’s Dolphin</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -156,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/DataManagement.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/DataManagement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Management</span></a>
   </div>
 </li>
@@ -259,24 +257,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#metadata" id="toc-metadata" class="nav-link active" data-scroll-target="#metadata">Metadata</a></li>
-  <li><a href="#raw-data" id="toc-raw-data" class="nav-link" data-scroll-target="#raw-data">Raw Data</a></li>
-  <li><a href="#focus-species-project-information" id="toc-focus-species-project-information" class="nav-link" data-scroll-target="#focus-species-project-information">Focus Species Project Information</a></li>
-  <li><a href="#species-examples-pacific-island-region" id="toc-species-examples-pacific-island-region" class="nav-link" data-scroll-target="#species-examples-pacific-island-region">Species Examples (Pacific Island Region)</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/DataManagement.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/DataManagement.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Management</h1>
+<h1 class="title">Risso’s Dolphin</h1>
 </div>
 
 
@@ -293,201 +282,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/Wave_wWhales_v4.png" class="img-fluid"></p>
-<section id="metadata" class="level2">
-<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
-<ul>
-<li><strong>Towed Array:</strong> Stored <code>\\PICCRPNAS\CRP3\_PAM_Metatdata</code></li>
-</ul>
-<p>Detection_Logs contains the following folder structure:</p>
-<p>1_Field_SQLite_Databases</p>
-<p>(<em>SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.</em>)</p>
-<p>2_Compiled_CSV_Excel</p>
-<p>(<em>R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.</em>)</p>
-<p>3_Finalized_EncounterTime-Species</p>
-<p>(<em>Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.</em>)</p>
-<ul>
-<li><p><strong>DASBR:</strong></p></li>
-<li><p><strong>Sonobuoy:</strong></p></li>
-<li><p><strong>HARP:</strong></p></li>
-<li><p><strong>LLharp:</strong></p></li>
-<li><p><strong>Glider:</strong></p></li>
-</ul>
-</section>
-<section id="raw-data" class="level2">
-<h2 class="anchored" data-anchor-id="raw-data">Raw Data</h2>
-<ul>
-<li>Acoustic recordings are housed on several internal servers at PIFSC. Location of data can be found <a href="https://docs.google.com/spreadsheets/d/12dkFpM7FA4qUG-K3MNQCJFebb_e-9eTtFJ_p4G_hbAs/edit?usp=sharing">here</a> along with a list of available servers and their model information.</li>
-</ul>
-</section>
-<section id="focus-species-project-information" class="level2">
-<h2 class="anchored" data-anchor-id="focus-species-project-information">Focus Species Project Information</h2>
-<ul>
-<li><p>False killer whale</p></li>
-<li><p>Sperm whale</p></li>
-</ul>
-</section>
-<section id="species-examples-pacific-island-region" class="level2">
-<h2 class="anchored" data-anchor-id="species-examples-pacific-island-region">Species Examples (Pacific Island Region)</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Common Name</th>
-<th>Scientific Name</th>
-<th>PIFSC Code#</th>
-<th>Acoustic Signals</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pantropical spotted dolphin</td>
-<td><em>Stenella attenuata</em></td>
-<td>002</td>
-<td><a href="../content/002.html">Example</a></td>
-</tr>
-<tr class="even">
-<td>Striped dolphin</td>
-<td><em>Stenella coeruleoalba</em></td>
-<td>013</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>Rough-toothed dolphin</td>
-<td><em>Steno bredanensis</em></td>
-<td>015</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Bottlenose dolphin</td>
-<td><em>Tursiops truncatus</em></td>
-<td>018</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>Risso’s dolphin</td>
-<td><em>Grampus griseus</em></td>
-<td>021</td>
-<td><a href="../content/021.html">Example</a></td>
-</tr>
-<tr class="even">
-<td>Fraser’s dolphin</td>
-<td><em>Lagenodelphis hosei</em></td>
-<td>026</td>
-<td><a href="../content/026.html">Example</a></td>
-</tr>
-<tr class="odd">
-<td>Melon-headed whale</td>
-<td><em>Peponocephala electra</em></td>
-<td>031</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Pygmy killer whale</td>
-<td><em>Feresa attenuata</em></td>
-<td>032</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>False killer whale</td>
-<td><em>Pseudorca crassidens</em></td>
-<td>033</td>
-<td><a href="../content/033.html">Example</a></td>
-</tr>
-<tr class="even">
-<td>Short-finned pilot whale</td>
-<td><em>Globicephala macrorhynchus</em></td>
-<td>036</td>
-<td><a href="../content/036.html">Example</a></td>
-</tr>
-<tr class="odd">
-<td>Killer whale</td>
-<td><em>Orcinus orca</em></td>
-<td>037</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Sperm whale</td>
-<td><em>Physeter macrocephalus</em></td>
-<td>046</td>
-<td><a href="../content/046.html">Example</a></td>
-</tr>
-<tr class="odd">
-<td>Pygmy sperm whale</td>
-<td><em>Kogia breviceps</em></td>
-<td>047</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Dwarf sperm whale</td>
-<td><em>Kogia sima</em></td>
-<td>048</td>
-<td><a href="../content/048.html">Example</a></td>
-</tr>
-<tr class="odd">
-<td>Blainville’s beaked whale</td>
-<td><em>Mesoplodon densirostris</em></td>
-<td>059</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Goose-beaked whale (Cuvier’s)</td>
-<td><em>Ziphius cavirostris</em></td>
-<td>061</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>Longman’s beaked whale</td>
-<td><em>Indopacetus pacificus</em></td>
-<td>065</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Common minke whale</td>
-<td><em>Balaenoptera acutorostrata</em></td>
-<td>071</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>Sei whale</td>
-<td><em>Balaenoptera borealis</em></td>
-<td>073</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Fin whale</td>
-<td><em>Balaenoptera physalus</em></td>
-<td>074</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>Blue whale</td>
-<td><em>Balaenoptera musculus</em></td>
-<td>075</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Humpback whale</td>
-<td><em>Megaptera novaeangliae</em></td>
-<td>076</td>
-<td>[Example]</td>
-</tr>
-<tr class="odd">
-<td>Kogia</td>
-<td><em>Kogia sp.</em></td>
-<td>080</td>
-<td>[Example]</td>
-</tr>
-<tr class="even">
-<td>Cross Seamount beaked whale</td>
-<td>BWC</td>
-<td>049 (Unknown)</td>
-<td>[Example]</td>
-</tr>
-</tbody>
-</table>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/021/021_01.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/021/021_02.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1051,18 +857,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../content/FieldMethods.html" class="pagination-link" aria-label="Field Methods">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Field Methods</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../content/SoftwareAnalysis.html" class="pagination-link" aria-label="Software &amp; Analysis Methods">
-        <span class="nav-page-text">Software &amp; Analysis Methods</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1071,7 +865,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/DataManagement.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/DataManagement.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/021.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/021.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
