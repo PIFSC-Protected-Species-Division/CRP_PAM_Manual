@@ -51,7 +51,7 @@ Detection_Logs contains the following folder structure:
 | Striped dolphin               | *Stenella coeruleoalba*      | 013           | [Example]       |
 | Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [Example]       |
 | Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [Example]       |
-| Risso's dolphin               | *Grampus griseus*            | 021           | [Example]       |
+| Risso's dolphin               | *Grampus griseus*            | 021           | [Example](021.qmd)|
 | Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [Example](026.qmd)|
 | Melon-headed whale            | *Peponocephala electra*      | 031           | [Example]       |
 | Pygmy killer whale            | *Feresa attenuata*           | 032           | [Example]       |
