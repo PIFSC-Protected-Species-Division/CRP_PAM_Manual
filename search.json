@@ -166,65 +166,70 @@
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#publications",
-    "href": "content/PublicationsPresentations.html#publications",
-    "title": "Publications and Presentations",
-    "section": "Publications",
-    "text": "Publications\n\nCRP Publication Tracker",
+    "objectID": "content/OpenScience.html",
+    "href": "content/OpenScience.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
+  },
+  {
+    "objectID": "content/DataManagement.html#metadata",
+    "href": "content/DataManagement.html#metadata",
+    "title": "Data Management",
+    "section": "Metadata",
+    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metatdata\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
     "crumbs": [
-      "Publications Presentations"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#presenations",
-    "href": "content/PublicationsPresentations.html#presenations",
-    "title": "Publications and Presentations",
-    "section": "Presenations",
-    "text": "Presenations\n\nCIMAR Symposium 2024",
+    "objectID": "content/DataManagement.html#raw-data",
+    "href": "content/DataManagement.html#raw-data",
+    "title": "Data Management",
+    "section": "Raw Data",
+    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
     "crumbs": [
-      "Publications Presentations"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#blogs",
-    "href": "content/PublicationsPresentations.html#blogs",
-    "title": "Publications and Presentations",
-    "section": "Blogs",
-    "text": "Blogs\n\nGlider Blog",
+    "objectID": "content/DataManagement.html#focus-species-project-information",
+    "href": "content/DataManagement.html#focus-species-project-information",
+    "title": "Data Management",
+    "section": "Focus Species Project Information",
+    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
     "crumbs": [
-      "Publications Presentations"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#podcasts",
-    "href": "content/PublicationsPresentations.html#podcasts",
-    "title": "Publications and Presentations",
-    "section": "Podcasts",
-    "text": "Podcasts\n\nDive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls",
+    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
+    "href": "content/DataManagement.html#species-examples-pacific-island-region",
+    "title": "Data Management",
+    "section": "Species Examples (Pacific Island Region)",
+    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\n[Example]\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\n[Example]\n\n\nPygmy killer whale\nFeresa attenuata\n032\n[Example]\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\n[Example]\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\n[Example]\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\n[Example]\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\n[Example]\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\n[Example]\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\n[Example]",
     "crumbs": [
-      "Publications Presentations"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/Inventory.html#tdrs-time-depth-recorders",
-    "href": "content/Inventory.html#tdrs-time-depth-recorders",
-    "title": "Inventory",
-    "section": "TDR’s (Time-Depth Recorders)",
-    "text": "TDR’s (Time-Depth Recorders)\n\nAcoustics_TDR_Inventory",
+    "objectID": "content/Reporting.html#templates",
+    "href": "content/Reporting.html#templates",
+    "title": "Reporting",
+    "section": "Templates",
+    "text": "Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
     "crumbs": [
-      "Lab Management",
-      "Inventory"
+      "Reporting"
     ]
   },
   {
-    "objectID": "content/Inventory.html#building-130-equipment-storage",
-    "href": "content/Inventory.html#building-130-equipment-storage",
-    "title": "Inventory",
-    "section": "Building 130 Equipment Storage",
-    "text": "Building 130 Equipment Storage\n\nPIFSC CRP Equipment Inventory-New contains mainly the visual team’s equipment inventory, but the B130 Inventory sheet lists all field equipment CRP has stored in Building 130 (Acoustic & Visual).\nFill out this sheet to request or return field equipment to Building 130. B130 Secured Storage Tracker",
+    "objectID": "content/Reporting.html#permits",
+    "href": "content/Reporting.html#permits",
+    "title": "Reporting",
+    "section": "Permits",
+    "text": "Permits\nYou should also include any permit reporting guidelines here\n\nPermits and Permit Reporting Guidelines\n\nInclude permit numbers and links to your centers/groups permits\nInclude directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)\nYou can include links to past permit reports (these can be private google drive folders if needed)\nSAEL example",
     "crumbs": [
-      "Lab Management",
-      "Inventory"
+      "Reporting"
     ]
   },
   {
@@ -278,71 +283,66 @@
     ]
   },
   {
-    "objectID": "content/Reporting.html#templates",
-    "href": "content/Reporting.html#templates",
-    "title": "Reporting",
-    "section": "Templates",
-    "text": "Templates\nhis is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
+    "objectID": "content/Inventory.html#tdrs-time-depth-recorders",
+    "href": "content/Inventory.html#tdrs-time-depth-recorders",
+    "title": "Inventory",
+    "section": "TDR’s (Time-Depth Recorders)",
+    "text": "TDR’s (Time-Depth Recorders)\n\nAcoustics_TDR_Inventory",
     "crumbs": [
-      "Reporting"
+      "Lab Management",
+      "Inventory"
     ]
   },
   {
-    "objectID": "content/Reporting.html#permits",
-    "href": "content/Reporting.html#permits",
-    "title": "Reporting",
-    "section": "Permits",
-    "text": "Permits\nYou should also include any permit reporting guidelines here\n\nPermits and Permit Reporting Guidelines\n\nInclude permit numbers and links to your centers/groups permits\nInclude directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)\nYou can include links to past permit reports (these can be private google drive folders if needed)\nSAEL example",
+    "objectID": "content/Inventory.html#building-130-equipment-storage",
+    "href": "content/Inventory.html#building-130-equipment-storage",
+    "title": "Inventory",
+    "section": "Building 130 Equipment Storage",
+    "text": "Building 130 Equipment Storage\n\nPIFSC CRP Equipment Inventory-New contains mainly the visual team’s equipment inventory, but the B130 Inventory sheet lists all field equipment CRP has stored in Building 130 (Acoustic & Visual).\nFill out this sheet to request or return field equipment to Building 130. B130 Secured Storage Tracker",
     "crumbs": [
-      "Reporting"
+      "Lab Management",
+      "Inventory"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#metadata",
-    "href": "content/DataManagement.html#metadata",
-    "title": "Data Management",
-    "section": "Metadata",
-    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metatdata\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR:\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
+    "objectID": "content/PublicationsPresentations.html#publications",
+    "href": "content/PublicationsPresentations.html#publications",
+    "title": "Publications and Presentations",
+    "section": "Publications",
+    "text": "Publications\n\nCRP Publication Tracker",
     "crumbs": [
-      "Data Management"
+      "Publications Presentations"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#raw-data",
-    "href": "content/DataManagement.html#raw-data",
-    "title": "Data Management",
-    "section": "Raw Data",
-    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
+    "objectID": "content/PublicationsPresentations.html#presenations",
+    "href": "content/PublicationsPresentations.html#presenations",
+    "title": "Publications and Presentations",
+    "section": "Presenations",
+    "text": "Presenations\n\nCIMAR Symposium 2024",
     "crumbs": [
-      "Data Management"
+      "Publications Presentations"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#focus-species-project-information",
-    "href": "content/DataManagement.html#focus-species-project-information",
-    "title": "Data Management",
-    "section": "Focus Species Project Information",
-    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
+    "objectID": "content/PublicationsPresentations.html#blogs",
+    "href": "content/PublicationsPresentations.html#blogs",
+    "title": "Publications and Presentations",
+    "section": "Blogs",
+    "text": "Blogs\n\nGlider Blog",
     "crumbs": [
-      "Data Management"
+      "Publications Presentations"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
-    "href": "content/DataManagement.html#species-examples-pacific-island-region",
-    "title": "Data Management",
-    "section": "Species Examples (Pacific Island Region)",
-    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\n[Example]\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\n[Example]\n\n\nPygmy killer whale\nFeresa attenuata\n032\n[Example]\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\n[Example]\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\n[Example]\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\n[Example]\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\n[Example]\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\n[Example]\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\n[Example]\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\n[Example]",
+    "objectID": "content/PublicationsPresentations.html#podcasts",
+    "href": "content/PublicationsPresentations.html#podcasts",
+    "title": "Publications and Presentations",
+    "section": "Podcasts",
+    "text": "Podcasts\n\nDive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls",
     "crumbs": [
-      "Data Management"
+      "Publications Presentations"
     ]
-  },
-  {
-    "objectID": "content/OpenScience.html",
-    "href": "content/OpenScience.html",
-    "title": "Open Science",
-    "section": "",
-    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
   },
   {
     "objectID": "content/AnalysisMethods.html",
