@@ -57,7 +57,7 @@ Detection_Logs contains the following folder structure:
 | Pygmy killer whale            | *Feresa attenuata*           | 032           | [Example]       |
 | False killer whale            | *Pseudorca crassidens*       | 033           | [Example](033.qmd)|
 | Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [Example](036.qmd)|
-| Killer whale                  | *Orcinus orca*               | 037           | [Example]       |
+| Killer whale                  | *Orcinus orca*               | 037           | [Example](037.qmd)|
 | Sperm whale                   | *Physeter macrocephalus*     | 046           | [Example](046.qmd)|
 | Pygmy sperm whale             | *Kogia breviceps*            | 047           | [Example]       |
 | Dwarf sperm whale             | *Kogia sima*                 | 048           | [Example](048.qmd)|
