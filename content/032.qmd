@@ -1,0 +1,11 @@
+---
+title: Pygmy killer whale
+---
+
+![](images/032/032_01.PNG){fig-align="left"}
+
+NOTES:
+-   The above example contains some low frequency clicks in the concatenated spectrogram. These are noise and will be removed.
+
+-   Currently PIFSC has no examples of whistles from this species.
+

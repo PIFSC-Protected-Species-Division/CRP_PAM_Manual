@@ -49,12 +49,12 @@ Detection_Logs contains the following folder structure:
 |-------------------------------|------------------------------|---------------|-------------------|
 | Pantropical spotted dolphin   | *Stenella attenuata*         | 002           | [Example](002.qmd)|
 | Striped dolphin               | *Stenella coeruleoalba*      | 013           | [Example]       |
-| Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [Example]       |
+| Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [Example](015.qmd)|
 | Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [Example]       |
 | Risso's dolphin               | *Grampus griseus*            | 021           | [Example](021.qmd)|
 | Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [Example](026.qmd)|
-| Melon-headed whale            | *Peponocephala electra*      | 031           | [Example]       |
-| Pygmy killer whale            | *Feresa attenuata*           | 032           | [Example]       |
+| Melon-headed whale            | *Peponocephala electra*      | 031           | [Example](031.qmd)|
+| Pygmy killer whale            | *Feresa attenuata*           | 032           | [Example](032.qmd)|
 | False killer whale            | *Pseudorca crassidens*       | 033           | [Example](033.qmd)|
 | Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [Example](036.qmd)|
 | Killer whale                  | *Orcinus orca*               | 037           | [Example](037.qmd)|
