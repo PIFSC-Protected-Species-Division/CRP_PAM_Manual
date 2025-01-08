@@ -1,0 +1,11 @@
+---
+title: Longman's Beaked Whale
+---
+
+<!-- ![](images/065/065_01.PNG){fig-align="left"} -->
+
+<!-- ![](images/065/065_02.PNG){fig-align="left"} -->
+
+![](images/065/065_03.PNG){fig-align="left"}
+
+![](images/065/065_04.PNG){fig-align="left"}

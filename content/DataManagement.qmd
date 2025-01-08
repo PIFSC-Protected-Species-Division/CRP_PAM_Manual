@@ -61,13 +61,13 @@ Detection_Logs contains the following folder structure:
 | Sperm whale                   | *Physeter macrocephalus*     | 046           | [Example](046.qmd)|
 | Pygmy sperm whale             | *Kogia breviceps*            | 047           | [Example]       |
 | Dwarf sperm whale             | *Kogia sima*                 | 048           | [Example](048.qmd)|
-| Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [Example]       |
-| Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [Example]       |
-| Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [Example]       |
+| Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [Example](059.qmd)|
+| Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [Example](061.qmd)|
+| Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [Example](065.qmd)|
 | Common minke whale            | *Balaenoptera acutorostrata* | 071           | [Example]       |
 | Sei whale                     | *Balaenoptera borealis*      | 073           | [Example]       |
 | Fin whale                     | *Balaenoptera physalus*      | 074           | [Example]       |
 | Blue whale                    | *Balaenoptera musculus*      | 075           | [Example]       |
 | Humpback whale                | *Megaptera novaeangliae*     | 076           | [Example]       |
-| Kogia                         | *Kogia sp.*                  | 080           | [Example]       |
-| Cross Seamount beaked whale   | BWC                          | 049 (Unknown) | [Example]       |
+| Kogia                         | *Kogia sp.*                  | 080           | [Example](080.qmd)|
+| Cross Seamount beaked whale   | BWC                          | 049 (Unknown) | [Example](049.qmd)|
