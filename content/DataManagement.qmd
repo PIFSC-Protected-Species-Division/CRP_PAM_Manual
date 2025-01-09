@@ -7,7 +7,7 @@ title: Data Management
 
 ## Metadata
 
--   **Towed Array:** Stored `\\PICCRPNAS\CRP3\_PAM_Metatdata`
+-   **Towed Array:** Stored `\\PICCRPNAS\CRP3\_PAM_Metadata`
 
 Detection_Logs contains the following folder structure:
 
