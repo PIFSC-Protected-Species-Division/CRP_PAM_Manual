@@ -25,6 +25,8 @@ Detection_Logs contains the following folder structure:
 
 -   **DASBR:**
 
+Sampling information by [cruise](DASBR_Sampling.qmd).
+
 -   **Sonobuoy:**
 
 -   **HARP:**

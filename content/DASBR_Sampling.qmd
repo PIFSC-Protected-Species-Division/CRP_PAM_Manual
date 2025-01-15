@@ -1,0 +1,122 @@
+---
+title: DASBR Sampling Info
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+**2017_HICEAS**
+
+-   Cruise #: 1706
+
+-   Recording Interval: 2 ON 8 OFF (minutes)
+
+-   Sampling rate: 288000 Hz
+
+-   Site: MHI
+
+-   Region: MainHawaiianIslands
+
+-   Vessel: R/V Oscar E Sette
+
+-   GPS Tracker: NAL
+
+**2018_MACS**
+
+-   Cruise #: 1803
+
+-   Recording Interval: 2 ON 3 OFF (minutes)
+
+-   Sampling rate: 576000 Hz
+
+-   Site: MW
+
+-   Region: WestMariana
+
+-   Vessel: R/V Oscar E Sette
+
+-   GPS Tracker: NAL
+
+**2019_CRPGT**
+
+-   Cruise #: 1901
+
+-   Recording Interval: 2 ON 3 OFF (minutes)
+
+-   Sampling rate: 576000 Hz
+
+-   Site: MHI
+
+-   Region: MainHawaiianIslands
+
+-   Vessel: R/V Oscar E Sette
+
+-   GPS Tracker: NAL
+
+**2019_Falkor**
+
+-   Cruise #: 191021
+
+-   Recording Interval: 2 ON 0 OFF (minutes) - continuous
+
+-   Sampling rate: 288000 Hz
+
+-   Site: MHI
+
+-   Region: MainHawaiianIslands
+
+-   Vessel: R/V Falkor
+
+-   GPS Tracker: NAL
+
+**2020_WHICEAS**
+
+-   Cruise #: 2001
+
+-   Recording Interval: 2 ON 3 OFF (minutes)
+
+-   Sampling rate: 288000 Hz (DS3: 384000 Hz)
+
+-   Site: MHI
+
+-   Region: MainHawaiianIslands
+
+-   Vessel: R/V Oscar E Sette
+
+-   GPS Tracker: NAL
+
+**2021_MACS**
+
+-   Cruise #: 2102
+
+-   Recording Interval: 2 ON 8 OFF (minutes)
+
+-   Sampling rate: 384000 Hz
+
+-   Site: MA
+
+-   Region: MarianaArchipelago
+
+-   Vessel: R/V Oscar E Sette
+
+-   GPS Tracker: NAL
+
+**2023_HICEAS**
+
+-   Cruise #: 2303 (DS13: 2401)
+
+-   Recording Interval: 2 ON 8 OFF (minutes)
+
+-   Sampling rate: 384000 Hz
+
+-   Site: HEEZ
+
+-   Region: HawaiianEEZ
+
+-   Vessel Deploy: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS13: R/V
+    Ruben Lasker)
+
+-   Vessel Pickup: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS9, DS10,
+    DS11, DS13: R/V Ruben Lasker)
+
+-   GPS Tracker: Satlink
