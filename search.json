@@ -1,115 +1,10 @@
 [
   {
-    "objectID": "content/Onboarding.html",
-    "href": "content/Onboarding.html",
-    "title": "Onboarding",
+    "objectID": "content/DASBR_Sampling.html",
+    "href": "content/DASBR_Sampling.html",
+    "title": "DASBR Sampling Info",
     "section": "",
-    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
-  },
-  {
-    "objectID": "content/Safety.html",
-    "href": "content/Safety.html",
-    "title": "Safety",
-    "section": "",
-    "text": "Include the following information on this page\n\nLab safety\nField safety\nLink to your centers safety website\nIncident reporting directions\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example & Glider Lab Manual",
-    "crumbs": [
-      "Lab Management",
-      "Safety"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html",
-    "href": "content/NMFS_OpenSciDirections/add-content.html",
-    "title": "Customize",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customize"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
-    "href": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
-    "title": "Customize",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customize"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
-    "href": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
-    "title": "Customize",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customize"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html",
-    "href": "content/NMFS_OpenSciDirections/customizing.html",
-    "title": "Customization",
-    "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
-    "href": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
-    "title": "Customization",
-    "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html#examples",
-    "href": "content/NMFS_OpenSciDirections/customizing.html#examples",
-    "title": "Customization",
-    "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/publishing.html",
-    "href": "content/NMFS_OpenSciDirections/publishing.html",
-    "title": "Publishing",
-    "section": "",
-    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/publishing.html#turn-on-github-pages-for-your-repo",
-    "href": "content/NMFS_OpenSciDirections/publishing.html#turn-on-github-pages-for-your-repo",
-    "title": "Publishing",
-    "section": "Turn on GitHub Pages for your repo",
-    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/publishing.html#do-your-first-publish-to-gh-pages",
-    "href": "content/NMFS_OpenSciDirections/publishing.html#do-your-first-publish-to-gh-pages",
-    "title": "Publishing",
-    "section": "Do your first publish to gh-pages",
-    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/publishing.html#dont-like-using-gh-pages",
-    "href": "content/NMFS_OpenSciDirections/publishing.html#dont-like-using-gh-pages",
-    "title": "Publishing",
-    "section": "Don’t like using gh-pages?",
-    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+    "text": "2017_HICEAS\n\nCruise #: 1706\nRecording Interval: 2 ON 8 OFF (minutes)\nSampling rate: 288000 Hz\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2018_MACS\n\nCruise #: 1803\nRecording Interval: 2 ON 3 OFF (minutes)\nSampling rate: 576000 Hz\nSite: MW\nRegion: WestMariana\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2019_CRPGT\n\nCruise #: 1901\nRecording Interval: 2 ON 3 OFF (minutes)\nSampling rate: 576000 Hz\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2019_Falkor\n\nCruise #: 191021\nRecording Interval: 2 ON 0 OFF (minutes) - continuous\nSampling rate: 288000 Hz\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Falkor\nGPS Tracker: NAL\n\n2020_WHICEAS\n\nCruise #: 2001\nRecording Interval: 2 ON 3 OFF (minutes)\nSampling rate: 288000 Hz (DS3: 384000 Hz)\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2021_MACS\n\nCruise #: 2102\nRecording Interval: 2 ON 8 OFF (minutes)\nSampling rate: 384000 Hz\nSite: MA\nRegion: MarianaArchipelago\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2023_HICEAS\n\nCruise #: 2303 (DS13: 2401)\nRecording Interval: 2 ON 8 OFF (minutes)\nSampling rate: 384000 Hz\nSite: HEEZ\nRegion: HawaiianEEZ\nVessel Deploy: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS13: R/V Ruben Lasker)\nVessel Pickup: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS9, DS10, DS11, DS13: R/V Ruben Lasker)\nGPS Tracker: Satlink"
   },
   {
     "objectID": "content/NMFS_OpenSciDirections/Intro.html",
@@ -156,6 +51,94 @@
     ]
   },
   {
+    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html",
+    "href": "content/NMFS_OpenSciDirections/rmarkdown.html",
+    "title": "R Markdown",
+    "section": "",
+    "text": "You can include R Markdown files in your project.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "R Markdown"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
+    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "R Markdown"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
+    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "R Markdown"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html",
+    "href": "content/NMFS_OpenSciDirections/rendering.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/acknowledgements.html",
+    "href": "content/NMFS_OpenSciDirections/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Acknowledgments"
+    ]
+  },
+  {
     "objectID": "content/Software.html",
     "href": "content/Software.html",
     "title": "Software",
@@ -167,50 +150,95 @@
     ]
   },
   {
-    "objectID": "content/DASBR_Sampling.html",
-    "href": "content/DASBR_Sampling.html",
-    "title": "DASBR Sampling Info",
+    "objectID": "content/Offboarding.html",
+    "href": "content/Offboarding.html",
+    "title": "Offboarding",
     "section": "",
-    "text": "2017_HICEAS\n\nCruise #: 1706\nRecording Interval: 2 ON 8 OFF (minutes)\nSampling rate: 288000 Hz\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2018_MACS\n\nCruise #: 1803\nRecording Interval: 2 ON 3 OFF (minutes)\nSampling rate: 576000 Hz\nSite: MW\nRegion: WestMariana\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2019_CRPGT\n\nCruise #: 1901\nRecording Interval: 2 ON 3 OFF (minutes)\nSampling rate: 576000 Hz\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2019_Falkor\n\nCruise #: 191021\nRecording Interval: 2 ON 0 OFF (minutes) - continuous\nSampling rate: 288000 Hz\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Falkor\nGPS Tracker: NAL\n\n2020_WHICEAS\n\nCruise #: 2001\nRecording Interval: 2 ON 3 OFF (minutes)\nSampling rate: 288000 Hz (DS3: 384000 Hz)\nSite: MHI\nRegion: MainHawaiianIslands\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2021_MACS\n\nCruise #: 2102\nRecording Interval: 2 ON 8 OFF (minutes)\nSampling rate: 384000 Hz\nSite: MA\nRegion: MarianaArchipelago\nVessel: R/V Oscar E Sette\nGPS Tracker: NAL\n\n2023_HICEAS\n\nCruise #: 2303 (DS13: 2401)\nRecording Interval: 2 ON 8 OFF (minutes)\nSampling rate: 384000 Hz\nSite: HEEZ\nRegion: HawaiianEEZ\nVessel Deploy: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS13: R/V Ruben Lasker)\nVessel Pickup: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS9, DS10, DS11, DS13: R/V Ruben Lasker)\nGPS Tracker: Satlink"
+    "text": "This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.\nFaylab example"
   },
   {
-    "objectID": "content/PublicationsPresentations.html#publications",
-    "href": "content/PublicationsPresentations.html#publications",
-    "title": "Publications and Presentations",
-    "section": "Publications",
-    "text": "Publications\n\nCRP Publication Tracker",
+    "objectID": "content/LabManagement.html",
+    "href": "content/LabManagement.html",
+    "title": "Lab Management",
+    "section": "",
+    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
     "crumbs": [
-      "Publications Presentations"
+      "Lab Management"
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#presenations",
-    "href": "content/PublicationsPresentations.html#presenations",
-    "title": "Publications and Presentations",
-    "section": "Presenations",
-    "text": "Presenations\n\nCIMAR Symposium 2024",
+    "objectID": "content/AnalysisMethods.html",
+    "href": "content/AnalysisMethods.html",
+    "title": "Analysis Methods",
+    "section": "",
+    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example",
     "crumbs": [
-      "Publications Presentations"
+      "Software & Analysis Methods",
+      "Analysis Methods"
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#blogs",
-    "href": "content/PublicationsPresentations.html#blogs",
-    "title": "Publications and Presentations",
-    "section": "Blogs",
-    "text": "Blogs\n\nGlider Blog",
+    "objectID": "content/DataManagement.html#metadata",
+    "href": "content/DataManagement.html#metadata",
+    "title": "Data Management",
+    "section": "Metadata",
+    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDeployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.\nDrift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package PAMpal).\nSummary of all sampling information by cruise.\n\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
     "crumbs": [
-      "Publications Presentations"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/PublicationsPresentations.html#podcasts",
-    "href": "content/PublicationsPresentations.html#podcasts",
-    "title": "Publications and Presentations",
-    "section": "Podcasts",
-    "text": "Podcasts\n\nDive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls",
+    "objectID": "content/DataManagement.html#raw-data",
+    "href": "content/DataManagement.html#raw-data",
+    "title": "Data Management",
+    "section": "Raw Data",
+    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
     "crumbs": [
-      "Publications Presentations"
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#focus-species-project-information",
+    "href": "content/DataManagement.html#focus-species-project-information",
+    "title": "Data Management",
+    "section": "Focus Species Project Information",
+    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
+    "href": "content/DataManagement.html#species-examples-pacific-island-region",
+    "title": "Data Management",
+    "section": "Species Examples (Pacific Island Region)",
+    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nExample\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\nExample\n\n\nPygmy killer whale\nFeresa attenuata\n032\nExample\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nExample\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nExample\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nExample\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\n[Example]\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\nExample\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nExample",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/OpenScience.html",
+    "href": "content/OpenScience.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
+  },
+  {
+    "objectID": "content/SharedValues.html",
+    "href": "content/SharedValues.html",
+    "title": "Shared Values",
+    "section": "",
+    "text": "A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.\nSAEL example\nFaylab example"
+  },
+  {
+    "objectID": "content/SoftwareAnalysis.html",
+    "href": "content/SoftwareAnalysis.html",
+    "title": "Software & Analysis Methods",
+    "section": "",
+    "text": "A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).",
+    "crumbs": [
+      "Software & Analysis Methods"
     ]
   },
   {
@@ -306,252 +334,6 @@
     ]
   },
   {
-    "objectID": "content/DataManagement.html#metadata",
-    "href": "content/DataManagement.html#metadata",
-    "title": "Data Management",
-    "section": "Metadata",
-    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR:\n\nSampling information by cruise.\n\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#raw-data",
-    "href": "content/DataManagement.html#raw-data",
-    "title": "Data Management",
-    "section": "Raw Data",
-    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#focus-species-project-information",
-    "href": "content/DataManagement.html#focus-species-project-information",
-    "title": "Data Management",
-    "section": "Focus Species Project Information",
-    "text": "Focus Species Project Information\n\nFalse killer whale\nSperm whale",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
-    "href": "content/DataManagement.html#species-examples-pacific-island-region",
-    "title": "Data Management",
-    "section": "Species Examples (Pacific Island Region)",
-    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nExample\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\nExample\n\n\nPygmy killer whale\nFeresa attenuata\n032\nExample\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nExample\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nExample\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nExample\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\n[Example]\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\nExample\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nExample",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/OpenScience.html",
-    "href": "content/OpenScience.html",
-    "title": "Open Science",
-    "section": "",
-    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
-  },
-  {
-    "objectID": "content/LabManagement.html",
-    "href": "content/LabManagement.html",
-    "title": "Lab Management",
-    "section": "",
-    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
-    "crumbs": [
-      "Lab Management"
-    ]
-  },
-  {
-    "objectID": "content/AnalysisMethods.html",
-    "href": "content/AnalysisMethods.html",
-    "title": "Analysis Methods",
-    "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example",
-    "crumbs": [
-      "Software & Analysis Methods",
-      "Analysis Methods"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/code.html",
-    "href": "content/NMFS_OpenSciDirections/code.html",
-    "title": "Rendering with Code",
-    "section": "",
-    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering with Code"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/code.html#modify-the-github-action",
-    "href": "content/NMFS_OpenSciDirections/code.html#modify-the-github-action",
-    "title": "Rendering with Code",
-    "section": "Modify the GitHub Action",
-    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering with Code"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "href": "content/NMFS_OpenSciDirections/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "title": "Rendering with Code",
-    "section": "Render locally and publish to gh-pages branch",
-    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering with Code"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html",
-    "href": "content/NMFS_OpenSciDirections/rendering.html",
-    "title": "Rendering",
-    "section": "",
-    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "href": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "title": "Rendering",
-    "section": "Step 1. Make sure you have a recent RStudio",
-    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "href": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "title": "Rendering",
-    "section": "Step 2. Clone and create RStudio project",
-    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
-    "href": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
-    "title": "Rendering",
-    "section": "Step 3. Render within RStudio",
-    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html",
-    "href": "content/NMFS_OpenSciDirections/rmarkdown.html",
-    "title": "R Markdown",
-    "section": "",
-    "text": "You can include R Markdown files in your project.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "R Markdown"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
-    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#r-markdown",
-    "title": "R Markdown",
-    "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "R Markdown"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
-    "href": "content/NMFS_OpenSciDirections/rmarkdown.html#including-plots",
-    "title": "R Markdown",
-    "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "R Markdown"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/acknowledgements.html",
-    "href": "content/NMFS_OpenSciDirections/acknowledgements.html",
-    "title": "Acknowledgments",
-    "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Acknowledgments"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#manual",
-    "href": "content/FieldMethods.html#manual",
-    "title": "Field Methods",
-    "section": "Manual",
-    "text": "Manual\n\nAcoustic Field Manual: Towed Array, Sonobuoy, DASBR\nDASBR: SoundTrap Instructions\nDASBR: TDR Instructions",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#protocols",
-    "href": "content/FieldMethods.html#protocols",
-    "title": "Field Methods",
-    "section": "Protocols",
-    "text": "Protocols\n\nAcoustic Beaked Whale & Kogia\nAcoustic Chase\nAcoustic Pass\nAcoustic False Killer Whale Protocol\nSperm whale Protocol: Visual & Acoustics",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
-    "href": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
-    "title": "Field Methods",
-    "section": "Troubleshooting Towed Array Equipment",
-    "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
-    "href": "content/FieldMethods.html#pamguard-field-setting-files",
-    "title": "Field Methods",
-    "section": "PAMGuard Field Setting Files",
-    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
-    "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/Resources.html",
-    "href": "content/Resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
-  },
-  {
-    "objectID": "content/SoftwareAnalysis.html",
-    "href": "content/SoftwareAnalysis.html",
-    "title": "Software & Analysis Methods",
-    "section": "",
-    "text": "A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).",
-    "crumbs": [
-      "Software & Analysis Methods"
-    ]
-  },
-  {
     "objectID": "content/Hardware.html#towed-array",
     "href": "content/Hardware.html#towed-array",
     "title": "Hardware",
@@ -596,11 +378,109 @@
     ]
   },
   {
-    "objectID": "content/SharedValues.html",
-    "href": "content/SharedValues.html",
-    "title": "Shared Values",
+    "objectID": "content/Safety.html",
+    "href": "content/Safety.html",
+    "title": "Safety",
     "section": "",
-    "text": "A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.\nSAEL example\nFaylab example"
+    "text": "Include the following information on this page\n\nLab safety\nField safety\nLink to your centers safety website\nIncident reporting directions\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example & Glider Lab Manual",
+    "crumbs": [
+      "Lab Management",
+      "Safety"
+    ]
+  },
+  {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#publications",
+    "href": "content/PublicationsPresentations.html#publications",
+    "title": "Publications and Presentations",
+    "section": "Publications",
+    "text": "Publications\n\nCRP Publication Tracker",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#presenations",
+    "href": "content/PublicationsPresentations.html#presenations",
+    "title": "Publications and Presentations",
+    "section": "Presenations",
+    "text": "Presenations\n\nCIMAR Symposium 2024",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#blogs",
+    "href": "content/PublicationsPresentations.html#blogs",
+    "title": "Publications and Presentations",
+    "section": "Blogs",
+    "text": "Blogs\n\nGlider Blog",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html#podcasts",
+    "href": "content/PublicationsPresentations.html#podcasts",
+    "title": "Publications and Presentations",
+    "section": "Podcasts",
+    "text": "Podcasts\n\nDive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls",
+    "crumbs": [
+      "Publications Presentations"
+    ]
+  },
+  {
+    "objectID": "content/Onboarding.html",
+    "href": "content/Onboarding.html",
+    "title": "Onboarding",
+    "section": "",
+    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
+  },
+  {
+    "objectID": "content/FieldMethods.html#manual",
+    "href": "content/FieldMethods.html#manual",
+    "title": "Field Methods",
+    "section": "Manual",
+    "text": "Manual\n\nAcoustic Field Manual: Towed Array, Sonobuoy, DASBR\nDASBR: SoundTrap Instructions\nDASBR: TDR Instructions",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#protocols",
+    "href": "content/FieldMethods.html#protocols",
+    "title": "Field Methods",
+    "section": "Protocols",
+    "text": "Protocols\n\nAcoustic Beaked Whale & Kogia\nAcoustic Chase\nAcoustic Pass\nAcoustic False Killer Whale Protocol\nSperm whale Protocol: Visual & Acoustics",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
+    "href": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
+    "title": "Field Methods",
+    "section": "Troubleshooting Towed Array Equipment",
+    "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
+    "href": "content/FieldMethods.html#pamguard-field-setting-files",
+    "title": "Field Methods",
+    "section": "PAMGuard Field Setting Files",
+    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
+    "crumbs": [
+      "Field Methods"
+    ]
   },
   {
     "objectID": "content/032.html",
@@ -610,10 +490,130 @@
     "text": "NOTES: - The above example contains some low frequency clicks in the concatenated spectrogram. These are noise and will be removed.\n\nCurrently PIFSC has no examples of whistles from this species."
   },
   {
-    "objectID": "content/Offboarding.html",
-    "href": "content/Offboarding.html",
-    "title": "Offboarding",
+    "objectID": "content/NMFS_OpenSciDirections/code.html",
+    "href": "content/NMFS_OpenSciDirections/code.html",
+    "title": "Rendering with Code",
     "section": "",
-    "text": "This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.\nFaylab example"
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering with Code"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/code.html#modify-the-github-action",
+    "href": "content/NMFS_OpenSciDirections/code.html#modify-the-github-action",
+    "title": "Rendering with Code",
+    "section": "Modify the GitHub Action",
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering with Code"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "href": "content/NMFS_OpenSciDirections/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "title": "Rendering with Code",
+    "section": "Render locally and publish to gh-pages branch",
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Rendering with Code"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html",
+    "href": "content/NMFS_OpenSciDirections/add-content.html",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
+    "title": "Customize",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/publishing.html",
+    "href": "content/NMFS_OpenSciDirections/publishing.html",
+    "title": "Publishing",
+    "section": "",
+    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/publishing.html#turn-on-github-pages-for-your-repo",
+    "href": "content/NMFS_OpenSciDirections/publishing.html#turn-on-github-pages-for-your-repo",
+    "title": "Publishing",
+    "section": "Turn on GitHub Pages for your repo",
+    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/publishing.html#do-your-first-publish-to-gh-pages",
+    "href": "content/NMFS_OpenSciDirections/publishing.html#do-your-first-publish-to-gh-pages",
+    "title": "Publishing",
+    "section": "Do your first publish to gh-pages",
+    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/publishing.html#dont-like-using-gh-pages",
+    "href": "content/NMFS_OpenSciDirections/publishing.html#dont-like-using-gh-pages",
+    "title": "Publishing",
+    "section": "Don’t like using gh-pages?",
+    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/customizing.html",
+    "href": "content/NMFS_OpenSciDirections/customizing.html",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customization"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
+    "href": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customization"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/customizing.html#examples",
+    "href": "content/NMFS_OpenSciDirections/customizing.html#examples",
+    "title": "Customization",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customization"
+    ]
   }
 ]
