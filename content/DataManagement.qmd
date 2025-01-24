@@ -23,9 +23,14 @@ Detection_Logs contains the following folder structure:
 
 (*Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.*)
 
--   **DASBR:**
+-   **DASBR:** Stored `\\PICCRPNAS\CRP3\_PAM_Metadata`
 
-Sampling information by [cruise](DASBR_Sampling.qmd).
+Deployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.
+
+Drift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package *PAMpal*).
+
+Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
+
 
 -   **Sonobuoy:**
 
