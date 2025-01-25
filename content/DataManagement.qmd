@@ -29,6 +29,8 @@ Deployment_Logs folder contains an Excel file by cruise of each DASBR deployment
 
 Drift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package *PAMpal*).
 
+Tethys_Deployment_Files contains Excel files of deployment information and gps tracks formatted for Tethys.
+
 Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
 
 
