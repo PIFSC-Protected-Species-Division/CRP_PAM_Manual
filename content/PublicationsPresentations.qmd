@@ -16,6 +16,8 @@ title: Publications and Presentations
 
 -   [Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
 
+-   [BioTwang Blog](https://www.fisheries.noaa.gov/feature-story/hey-google-find-new-whale-sound)
+
 ## Podcasts
 
 -   [Dive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls](https://www.fisheries.noaa.gov/podcast/ai-identifies-mysterious-whale-calls)
