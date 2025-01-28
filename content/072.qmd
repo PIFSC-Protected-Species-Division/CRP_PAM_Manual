@@ -1,0 +1,18 @@
+---
+title: Bryde's Whale
+---
+## BioTwang
+
+![](images/072/072_01.PNG){fig-align="left"}
+
+J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377
+
+[Example Call](https://soundcloud.com/oregonstate_labs/biotwangexample)
+
+[BioTwang Web Story](https://www.fisheries.noaa.gov/feature-story/hey-google-find-new-whale-sound)
+
+## 500 Hz Call
+
+An unknown nocturnal call type in teh Mariana Archipelago thought to be associated to Bryde's whales. [Manuscript](https://doi.org/10.1121/10.0017068)
+
+![](images/072/072_02.PNG){fig-align="left"}

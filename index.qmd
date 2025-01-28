@@ -56,7 +56,7 @@ Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.go
 
 -   [NEFSC: Northeast Fisheries](https://nefsc.github.io/NEFSC_PAB_lab_manual/)
 
--   [National PAM Network](https://nmfs-ost.github.io/PAM_National_NMFS_Network/)
+-   [National PAM Network](https://nmfs-ost.github.io/PAM_National_Network/)
 
 ## Location
 
