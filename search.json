@@ -273,7 +273,7 @@
     "href": "index.html#team-members",
     "title": "Home",
     "section": "Team Members",
-    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nAcousticians\nAnn Allen\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nVisual Experts (Photo ID, Biopsy, UAS)\nMarie Hill\nKym Yano\nQuantitative Ecologists\nJanelle Badger\nAmanda Bradford, Acting - Cetacean Research Program Lead",
+    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nAcousticians\nAnn Allen\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nVisual Experts (Photo ID, Biopsy, UAS)\nMarie Hill\nKym Yano, Acting - Cetacean Research Program Lead\nQuantitative Ecologists\nJanelle Badger\nAmanda Bradford",
     "crumbs": [
       "Home"
     ]
@@ -355,6 +355,17 @@
     "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
   },
   {
+    "objectID": "content/Hardware.html",
+    "href": "content/Hardware.html",
+    "title": "Hardware",
+    "section": "",
+    "text": "NOAA Fisheries collects passive acoustic monitoring data through a variety of instruments. Below are the types of instruments used by the Cetacean Research Program.",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
     "objectID": "content/Hardware.html#towed-array",
     "href": "content/Hardware.html#towed-array",
     "title": "Hardware",
@@ -381,7 +392,7 @@
     "href": "content/Hardware.html#glider",
     "title": "Hardware",
     "section": "Glider",
-    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi",
+    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi\n\n\n\n\n\n\n\nGlider buoyancy testing in a tank before deployment.\n\nGlider aboard a small vessel in preparation for a several week deployment.\n\nGlider at the surface checking in with the satellite before its next dive.",
     "crumbs": [
       "Lab Management",
       "Hardware"
@@ -393,6 +404,17 @@
     "title": "Hardware",
     "section": "HARP: High-Frequency Acoustic Recording Package",
     "text": "HARP: High-Frequency Acoustic Recording Package",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#sonobuoy",
+    "href": "content/Hardware.html#sonobuoy",
+    "title": "Hardware",
+    "section": "Sonobuoy",
+    "text": "Sonobuoy",
     "crumbs": [
       "Lab Management",
       "Hardware"
