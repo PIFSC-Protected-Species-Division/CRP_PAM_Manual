@@ -12,55 +12,55 @@ A key priority of the Passive Acoustic Monitoring - Strategic Initiative (PAM-SI
 
 ## Team Members
 
-Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.gov/contact/erin-oleson-phd)
+Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.gov/contact/erin-oleson-phd){target="_blank"}
 
 **Acousticians**
 
-[Ann Allen](https://www.fisheries.noaa.gov/contact/ann-allen-phd)
+[Ann Allen](https://www.fisheries.noaa.gov/contact/ann-allen-phd){target="_blank"}
 
-[Yvonne Barkley](https://www.fisheries.noaa.gov/contact/yvonne-barkley-phd)
+[Yvonne Barkley](https://www.fisheries.noaa.gov/contact/yvonne-barkley-phd){target="_blank"}
 
-[Selene Fregosi](https://www.fisheries.noaa.gov/contact/selene-fregosi-phd)
+[Selene Fregosi](https://www.fisheries.noaa.gov/contact/selene-fregosi-phd){target="_blank"}
 
-[Jennifer McCullough](https://www.fisheries.noaa.gov/contact/jennifer-l-k-mccullough)
+[Jennifer McCullough](https://www.fisheries.noaa.gov/contact/jennifer-l-k-mccullough){target="_blank"}
 
-[Karlina Merkens](https://www.fisheries.noaa.gov/contact/karlina-merkens-phd)
+[Karlina Merkens](https://www.fisheries.noaa.gov/contact/karlina-merkens-phd){target="_blank"}
 
-[Erik Norris](https://www.fisheries.noaa.gov/contact/erik-norris)
+[Erik Norris](https://www.fisheries.noaa.gov/contact/erik-norris){target="_blank"}
 
-[Jenny Trickey](https://www.fisheries.noaa.gov/contact/jenny-trickey)
+[Jenny Trickey](https://www.fisheries.noaa.gov/contact/jenny-trickey){target="_blank"}
 
-[Megan Wood](https://www.fisheries.noaa.gov/contact/megan-wood)
+[Megan Wood](https://www.fisheries.noaa.gov/contact/megan-wood){target="_blank"}
 
 **Visual Experts (Photo ID, Biopsy, UAS)**
 
-[Marie Hill](https://www.fisheries.noaa.gov/contact/marie-hill)
+[Marie Hill](https://www.fisheries.noaa.gov/contact/marie-hill){target="_blank"}
 
-[Kym Yano](https://www.fisheries.noaa.gov/contact/kym-yano)
+[Kym Yano](https://www.fisheries.noaa.gov/contact/kym-yano){target="_blank"}, Acting - Cetacean Research Program Lead
 
 **Quantitative Ecologists**
 
-[Janelle Badger](https://www.fisheries.noaa.gov/contact/janelle-badger-phd-0)
+[Janelle Badger](https://www.fisheries.noaa.gov/contact/janelle-badger-phd-0){target="_blank"}
 
-[Amanda Bradford](https://www.fisheries.noaa.gov/contact/amanda-bradford-phd), Acting - Cetacean Research Program Lead
+[Amanda Bradford](https://www.fisheries.noaa.gov/contact/amanda-bradford-phd){target="_blank"}
 
 ## Additional National Marine Fisheries Lab Manuals
 
--   [SWFSC: Southwest Fisheries](https://sael-swfsc.github.io/SAEL-lab-manual/)
+-   [SWFSC: Southwest Fisheries](https://sael-swfsc.github.io/SAEL-lab-manual/){target="_blank"}
 
--   [NWFSC: Northwest Fisheries](https://noaa-nwfsc.github.io/NWFSC-PAM-Lab-Manual/)
+-   [NWFSC: Northwest Fisheries](https://noaa-nwfsc.github.io/NWFSC-PAM-Lab-Manual/){target="_blank"}
 
--   [AFSC: Alaska Fisheries](https://noaa-afsc.github.io/AFSC-MML-PAM-Lab-Manual/)
+-   [AFSC: Alaska Fisheries](https://noaa-afsc.github.io/AFSC-MML-PAM-Lab-Manual/){target="_blank"}
 
--   [SEFSC: Southeast Fisheries](https://sefsc.github.io/SEFSC-PAM-Lab-Manual/)
+-   [SEFSC: Southeast Fisheries](https://sefsc.github.io/SEFSC-PAM-Lab-Manual/){target="_blank"}
 
--   [NEFSC: Northeast Fisheries](https://nefsc.github.io/NEFSC_PAB_lab_manual/)
+-   [NEFSC: Northeast Fisheries](https://nefsc.github.io/NEFSC_PAB_lab_manual/){target="_blank"}
 
--   [National PAM Network](https://nmfs-ost.github.io/PAM_National_Network/)
+-   [National PAM Network](https://nmfs-ost.github.io/PAM_National_Network/){target="_blank"}
 
 ## Location
 
-Our main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the [Inouye Regional Center](https://sites.google.com/noaa.gov/inouye-regional-center/home?pli=1).
+Our main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the [Inouye Regional Center](https://sites.google.com/noaa.gov/inouye-regional-center/home?pli=1){target="_blank"}.
 
 **Shipping Address:** NOAA/PIFSC/PSD, 1845 Wasp Blvd., Bldg 176, Honolulu, HI 96818
 

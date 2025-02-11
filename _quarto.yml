@@ -25,9 +25,11 @@ website:
       - icon: globe
         href: https://www.fisheries.noaa.gov/pacific-islands/population-assessments/passive-acoustics-pacific-islands
         text: "NOAA Fisheries PIFSC - Passive Acoustic Monitoring"
+        target: _blank
       - icon: github
         href: https://github.com/PIFSC-Protected-Species-Division
         text: "NOAA Fisheries PIFSC Protected Species Division"
+        target: _blank
         
 
     style: "docked"

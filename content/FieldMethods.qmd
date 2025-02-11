@@ -6,35 +6,35 @@ title: Field Methods
 
 ## Manual
 
--   [Acoustic Field Manual: Towed Array, Sonobuoy, DASBR](https://docs.google.com/document/d/1pychZViPYkakuevGV-z3Us3N7luFbdQJiJBAxjVke-I/edit?usp=drive_link)
+-   [Acoustic Field Manual: Towed Array, Sonobuoy, DASBR](https://docs.google.com/document/d/1pychZViPYkakuevGV-z3Us3N7luFbdQJiJBAxjVke-I/edit?usp=drive_link){target="_blank"}
 
--   [DASBR: SoundTrap Instructions](https://docs.google.com/document/d/1RgkmSfc9LNinjjUxxHhaA5jzeAB7JF0VrN6PT-4XuVw/edit?usp=drive_link)
+-   [DASBR: SoundTrap Instructions](https://docs.google.com/document/d/1RgkmSfc9LNinjjUxxHhaA5jzeAB7JF0VrN6PT-4XuVw/edit?usp=drive_link){target="_blank"}
 
--   [DASBR: TDR Instructions](https://docs.google.com/document/d/1O9cUc1w7uPqQ3X3Iw5sNRSppSTvPKvX9dCXNAV-Spg8/edit?usp=drive_link)
+-   [DASBR: TDR Instructions](https://docs.google.com/document/d/1O9cUc1w7uPqQ3X3Iw5sNRSppSTvPKvX9dCXNAV-Spg8/edit?usp=drive_link){target="_blank"}
 
 ## Protocols
 
--   [Acoustic Beaked Whale & Kogia](https://docs.google.com/document/d/1OqP1xyWt1e0Z7uwCJQDDkOQxhdkf3ufER13unKldNDQ/edit?usp=drive_link)
+-   [Acoustic Beaked Whale & Kogia](https://docs.google.com/document/d/1OqP1xyWt1e0Z7uwCJQDDkOQxhdkf3ufER13unKldNDQ/edit?usp=drive_link){target="_blank"}
 
--   [Acoustic Chase](https://docs.google.com/document/d/1BuvQXrBdef4unTxr4ui2puTJS_EywzjqeNsISYo3Ndc/edit?usp=drive_link)
+-   [Acoustic Chase](https://docs.google.com/document/d/1BuvQXrBdef4unTxr4ui2puTJS_EywzjqeNsISYo3Ndc/edit?usp=drive_link){target="_blank"}
 
--   [Acoustic Pass](https://docs.google.com/document/d/1tmLy9SIZzr73PCulsToeWQtXguINf3KOpIcZIK07DIo/edit?usp=drive_link)
+-   [Acoustic Pass](https://docs.google.com/document/d/1tmLy9SIZzr73PCulsToeWQtXguINf3KOpIcZIK07DIo/edit?usp=drive_link){target="_blank"}
 
--   [Acoustic False Killer Whale Protocol](https://docs.google.com/document/d/1LlWonBdDEMgu4osfEONuQSoP_rnIZtXWWvJo4m0Qgcc/edit?usp=drive_link)
+-   [Acoustic False Killer Whale Protocol](https://docs.google.com/document/d/1LlWonBdDEMgu4osfEONuQSoP_rnIZtXWWvJo4m0Qgcc/edit?usp=drive_link){target="_blank"}
 
--   [Sperm whale Protocol: Visual & Acoustics](https://docs.google.com/document/d/1piqYGcFzd1ybQVBxATMbKMKYFSPoaFKTgHAdTJccQDI/edit?usp=drive_link)
+-   [Sperm whale Protocol: Visual & Acoustics](https://docs.google.com/document/d/1piqYGcFzd1ybQVBxATMbKMKYFSPoaFKTgHAdTJccQDI/edit?usp=drive_link){target="_blank"}
 
 ## Troubleshooting Towed Array Equipment
 
--   [Depth Sensor Testing Video](https://drive.google.com/file/d/1fyy734SwP23PjRgi8YCC4tcsTIP-f1_h/view?usp=drive_link)
+-   [Depth Sensor Testing Video](https://drive.google.com/file/d/1fyy734SwP23PjRgi8YCC4tcsTIP-f1_h/view?usp=drive_link){target="_blank"}
 
 ![Setup For Testing Depth Sensor](images/Testing_Depth_Sensor.png){fig-align="left" width="331"}
 
--   [Pin Testing Hydrophones Video](https://drive.google.com/file/d/1C-VM1Xeh7H2sJiG9UIcTg5tkLkV36O3O/view?usp=drive_link)
+-   [Pin Testing Hydrophones Video](https://drive.google.com/file/d/1C-VM1Xeh7H2sJiG9UIcTg5tkLkV36O3O/view?usp=drive_link){target="_blank"}
 
 ![Towed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)](images/TA_Pin_Diagram.PNG){fig-align="left"}
 
--   [Bench Testing Preamp Video](https://drive.google.com/file/d/1mnLMbmKtnywAR7eHzj7dy57UjTiVK5qx/view?usp=drive_link)
+-   [Bench Testing Preamp Video](https://drive.google.com/file/d/1mnLMbmKtnywAR7eHzj7dy57UjTiVK5qx/view?usp=drive_link){target="_blank"}
 
 ## PAMGuard Field Setting Files
 

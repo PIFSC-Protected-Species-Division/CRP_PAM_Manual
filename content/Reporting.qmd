@@ -5,7 +5,7 @@ title: Reporting
 
 ## Acoustic Contracted Projects
 
-[Project List](https://docs.google.com/spreadsheets/d/188t7E8TVmvTg-fkyTtSt5ipQ8fDjQWoAvVCxQgeT2GU/edit?usp=sharing)
+[Project List](https://docs.google.com/spreadsheets/d/188t7E8TVmvTg-fkyTtSt5ipQ8fDjQWoAvVCxQgeT2GU/edit?usp=sharing){target="_blank"}
 
 *This Google Sheet contains contracted projects with information about priority level, status to completion, acoustic instrument type, and funding source.*
 

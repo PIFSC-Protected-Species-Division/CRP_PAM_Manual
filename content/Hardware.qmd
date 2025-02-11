@@ -4,6 +4,10 @@ title: Hardware
 
 ![](images/Wave_wWhales_v4.png)
 
+![](images/illustration-noaa-nefsc-passive-acoustics-technologies.png){fig-align="left"}
+
+NOAA Fisheries collects passive acoustic monitoring data through a variety of instruments. Below are the types of instruments used by the Cetacean Research Program.
+
 ## Towed Array
 
 ![](images/TowedArraywShip.jpg){fig-align="left"}
@@ -14,10 +18,25 @@ title: Hardware
 
 ## Glider
 
-[Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
+[Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider){target="_blank"}
 
 [![Schematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi](images/Glider_Path.jpg){fig-align="left"}](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
+
+![](images/GhdP6TyWcAA71Ep.jpeg){fig-align="left" width="324"}
+
+Glider buoyancy testing in a tank before deployment.
+
+![](images/GhdP7h_WgAAECbo.jpeg){width="325"}
+
+Glider aboard a small vessel in preparation for a several week deployment.
+
+![](images/GhdP8wKWQAEGzO2.jpeg){width="209"}
+
+Glider at the surface checking in with the satellite before its next dive.
 
 ## HARP: High-Frequency Acoustic Recording Package
 
 ![](images/HARP.png){fig-align="left"}
+
+## Sonobuoy
+

@@ -6,18 +6,18 @@ title: Publications and Presentations
 
 ## Publications
 
--   [CRP Publication Tracker](https://docs.google.com/spreadsheets/d/1Gr7wMm2XdoMDgiIKQhjz_TQthVucwrKmpxWa2dnLm7U/edit?usp=sharing)
+-   [CRP Publication Tracker](https://docs.google.com/spreadsheets/d/1Gr7wMm2XdoMDgiIKQhjz_TQthVucwrKmpxWa2dnLm7U/edit?usp=sharing){target="_blank"}
 
 ## Presenations
 
--   [CIMAR Symposium 2024](http://www.soest.hawaii.edu/cimar/symposium2024/)
+-   [CIMAR Symposium 2024](http://www.soest.hawaii.edu/cimar/symposium2024/){target="_blank"}
 
 ## Blogs
 
--   [Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
+-   [Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider){target="_blank"}
 
--   [BioTwang Blog](https://www.fisheries.noaa.gov/feature-story/hey-google-find-new-whale-sound)
+-   [BioTwang Blog](https://www.fisheries.noaa.gov/feature-story/hey-google-find-new-whale-sound){target="_blank"}
 
 ## Podcasts
 
--   [Dive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls](https://www.fisheries.noaa.gov/podcast/ai-identifies-mysterious-whale-calls)
+-   [Dive In with NOAA Fisheries Podcast: AI Identifies Mysterious Whale Calls](https://www.fisheries.noaa.gov/podcast/ai-identifies-mysterious-whale-calls){target="_blank"}
