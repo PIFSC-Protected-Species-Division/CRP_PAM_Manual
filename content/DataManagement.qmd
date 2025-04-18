@@ -9,7 +9,17 @@ title: Data Management
 
 -   **Towed Array:** Stored `\\PICCRPNAS\CRP3\_PAM_Metadata`
 
-Detection_Logs contains the following folder structure:
+**Array_Info** contains the following folder structure:
+
+-   2010-2016: Contains Excel file with tabs for all arrays used during thoses years including a tab highlighting which hydrophones have been used for PAMGuard processing.
+
+-   2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details. 
+
+**BANTER_EventTimes** contains the following folder structure:
+
+-   Individual CSV event time files used to process acoustic studies in PAMpal.
+
+**Detection_Logs** contains the following folder structure:
 
 1_Field_SQLite_Databases
 
