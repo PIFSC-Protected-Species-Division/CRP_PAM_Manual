@@ -1,0 +1,14 @@
+---
+title: Common Minke Whale
+---
+## Boing
+
+Zoomed OUT with overlapping dolphin clicks.
+
+![](images/071/071_01.jpg){fig-align="left"}
+Zoomed IN with overlapping dolphin clicks.
+
+![](images/071/071_02.jpg){fig-align="left"}
+Zoomed IN with overlapping humpack whale calls.
+
+![](images/071/071_03.jpg){fig-align="left"}

@@ -2,9 +2,9 @@
 title: Cross Seamount Beaked Whale (BWC)
 ---
 
-<!-- ![](images/049/049_01.PNG){fig-align="left"} -->
+![](images/049/049_01.PNG){fig-align="left"}
 
-<!-- ![](images/049/049_02.PNG){fig-align="left"} -->
+![](images/049/049_02.PNG){fig-align="left"}
 
 ![](images/049/049_03.PNG){fig-align="left"}
 
