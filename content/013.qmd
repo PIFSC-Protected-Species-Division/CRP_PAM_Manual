@@ -1,0 +1,9 @@
+---
+title: Striped Dolphin
+---
+
+![](images/013/013_01.PNG){fig-align="left"}
+
+![](images/013/013_02.PNG){fig-align="left"}
+
+![](images/013/013_03.PNG){fig-align="left"}

@@ -67,9 +67,9 @@ Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
 | Common Name                   | Scientific Name              | PIFSC Code#   | Acoustic Signals  |
 |-------------------------------|------------------------------|---------------|-------------------|
 | Pantropical spotted dolphin   | *Stenella attenuata*         | 002           | [Example](002.qmd)|
-| Striped dolphin               | *Stenella coeruleoalba*      | 013           | [Example]       |
+| Striped dolphin               | *Stenella coeruleoalba*      | 013           | [Example](013.qmd)|
 | Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [Example](015.qmd)|
-| Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [Example]       |
+| Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [Example](018.qmd)|
 | Risso's dolphin               | *Grampus griseus*            | 021           | [Example](021.qmd)|
 | Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [Example](026.qmd)|
 | Melon-headed whale            | *Peponocephala electra*      | 031           | [Example](031.qmd)|
