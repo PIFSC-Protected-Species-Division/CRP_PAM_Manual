@@ -261,98 +261,24 @@
     ]
   },
   {
-    "objectID": "content/Hardware.html",
-    "href": "content/Hardware.html",
-    "title": "Hardware",
+    "objectID": "content/SoftwareAnalysis.html",
+    "href": "content/SoftwareAnalysis.html",
+    "title": "Software & Analysis Methods",
     "section": "",
-    "text": "NOAA Fisheries collects passive acoustic monitoring data through a variety of instruments. Below are the types of instruments used by the Cetacean Research Program.",
+    "text": "A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).",
     "crumbs": [
-      "Lab Management",
-      "Hardware"
+      "Software & Analysis Methods"
     ]
   },
   {
-    "objectID": "content/Hardware.html#towed-array",
-    "href": "content/Hardware.html#towed-array",
-    "title": "Hardware",
-    "section": "Towed Array",
-    "text": "Towed Array",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
-    "href": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
-    "title": "Hardware",
-    "section": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
-    "text": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#glider",
-    "href": "content/Hardware.html#glider",
-    "title": "Hardware",
-    "section": "Glider",
-    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi\n\n\n\n\n\n\n\nGlider buoyancy testing in a tank before deployment.\n\nGlider aboard a small vessel in preparation for a several week deployment.\n\nGlider at the surface checking in with the satellite before its next dive.",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
-    "href": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
-    "title": "Hardware",
-    "section": "HARP: High-Frequency Acoustic Recording Package",
-    "text": "HARP: High-Frequency Acoustic Recording Package",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Hardware.html#sonobuoy",
-    "href": "content/Hardware.html#sonobuoy",
-    "title": "Hardware",
-    "section": "Sonobuoy",
-    "text": "Sonobuoy",
-    "crumbs": [
-      "Lab Management",
-      "Hardware"
-    ]
-  },
-  {
-    "objectID": "content/Offboarding.html",
-    "href": "content/Offboarding.html",
-    "title": "Offboarding",
+    "objectID": "content/LabManagement.html",
+    "href": "content/LabManagement.html",
+    "title": "Lab Management",
     "section": "",
-    "text": "This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.\nFaylab example"
-  },
-  {
-    "objectID": "content/072.html",
-    "href": "content/072.html",
-    "title": "Bryde’s Whale",
-    "section": "",
-    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
-  },
-  {
-    "objectID": "content/072.html#biotwang",
-    "href": "content/072.html#biotwang",
-    "title": "Bryde’s Whale",
-    "section": "",
-    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
-  },
-  {
-    "objectID": "content/072.html#hz-call",
-    "href": "content/072.html#hz-call",
-    "title": "Bryde’s Whale",
-    "section": "500 Hz Call",
-    "text": "500 Hz Call\nAn unknown nocturnal call type in teh Mariana Archipelago thought to be associated to Bryde’s whales. Manuscript"
+    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
+    "crumbs": [
+      "Lab Management"
+    ]
   },
   {
     "objectID": "content/071.html",
@@ -424,7 +350,7 @@
     "href": "content/DataManagement.html#species-examples-pacific-island-region",
     "title": "Data Management",
     "section": "Species Examples (Pacific Island Region)",
-    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\n[Example]\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nExample\n\n\nBottlenose dolphin\nTursiops truncatus\n018\n[Example]\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\nExample\n\n\nPygmy killer whale\nFeresa attenuata\n032\nExample\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nGinkgo-toothed beaked whale\nMesoplodon ginkgodens\n057\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nExample\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nExample\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nExample\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\nExample\n\n\nBryde’s whale\nBalaenoptera edeni\n072\nExample\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\nExample\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nExample",
+    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\nExample\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nExample\n\n\nBottlenose dolphin\nTursiops truncatus\n018\nExample\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\nExample\n\n\nPygmy killer whale\nFeresa attenuata\n032\nExample\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nGinkgo-toothed beaked whale\nMesoplodon ginkgodens\n057\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nExample\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nExample\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nExample\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\nExample\n\n\nBryde’s whale\nBalaenoptera edeni\n072\nExample\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\nExample\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nExample",
     "crumbs": [
       "Data Management"
     ]
@@ -475,23 +401,97 @@
     ]
   },
   {
-    "objectID": "content/LabManagement.html",
-    "href": "content/LabManagement.html",
-    "title": "Lab Management",
+    "objectID": "content/072.html",
+    "href": "content/072.html",
+    "title": "Bryde’s Whale",
     "section": "",
-    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
+    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
+  },
+  {
+    "objectID": "content/072.html#biotwang",
+    "href": "content/072.html#biotwang",
+    "title": "Bryde’s Whale",
+    "section": "",
+    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
+  },
+  {
+    "objectID": "content/072.html#hz-call",
+    "href": "content/072.html#hz-call",
+    "title": "Bryde’s Whale",
+    "section": "500 Hz Call",
+    "text": "500 Hz Call\nAn unknown nocturnal call type in teh Mariana Archipelago thought to be associated to Bryde’s whales. Manuscript"
+  },
+  {
+    "objectID": "content/Offboarding.html",
+    "href": "content/Offboarding.html",
+    "title": "Offboarding",
+    "section": "",
+    "text": "This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.\nFaylab example"
+  },
+  {
+    "objectID": "content/Hardware.html",
+    "href": "content/Hardware.html",
+    "title": "Hardware",
+    "section": "",
+    "text": "NOAA Fisheries collects passive acoustic monitoring data through a variety of instruments. Below are the types of instruments used by the Cetacean Research Program.",
     "crumbs": [
-      "Lab Management"
+      "Lab Management",
+      "Hardware"
     ]
   },
   {
-    "objectID": "content/SoftwareAnalysis.html",
-    "href": "content/SoftwareAnalysis.html",
-    "title": "Software & Analysis Methods",
-    "section": "",
-    "text": "A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).",
+    "objectID": "content/Hardware.html#towed-array",
+    "href": "content/Hardware.html#towed-array",
+    "title": "Hardware",
+    "section": "Towed Array",
+    "text": "Towed Array",
     "crumbs": [
-      "Software & Analysis Methods"
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
+    "href": "content/Hardware.html#dasbr-dirfting-acoustic-spar-buoy-recorder",
+    "title": "Hardware",
+    "section": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
+    "text": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#glider",
+    "href": "content/Hardware.html#glider",
+    "title": "Hardware",
+    "section": "Glider",
+    "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi\n\n\n\n\n\n\n\nGlider buoyancy testing in a tank before deployment.\n\nGlider aboard a small vessel in preparation for a several week deployment.\n\nGlider at the surface checking in with the satellite before its next dive.",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
+    "href": "content/Hardware.html#harp-high-frequency-acoustic-recording-package",
+    "title": "Hardware",
+    "section": "HARP: High-Frequency Acoustic Recording Package",
+    "text": "HARP: High-Frequency Acoustic Recording Package",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#sonobuoy",
+    "href": "content/Hardware.html#sonobuoy",
+    "title": "Hardware",
+    "section": "Sonobuoy",
+    "text": "Sonobuoy",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
     ]
   },
   {
