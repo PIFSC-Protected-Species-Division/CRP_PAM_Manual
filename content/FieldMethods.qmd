@@ -29,6 +29,7 @@ title: Field Methods
 -   [Depth Sensor Testing Video](https://drive.google.com/file/d/1fyy734SwP23PjRgi8YCC4tcsTIP-f1_h/view?usp=drive_link){target="_blank"}
 
 ![Setup For Testing Depth Sensor](images/Testing_Depth_Sensor.png){fig-align="left" width="331"}
+Note when setting up the multimeter for the depth sensor test make sure the following settings are applied: (1) mA is set to *Auto* range (2) **AC+DC**: On the FLUKE 289 this setting is changed under **MENU (F1)** and you have to select it every time the device is turned ON. There is no enter button so just hit **F1** again.
 
 -   [Pin Testing Hydrophones Video](https://drive.google.com/file/d/1C-VM1Xeh7H2sJiG9UIcTg5tkLkV36O3O/view?usp=drive_link){target="_blank"}
 
