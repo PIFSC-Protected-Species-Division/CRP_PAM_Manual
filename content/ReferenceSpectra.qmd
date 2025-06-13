@@ -1,0 +1,13 @@
+---
+title: Creating Reference Spectra for Event Summary Reports
+---
+
+![](images/Wave_wWhales_v4.png)
+
+![Example reference spectrum for sperm whales](images/refSpec_example_Pm.png){fig-align="center" width="300"}
+
+
+The average spectrum plot in an event summary report can include reference spectra of potential species of interest. These can be created using clicks manually selected as a Pamguard event. An example workflow can be found here: [workflow_referenceSpectra.R](https://github.com/sfregosi-noaa/cross-platform-classification/blob/main/R/workflow_referenceSpectra.R). 
+
+The process requires a Pamguard database and binaries and a manually selected event or selection of events. It then uses the `calculateAvgerageSpectra` function from `PAMpal` to export the average spectrum data and cleans it up into a .csv for reading into the summary reports.  
+
