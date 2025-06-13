@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pantropical Spotted Dolphin – CRP-PAM Lab Manual</title>
+<title>Creating Reference Spectra for Event Summary Reports – CRP-PAM Lab Manual</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -246,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Pantropical Spotted Dolphin</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Creating Reference Spectra for Event Summary Reports</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -442,7 +442,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pantropical Spotted Dolphin</h1>
+<h1 class="title">Creating Reference Spectra for Event Summary Reports</h1>
 </div>
 
 
@@ -459,16 +459,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-left">
+<p><img src="images/Wave_wWhales_v4.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/002/002_01.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+<p><img src="images/refSpec_example_Pm.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Example reference spectrum for sperm whales</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/002/002_02.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div>
+<p>The average spectrum plot in an event summary report can include reference spectra of potential species of interest. These can be created using clicks manually selected as a Pamguard event. An example workflow can be found here: <a href="https://github.com/sfregosi-noaa/cross-platform-classification/blob/main/R/workflow_referenceSpectra.R">workflow_referenceSpectra.R</a>.</p>
+<p>The process requires a Pamguard database and binaries and a manually selected event or selection of events. It then uses the <code>calculateAvgerageSpectra</code> function from <code>PAMpal</code> to export the average spectrum data and cleans it up into a .csv for reading into the summary reports.</p>
 
 
 
@@ -893,7 +892,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/002.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/002.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/ReferenceSpectra.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/ReferenceSpectra.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

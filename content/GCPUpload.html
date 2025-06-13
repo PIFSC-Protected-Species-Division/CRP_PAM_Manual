@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pantropical Spotted Dolphin – CRP-PAM Lab Manual</title>
+<title>Google Cloud Platform (GCP) Data Upload – CRP-PAM Lab Manual</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -29,6 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/SoftwareAnalysis.html" rel="next">
+<link href="../content/DataManagement.html" rel="prev">
 <link href="../content/images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -246,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Pantropical Spotted Dolphin</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/DataManagement.html">Data Management</a></li><li class="breadcrumb-item"><a href="../content/GCPUpload.html">GCP Data Upload</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -321,14 +358,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/DataManagement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Management</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/GCPUpload.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/GCPUpload.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">GCP Data Upload</span></a>
   </div>
 </li>
@@ -433,16 +470,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#google-cloud-platform-bulk-upload-overview" id="toc-google-cloud-platform-bulk-upload-overview" class="nav-link active" data-scroll-target="#google-cloud-platform-bulk-upload-overview">Google Cloud Platform Bulk Upload Overview</a>
+  <ul class="collapse">
+  <li><a href="#install-googlecloudsdk-using-windows-powershell" id="toc-install-googlecloudsdk-using-windows-powershell" class="nav-link" data-scroll-target="#install-googlecloudsdk-using-windows-powershell">Install GoogleCloudSDK using Windows Powershell</a></li>
+  <li><a href="#gcp-authorization" id="toc-gcp-authorization" class="nav-link" data-scroll-target="#gcp-authorization">GCP authorization</a></li>
+  <li><a href="#manually-upload-a-folder" id="toc-manually-upload-a-folder" class="nav-link" data-scroll-target="#manually-upload-a-folder">Manually upload a folder</a></li>
+  <li><a href="#manually-sync-a-folder" id="toc-manually-sync-a-folder" class="nav-link" data-scroll-target="#manually-sync-a-folder">Manually sync a folder</a></li>
+  <li><a href="#bulk-upload-via-r-script" id="toc-bulk-upload-via-r-script" class="nav-link" data-scroll-target="#bulk-upload-via-r-script">Bulk upload via R script</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/GCPUpload.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/GCPUpload.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/DataManagement.html">Data Management</a></li><li class="breadcrumb-item"><a href="../content/GCPUpload.html">GCP Data Upload</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Pantropical Spotted Dolphin</h1>
+<h1 class="title">Google Cloud Platform (GCP) Data Upload</h1>
 </div>
 
 
@@ -459,18 +509,134 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/002/002_01.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
+<p><img src="images/Wave_wWhales_v4.png" class="img-fluid"></p>
+<section id="google-cloud-platform-bulk-upload-overview" class="level2">
+<h2 class="anchored" data-anchor-id="google-cloud-platform-bulk-upload-overview">Google Cloud Platform Bulk Upload Overview</h2>
+<p>Instructions for bulk upload of PIFSC acoustic data files to GCP (Google Cloud Platform) using <code>gsutils</code>.</p>
+<p>For more detail on this overall effort see the <a href="https://nmfs-ost.github.io/PAM-Cloud/content/Cloud.Storage.html">PAM-Cloud Cloud Storage page</a>.</p>
+<ul>
+<li><code>gcloud</code> guides/references can be found <a href="https://cloud.google.com/sdk/gcloud/reference">here</a>.</li>
+<li><code>gsutil</code> guides/references can be found <a href="https://cloud.google.com/storage/docs/gsutil">here</a>.</li>
+</ul>
+<section id="install-googlecloudsdk-using-windows-powershell" class="level3">
+<h3 class="anchored" data-anchor-id="install-googlecloudsdk-using-windows-powershell">Install GoogleCloudSDK using Windows Powershell</h3>
+<p>Install using Windows Powershell. Paste in the below two commands and hit Enter. Use all defaults during installation. First time it runs it should ask you to login with NOAA Google account. When prompted to select the could project, choose <code>ggn-nmfs-pamdata-prod-1</code>.</p>
+<p>Run this:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>&amp; $env:Temp\GoogleCloudSDKInstaller.exe</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="gcp-authorization" class="level3">
+<h3 class="anchored" data-anchor-id="gcp-authorization">GCP authorization</h3>
+<p>Use the Windows Command Prompt to interact with <code>gsutils</code> once it is installed.</p>
+<p><strong>To check which accounts are authorized</strong></p>
+<p><code>gcloud auth list</code></p>
+<p><strong>To login to an account</strong></p>
+<p><code>gcloud auth login</code></p>
+<p>A web browser window will open where you login with your NOAA Google Account email address and password.</p>
+<p><strong>To logout of all accounts</strong> (e.g., when done on shared computer)</p>
+<p><code>gcloud auth revoke --all</code></p>
+</section>
+<section id="manually-upload-a-folder" class="level3">
+<h3 class="anchored" data-anchor-id="manually-upload-a-folder">Manually upload a folder</h3>
+<p>Use the below command to copy an entire folder. This will upload everything regardless if it is already present on the cloud and will upload contents of all subdirectories.</p>
+<p><code>gsutil -m cp -c -r &lt;localsource&gt; &lt;cloudfolder&gt;</code></p>
+<p>Example:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r \\PICCRPNAS\CRP4\glider_MHI_spring_2022\sg680_MHI_Apr2022\recordings\wav gs://pifsc-1/glider/sg680_MHI_Apr2022/recordings/wav</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>The <code>-m</code> flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using <code>-m</code> cannot be exited out of using <code>Ctrl + C</code></li>
+<li>The <code>cp</code> argument will copy all files from the local location to the could regardless if they are already present on the cloud</li>
+<li>The <code>-c</code> flag is for <code>cp</code> and means that the copying will continue if an error occurs</li>
+<li>The <code>-r</code> flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders</li>
+</ul>
+<section id="include-a-log-file" class="level4">
+<h4 class="anchored" data-anchor-id="include-a-log-file">Include a log file</h4>
+<p>Optionally, a log file can be created and saved:</p>
+<p><code>gsutil -m cp -c -r -l &lt;logfile&gt; &lt;localsource&gt; &lt;cloudfolder&gt;</code></p>
+<ul>
+<li>the <code>-l</code> flag outputs a log to the location at <code>&lt;logfile&gt;</code>. Enter the full path and desired logfile name such as <code>C:\users\user.name\desktop\log_file.txt</code></li>
+</ul>
+<p>If an existing log file is loaded as <code>&lt;logfile&gt;</code>, <code>gsutils</code> will compare the contents of the cloud folder with the files listed in the log file and skip any files that have already been uploaded. It will append new uploads to the specified log file.</p>
+</section>
+</section>
+<section id="manually-sync-a-folder" class="level3">
+<h3 class="anchored" data-anchor-id="manually-sync-a-folder">Manually sync a folder</h3>
+<p>Use the below command to sync an entire folder. This is different than copying because it will check what files are already present and only uploads new or changed files (without a log). <em>NOTE it will also delete files on the cloud that no longer exist on the local drive.</em></p>
+<p>Change <code>&lt;localsource&gt;</code> to the path to the local files and <code>&lt;cloudfolder&gt;</code> to the GPC location. If that folder doesn’t yet exist on the cloud it will be created.</p>
+<p><code>gsutil -m rsync -d -r &lt;localsource&gt; &lt;cloudfolder&gt;</code></p>
+<p>Example:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -d -r \\PICCRPNAS\CRP4\glider_MHI_spring_2022\sg680_MHI_Apr2022\recordings\wav gs://pifsc-1/glider/sg680_MHI_Apr2022/recordings/wav</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>The <code>-m</code> flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using <code>-m</code> cannot be exited out of using <code>Ctrl + C</code></li>
+<li>The <code>rsync</code> argument will sync files across the local and cloud folders so will check what is on each first and only copy what is new/updated (it checks modification times)</li>
+<li>The <code>-d</code> flag is for <code>rsync</code> and means it will delete files from the cloud that aren’t on the source location any more. <em>Be careful with this because you could accidentally delete stuff if local/cloud get switched!! (can use <code>-n</code> flag to do a ‘dry run’ to be safe)</em></li>
+<li>The <code>-r</code> flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders</li>
+</ul>
+<p><em>Note</em><br>
+Earlier versions of this included - The <code>-o GSUtil:parallel_composite_upload_threshold=100M</code> after the <code>-m</code> flag which first overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. This works fine but there is a warning about this flag that the person downloading will need to recompile and later when trying to <code>rsync</code> without the parallel step it actually has to re-do the process.</p>
+</section>
+<section id="bulk-upload-via-r-script" class="level3">
+<h3 class="anchored" data-anchor-id="bulk-upload-via-r-script">Bulk upload via R script</h3>
+<p>Use one of the PIFSC-specific R scripts to batch upload ALL THE DATA!</p>
+<section id="functions-and-dependencies" class="level4">
+<h4 class="anchored" data-anchor-id="functions-and-dependencies">Functions and dependencies</h4>
+<p>These scripts/functions require the <code>here</code> and <code>openxlsx</code> R packages. Make sure those are installed before running for the first time. This only has to be done once.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>install.packages("here")</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>install.packages("openxlsx")</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>All CRP-specific scripts and functions are in the <a href="https://github.com/sfregosi-noaa/CRPTools/tree/main">CRPTools GitHub repo</a> in the <code>GCP</code> folder.</p>
+<p>General functions are defined in the <code>GCP_functions.r</code> file and the two HARP specific functions are <code>GCP_initial_upload_HARP.r</code> and <code>GCP_check_HARP.r</code>. The <code>run</code> scripts will source these functions at the start of the script. Alternatively, manually source them using <code>source(&lt;function_file_name)</code>. The full path to the function file will need to be defined e.g., <code>C:\users\user.name\github\CRPTools\GCP\GCP_functions.r</code> or use the <code>here()</code> package.</p>
+</section>
+<section id="generic-bulk-upload-gcp_generic_upload.r" class="level4">
+<h4 class="anchored" data-anchor-id="generic-bulk-upload-gcp_generic_upload.r">Generic bulk upload: <code>GCP_generic_upload.r</code></h4>
+<p>Basic/generic script for uploading a single folder with no checks for weekend/night</p>
+<ul>
+<li>The user must define the path to the local folder and the path to the cloud bucket and choose the method (either <code>cp</code> for a full copy or <code>rsync</code> to sync only new/changed files)</li>
+<li>It will copy recursively so will include any subdirectories and will copy all file types</li>
+<li><code>cp</code> method will also create a log file (to be saved where the user specifies)</li>
+<li><code>rsync</code> method will not delete files from the cloud if they are no longer in the local folder, but this can be changed with a <code>-d</code> flag.</li>
+</ul>
+</section>
+<section id="harp-bulk-upload-run_gcp_upload_harps.r" class="level4">
+<h4 class="anchored" data-anchor-id="harp-bulk-upload-run_gcp_upload_harps.r">HARP bulk upload: <code>run_GCP_upload_HARPs.r</code></h4>
+<p>HARP-specific script that should be used to upload single frequency/site combinations of HARP data. It will loop through all deployments and disks for that site and copy to GCP preserving the server’s folder structure. It includes an initial upload step and a checking step.</p>
+<ul>
+<li>Specify the broad target cloud location (e.g., <code>pifsc-1/bottom_mounted/HARP</code>), the local server drive (e.g., <code>\\piccrp4nas\indopctus</code>), the sampling frequency (e.g., <code>'200kHz'</code>), and the location (e.g., <code>'Wake'</code>)</li>
+<li>Set <code>offHoursCopy</code> to <code>TRUE</code> to check that it is night or weekend upload of each disk. This will limit a single upload to no more than ~1.5 TB/8 hours and not start any new 8-hour processes during the workday</li>
+<li>This uses the <code>cp</code> method so all files are copied regardless of what is already on the server
+<ul>
+<li><em>It is possible to re-run using an old log and it will only upload the items that did not properly upload originally. This is pretty fast!</em></li>
+</ul></li>
+<li>A log is created and appended to as it loops through each deployment and disk and at the end the log is ‘cleaned up’ and saved as a more readable xlsx file that identifies any errors</li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/002/002_02.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
+<div class="callout-title-container flex-fill">
+ARCHIVE NOTES - DO NOT USE
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong><code>GCP_HARP_upload.r</code></strong> provides a HARP-specific script for uploading batches of HARP data.</p>
+<ul>
+<li>The user specifies the broad target cloud location (e.g., <code>pifsc-1/bottom_mounted/HARP</code>), the local server drive, the sampling frequency, and the location (e.g., 200 kHz, Wake) and the code will loop through all deployments and disks for that site and copy to GCP using the same folder structure</li>
+<li>A check for nights and weekends will occur before running each disk, hopefully limiting a single upload to no more than ~1.5 TB/8 hours and not starting any new 8-hour processes during the workday</li>
+<li>This uses the <code>cp</code> method so all files are copied regardless of what is already on the server
+<ul>
+<li><em>It may be possible to re-run using an old log and it will only upload the items that did not properly upload originally. This needs more investigation</em></li>
+</ul></li>
+<li>A log is created and appended to as it loops through each deployment and disk and at the end the log is ‘cleaned up’ and saved as a more readable xlsx file that identifies any errors</li>
+</ul>
+</div>
+</div>
 </div>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -885,6 +1051,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/DataManagement.html" class="pagination-link" aria-label="Data Management">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Management</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/SoftwareAnalysis.html" class="pagination-link" aria-label="Software &amp; Analysis Methods">
+        <span class="nav-page-text">Software &amp; Analysis Methods</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -893,7 +1071,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/002.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/002.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/GCPUpload.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/GCPUpload.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
