@@ -1,9 +1,31 @@
 ---
 title: Software & Analysis Methods
 ---
+
 ![](images/Wave_wWhales_v4.png)
 
+# **PAMGuard**
 
-![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
+-   Website for [PAMGuard](https://www.pamguard.org/)
+-   [GitHub](https://github.com/PAMGuard/PAMGuard) source code and platform to report issues
+-   Visual to Array Angles ([Plugin](https://www.pamguard.org/plugins/visangles.html))
+-   Current version of PAMGuard that has been field tested is 2.02.17a
+-   Note (6/22/2025): There is known issue with using Windows 11 and SailDAQ soundcards. Version 2.02.17a has a instant restart built into the psfx files while the error is being resolved.
+-   Standardize Post Processing [methods](https://docs.google.com/document/d/1RQcSfDIS4yER879oKVjSV6GmCV3Fz2Bnn_FcQ-KrMkE/edit?usp=sharing) for data to be run through [BANTER](https://github.com/SWFSC/banter).
 
-A software and analysis methods section is required and should include subpages for both topics (analysis methods can be a subsection with pages for different anaylsis methods topics).
+# **Triton**
+
+-   [Website](https://www.cetus.ucsd.edu/technologies_triton.html) for up to date version of acoustic analysis software.
+-   Works with xwav and wav files to genterate long-term spectral averages (LTSA) of passive acoustic monitoring data.
+
+# **Tethys**
+
+-   Metadata storage system for passive acoustic monitoring data ([website](https://tethys.sdsu.edu/)).
+
+# Custom MATLAB Software
+
+-   False Killer Whale Localization Effort
+    -   Research Compendium: [CRP_PC_TowedArray](https://scaling-robot-wgqml1r.pages.github.io/)
+    -   1_TDOA: [TDOA_tracking_master](https://github.com/PinaGruden/TDOA_tracking_master){target="_blank"}
+    -   2_Extract-PG: [Extract_Pamguard_detections](https://github.com/PinaGruden/Extract_Pamguard_detections){target="_blank"}
+    -   3_Localize: [Localization_Towed_Array](https://github.com/PinaGruden/Localization_Towed_Array){target="_blank"}

@@ -13,7 +13,7 @@ title: Data Management
 
 -   2010-2016: Contains Excel file with tabs for all arrays used during thoses years including a tab highlighting which hydrophones have been used for PAMGuard processing.
 
--   2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details. 
+-   2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details.
 
 **BANTER_EventTimes** contains the following folder structure:
 
@@ -43,7 +43,6 @@ Tethys_Deployment_Files contains Excel files of deployment information and gps t
 
 Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
 
-
 -   **Sonobuoy:**
 
 -   **HARP:**
@@ -60,35 +59,49 @@ Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
 
 -   False killer whale
 
+    -   Research Compendium: [CRP_PC_TowedArray](https://scaling-robot-wgqml1r.pages.github.io/)
+
 -   Sperm whale
 
 ## Species Examples (Pacific Island Region)
 
-| Common Name                   | Scientific Name              | PIFSC Code#   | Acoustic Signals  |
-|-------------------------------|------------------------------|---------------|-------------------|
-| Pantropical spotted dolphin   | *Stenella attenuata*         | 002           | [Example](002.qmd)|
-| Striped dolphin               | *Stenella coeruleoalba*      | 013           | [Example](013.qmd)|
-| Rough-toothed dolphin         | *Steno bredanensis*          | 015           | [Example](015.qmd)|
-| Bottlenose dolphin            | *Tursiops truncatus*         | 018           | [Example](018.qmd)|
-| Risso's dolphin               | *Grampus griseus*            | 021           | [Example](021.qmd)|
-| Fraser's dolphin              | *Lagenodelphis hosei*        | 026           | [Example](026.qmd)|
-| Melon-headed whale            | *Peponocephala electra*      | 031           | [Example](031.qmd)|
-| Pygmy killer whale            | *Feresa attenuata*           | 032           | [Example](032.qmd)|
-| False killer whale            | *Pseudorca crassidens*       | 033           | [Example](033.qmd)|
-| Short-finned pilot whale      | *Globicephala macrorhynchus* | 036           | [Example](036.qmd)|
-| Killer whale                  | *Orcinus orca*               | 037           | [Example](037.qmd)|
-| Sperm whale                   | *Physeter macrocephalus*     | 046           | [Example](046.qmd)|
-| Pygmy sperm whale             | *Kogia breviceps*            | 047           | [Example]       |
-| Dwarf sperm whale             | *Kogia sima*                 | 048           | [Example](048.qmd)|
-| Ginkgo-toothed beaked whale   | *Mesoplodon ginkgodens*      | 057           | [Example](057.qmd)|
-| Blainville's beaked whale     | *Mesoplodon densirostris*    | 059           | [Example](059.qmd)|
-| Goose-beaked whale (Cuvier's) | *Ziphius cavirostris*        | 061           | [Example](061.qmd)|
-| Longman's beaked whale        | *Indopacetus pacificus*      | 065           | [Example](065.qmd)|
-| Common minke whale            | *Balaenoptera acutorostrata* | 071           | [Example](071.qmd)|
-| Bryde's whale                 | *Balaenoptera edeni*         | 072           | [Example](072.qmd)|
-| Sei whale                     | *Balaenoptera borealis*      | 073           | [Example]       |
-| Fin whale                     | *Balaenoptera physalus*      | 074           | [Example]       |
-| Blue whale                    | *Balaenoptera musculus*      | 075           | [Example]       |
-| Humpback whale                | *Megaptera novaeangliae*     | 076           | [Example]       |
-| Kogia                         | *Kogia sp.*                  | 080           | [Example](080.qmd)|
-| Cross Seamount beaked whale   | BWC                          | 049 (Unknown) | [Example](049.qmd)|
+| Common Name | Scientific Name | PIFSC Code# | Acoustic Signals |
+|--------------------|-------------------|-----------------|-----------------|
+| Pantropical spotted dolphin | *Stenella attenuata* | 002 | [Example](002.qmd) |
+| Striped dolphin | *Stenella coeruleoalba* | 013 | [Example](013.qmd) |
+| Rough-toothed dolphin | *Steno bredanensis* | 015 | [Example](015.qmd) |
+| Bottlenose dolphin | *Tursiops truncatus* | 018 | [Example](018.qmd) |
+| Risso's dolphin | *Grampus griseus* | 021 | [Example](021.qmd) |
+| Fraser's dolphin | *Lagenodelphis hosei* | 026 | [Example](026.qmd) |
+| Melon-headed whale | *Peponocephala electra* | 031 | [Example](031.qmd) |
+| Pygmy killer whale | *Feresa attenuata* | 032 | [Example](032.qmd) |
+| False killer whale | *Pseudorca crassidens* | 033 | [Example](033.qmd) |
+| Short-finned pilot whale | *Globicephala macrorhynchus* | 036 | [Example](036.qmd) |
+| Killer whale | *Orcinus orca* | 037 | [Example](037.qmd) |
+| Sperm whale | *Physeter macrocephalus* | 046 | [Example](046.qmd) |
+| Pygmy sperm whale | *Kogia breviceps* | 047 | \[Example\] |
+| Dwarf sperm whale | *Kogia sima* | 048 | [Example](048.qmd) |
+| Ginkgo-toothed beaked whale | *Mesoplodon ginkgodens* | 057 | [Example](057.qmd) |
+| Blainville's beaked whale | *Mesoplodon densirostris* | 059 | [Example](059.qmd) |
+| Goose-beaked whale (Cuvier's) | *Ziphius cavirostris* | 061 | [Example](061.qmd) |
+| Longman's beaked whale | *Indopacetus pacificus* | 065 | [Example](065.qmd) |
+| Common minke whale | *Balaenoptera acutorostrata* | 071 | [Example](071.qmd) |
+| Bryde's whale | *Balaenoptera edeni* | 072 | [Example](072.qmd) |
+| Sei whale | *Balaenoptera borealis* | 073 | \[Example\] |
+| Fin whale | *Balaenoptera physalus* | 074 | \[Example\] |
+| Blue whale | *Balaenoptera musculus* | 075 | \[Example\] |
+| Humpback whale | *Megaptera novaeangliae* | 076 | \[Example\] |
+| Kogia | *Kogia sp.* | 080 | [Example](080.qmd) |
+| Cross Seamount beaked whale | BWC | 049 (Unknown) | [Example](049.qmd) |
+
+## Species Codes & Definitions for Unknown Odontocetes
+
+-   **77**: Unidentified dolphin (only whistles OR only echolocation clicks of any frequency)
+
+-   **177**: Unidentified small dolphin (whistles \> 15 kHz beginning frequency and echolocation clicks \> 30 kHz peak)
+
+-   **277**: Unidentified medium dolphins (whistles 10–15 kHz beginning frequency and echolocation clicks 15–30 kHz peak)
+
+-   **377**: Unidentified large dolphins (whistles 3–10 kHz beginning frequency and echolocation clicks 15–25 kHz peak)
+
+    *Yano et al. (2025) [NOAA Technical Memorandum NMFS-PIFSC-175](https://repository.library.noaa.gov/view/noaa/69904)*

@@ -49,17 +49,19 @@ website:
       - href: content/FieldMethods.qmd
         text: Field Methods
       - section: content/DataManagement.qmd
-        # text: Data Management
+        text: Data Management
         contents:
         - href: content/GCPUpload.qmd
           text: GCP Data Upload
       - href: content/Hardware.qmd
         text: Hardware
       - section: content/SoftwareAnalysis.qmd
-#        text: "Software & Analysis"
+        text: Software & Analysis
         contents:
-          - content/Software.qmd
-          - content/AnalysisMethods.qmd
+        # - href: content/Software.qmd
+        - href: content/PAMGuard.qmd
+          text: PAMGuard User Tips
+        # - href: content/AnalysisMethods.qmd
       - href: content/Reporting.qmd
         text: Reporting
       - href: content/PublicationsPresentations.qmd

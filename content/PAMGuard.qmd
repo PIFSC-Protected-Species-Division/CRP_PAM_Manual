@@ -1,0 +1,56 @@
+---
+title: PAMGuard User Tips
+---
+
+![](images/Wave_wWhales_v4.png)
+
+## PAMGuard.exe
+
+-   Used for real-time field data collection efforts and post processing of instrument collected recordings.
+-   Click Detector Module
+    -   Click Size
+        -   Bearing Time Display –\> Right click –\> Settings
+        -   Set the click size to equal values so that the icons are not distorted (ex. Click length 8 x 8 & Click height 8 x 8.
+    -   Click Waveform Display
+        -   Right click on the display
+        -   Set bin: Constant Time Scale
+    -   Click Spectrum
+        -   Right click on the display
+        -   Check "Log Scale" with 20 to 30 dB of range
+        -   Check Smooth Data with 13, 21, or 31 (number must be odd)
+    -   Wigner Plot
+        -   Click Detector –\> Add Display –\> Wigner Plot
+        -   Useful for looking at spectrograms of individual echolocation signals
+        -   Zoom feature: place the cursor in the spectrogram window and scroll upwards with the mouse scroll wheel
+    -   IDI Histogram (Inter Detection Interval)
+        -   Click Detector –\> Add Display –\> IDI Histogram
+        -   Best used for volumetric arrays to show animals ascending to the surface
+    -   Click Detection Parameters
+        -   Click Length
+            -   Min Click Separation is the (array separation in meters/speed of sound \* sampling rate); Max Click Length need to be the total of the Pre sample & Post Samples
+            -   Single Hydrophone Settings (Min Click Separation = 100, Max Click Length = 600, Pre sample = 200, Post Samples = 400)
+            -   Two Hydrophones Settings - 1 meter spacing, 250ks (Min Click Separation = 326, Max Click Length = 1200, Pre sample = 400, Post Samples = 800) Bumped up Min Click Separation to deal with noisier environments.
+            -   Two Hydrophones Settings - 10 meter spacing, 348ks (Min Click Separation = 1000, Max Click Length = 10000, Pre sample = 5000, Post Samples = 5000)
+
+## PAMGuard Viewer Mode
+
+-   Used for viewing and annotating acoustic data processed in PAMGuard.exe
+-   Required modules for Viewer Mode are **Database** & **Binaries**
+-   Click Detector Module
+    -   Click Size
+        -   Bearing Time Display –\> Right click –\> Settings
+        -   Set the click size to equal values so that the icons are not distorted (ex. Click length 8 x 8 & Click height 8 x 8.
+    -   Concatenated Spectrogram
+        -   Click Detector –\> Add Display –\> Concatenated Spectrogram
+        -   Can only be added in Viewer Mode
+        -   Data will populated once signals are grouped into an "Event" and then select one.
+        -   Right click on the display and select "normalize" to better view your data
+    -   Trigger
+        -   Window no longer needed in Viewer Mode and can be closed out to save space
+-   Events - Lookup (table)
+    -   Download [SQLiteStudio](https://sqlitestudio.pl/) and use it to edit and extract data from .sqlite3 files
+    -   Open a database that contains a fully populated Lookup table for your species, copy it, and paste it into your new database by right clicking on the word "Tables" in the new database. This will allow you to make Events within PAMGuard using the same species codes without entering them one by one each time.
+
+## PAMGuard Mixed Mode
+
+-   A version of PAMGuard.exe that allows the user to apply a previously collected GPS track to run real-time field data at you desk.
