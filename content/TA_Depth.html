@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R Markdown – CRP-PAM Lab Manual</title>
+<title>Towed Array Depth Senors – CRP-PAM Lab Manual</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,67 +20,32 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../content/NMFS_OpenSciDirections/code.html" rel="next">
-<link href="../../content/NMFS_OpenSciDirections/rendering.html" rel="prev">
-<link href="../../content/images/favicon.ico" rel="icon">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5e2b7c9bb05a658d1132f0c4cf557162.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-894000b0ab7b91f01332d20673007561.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-5e2b7c9bb05a658d1132f0c4cf557162.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../content/SoftwareAnalysis.html" rel="next">
+<link href="../content/Inventory.html" rel="prev">
+<link href="../content/images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-5e2b7c9bb05a658d1132f0c4cf557162.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-894000b0ab7b91f01332d20673007561.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-5e2b7c9bb05a658d1132f0c4cf557162.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -283,7 +248,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/Intro.html">NMFS Open Science Directions</a></li><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/rmarkdown.html">R Markdown</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Hardware.html">Hardware</a></li><li class="breadcrumb-item"><a href="../content/TA_Depth.html">Towed Array Depth</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -297,7 +262,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../../index.html" class="sidebar-logo-link">
+      <a href="../index.html" class="sidebar-logo-link">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
@@ -315,13 +280,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/LabManagement.html" class="sidebar-item-text sidebar-link">
+            <a href="../content/LabManagement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab Management</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -330,7 +295,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/Safety.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Safety.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Safety</span></a>
   </div>
 </li>
@@ -338,13 +303,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/FieldMethods.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/FieldMethods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Methods</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/DataManagement.html" class="sidebar-item-text sidebar-link">
+            <a href="../content/DataManagement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Management</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -353,7 +318,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/GCPUpload.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/GCPUpload.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">GCP Data Upload</span></a>
   </div>
 </li>
@@ -361,22 +326,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/Hardware.html" class="sidebar-item-text sidebar-link">
+            <a href="../content/Hardware.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hardware</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/Inventory.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Inventory.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inventory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/TA_Depth.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/TA_Depth.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Towed Array Depth</span></a>
   </div>
 </li>
@@ -384,7 +349,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/SoftwareAnalysis.html" class="sidebar-item-text sidebar-link">
+            <a href="../content/SoftwareAnalysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software &amp; Analysis</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -393,7 +358,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/PAMGuard.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/PAMGuard.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PAMGuard User Tips</span></a>
   </div>
 </li>
@@ -401,64 +366,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/Reporting.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Reporting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reporting</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/PublicationsPresentations.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/PublicationsPresentations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications Presentations</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
  <span class="menu-text">NMFS Open Science Directions</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/Intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/NMFS_OpenSciDirections/Intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NOAA quarto simple with R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/add-content.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/NMFS_OpenSciDirections/add-content.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Customize</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/customizing.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/NMFS_OpenSciDirections/customizing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Customization</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/rendering.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/NMFS_OpenSciDirections/rendering.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rendering</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/rmarkdown.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/NMFS_OpenSciDirections/rmarkdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">R Markdown</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/code.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/NMFS_OpenSciDirections/code.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rendering with Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/acknowledgements.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/NMFS_OpenSciDirections/acknowledgements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Acknowledgments</span></a>
   </div>
 </li>
@@ -474,18 +439,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link active" data-scroll-target="#r-markdown">R Markdown</a></li>
-  <li><a href="#including-plots" id="toc-including-plots" class="nav-link" data-scroll-target="#including-plots">Including Plots</a></li>
+  <li><a href="#array-depth-measurement-information-base-on-sensor-type" id="toc-array-depth-measurement-information-base-on-sensor-type" class="nav-link active" data-scroll-target="#array-depth-measurement-information-base-on-sensor-type"><strong>Array Depth Measurement Information Base on Sensor Type</strong></a>
+  <ul class="collapse">
+  <li><a href="#kellar" id="toc-kellar" class="nav-link" data-scroll-target="#kellar"><strong>Kellar:</strong></a></li>
+  <li><a href="#honeywell" id="toc-honeywell" class="nav-link" data-scroll-target="#honeywell"><strong>Honeywell:</strong></a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/NMFS_OpenSciDirections/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/NMFS_OpenSciDirections/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/TA_Depth.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/TA_Depth.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/Intro.html">NMFS Open Science Directions</a></li><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/rmarkdown.html">R Markdown</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Hardware.html">Hardware</a></li><li class="breadcrumb-item"><a href="../content/TA_Depth.html">Towed Array Depth</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">R Markdown</h1>
+<h1 class="title">Towed Array Depth Senors</h1>
 </div>
 
 
@@ -502,39 +470,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>You can include R Markdown files in your project.</p>
-<section id="r-markdown" class="level2">
-<h2 class="anchored" data-anchor-id="r-markdown">R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  </code></pre>
-</div>
-</div>
+<p><img src="images/Wave_wWhales_v4.png" class="img-fluid"></p>
+<section id="array-depth-measurement-information-base-on-sensor-type" class="level1">
+<h1><strong>Array Depth Measurement Information Base on Sensor Type</strong></h1>
+<section id="kellar" class="level2">
+<h2 class="anchored" data-anchor-id="kellar"><strong>Kellar:</strong></h2>
+<p>The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g.&nbsp;Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:</p>
+<p>Depth (m) = [current (mA) * 12.5] - 50.</p>
+<p>Notes: 200 m / 16&nbsp; = 12.5 meters per mA (16 is the range of mA [20-4].</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)</p>
+<p>To display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g.&nbsp;Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):</p>
+<p>V= I * R</p>
+<p>So, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:</p>
+<p>Depth (m) = [voltage (V) * 125] - 50.</p>
+<p>The Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.</p>
 </section>
-<section id="including-plots" class="level2">
-<h2 class="anchored" data-anchor-id="including-plots">Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="rmarkdown_files/figure-html/pressure-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<section id="honeywell" class="level2">
+<h2 class="anchored" data-anchor-id="honeywell"><strong>Honeywell:</strong></h2>
+<p>The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g.&nbsp;Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:</p>
+<p>Depth (m) = [current (mA) * 8.6] – 34.4.</p>
+<p>Notes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)</p>
+<p>To display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g.&nbsp;Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):</p>
+<p>V= I * R</p>
+<p>So, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:</p>
+<p>Depth (m) = [voltage (V) * 86] – 34.4.</p>
+<p>The Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -952,13 +916,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/NMFS_OpenSciDirections/rendering.html" class="pagination-link" aria-label="Rendering">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Rendering</span>
+      <a href="../content/Inventory.html" class="pagination-link" aria-label="Inventory">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Inventory</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/NMFS_OpenSciDirections/code.html" class="pagination-link" aria-label="Rendering with Code">
-        <span class="nav-page-text">Rendering with Code</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/SoftwareAnalysis.html" class="pagination-link" aria-label="Software &amp; Analysis">
+        <span class="nav-page-text">Software &amp; Analysis</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -970,7 +934,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/NMFS_OpenSciDirections/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/NMFS_OpenSciDirections/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/TA_Depth.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/TA_Depth.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

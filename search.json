@@ -36,7 +36,7 @@
     "href": "content/PAMGuard.html#pamguard.exe",
     "title": "PAMGuard User Tips",
     "section": "PAMGuard.exe",
-    "text": "PAMGuard.exe\n\nUsed for real-time field data collection efforts and post processing of instrument collected recordings.\nClick Detector Module\n\nClick Size\n\nBearing Time Display –&gt; Right click –&gt; Settings\nSet the click size to equal values so that the icons are not distorted (ex. Click length 8 x 8 & Click height 8 x 8.\n\nClick Waveform Display\n\nRight click on the display\nSet bin: Constant Time Scale\n\nClick Spectrum\n\nRight click on the display\nCheck “Log Scale” with 20 to 30 dB of range\nCheck Smooth Data with 13, 21, or 31 (number must be odd)\n\nWigner Plot\n\nClick Detector –&gt; Add Display –&gt; Wigner Plot\nUseful for looking at spectrograms of individual echolocation signals\nZoom feature: place the cursor in the spectrogram window and scroll upwards with the mouse scroll wheel\n\nIDI Histogram (Inter Detection Interval)\n\nClick Detector –&gt; Add Display –&gt; IDI Histogram\nBest used for volumetric arrays to show animals ascending to the surface\n\nClick Detection Parameters\n\nClick Length\n\nMin Click Separation is the (array separation in meters/speed of sound * sampling rate); Max Click Length need to be the total of the Pre sample & Post Samples\nSingle Hydrophone Settings (Min Click Separation = 100, Max Click Length = 600, Pre sample = 200, Post Samples = 400)\nTwo Hydrophones Settings - 1 meter spacing, 250ks (Min Click Separation = 326, Max Click Length = 1200, Pre sample = 400, Post Samples = 800) Bumped up Min Click Separation to deal with noisier environments.\nTwo Hydrophones Settings - 10 meter spacing, 348ks (Min Click Separation = 1000, Max Click Length = 10000, Pre sample = 5000, Post Samples = 5000)",
+    "text": "PAMGuard.exe\n\nUsed for real-time field data collection efforts and post processing of instrument collected recordings.\nStandardize Post Processing methods for data to be run through BANTER.\nClick Detector Module\n\nClick Size\n\nBearing Time Display –&gt; Right click –&gt; Settings\nSet the click size to equal values so that the icons are not distorted (ex. Click length 8 x 8 & Click height 8 x 8.\n\nClick Waveform Display\n\nRight click on the display\nSet bin: Constant Time Scale\n\nClick Spectrum\n\nRight click on the display\nCheck “Log Scale” with 20 to 30 dB of range\nCheck Smooth Data with 13, 21, or 31 (number must be odd)\n\nWigner Plot\n\nClick Detector –&gt; Add Display –&gt; Wigner Plot\nUseful for looking at spectrograms of individual echolocation signals\nZoom feature: place the cursor in the spectrogram window and scroll upwards with the mouse scroll wheel\n\nIDI Histogram (Inter Detection Interval)\n\nClick Detector –&gt; Add Display –&gt; IDI Histogram\nBest used for volumetric arrays to show animals ascending to the surface\n\nClick Detection Parameters\n\nClick Length\n\nMin Click Separation is the (array separation in meters/speed of sound * sampling rate); Max Click Length need to be the total of the Pre sample & Post Samples\nSingle Hydrophone Settings (Min Click Separation = 100, Max Click Length = 600, Pre sample = 200, Post Samples = 400)\nTwo Hydrophones Settings - 1 meter spacing, 250ks (Min Click Separation = 326, Max Click Length = 1200, Pre sample = 400, Post Samples = 800) Bumped up Min Click Separation to deal with noisier environments.\nTwo Hydrophones Settings - 10 meter spacing, 348ks (Min Click Separation = 1000, Max Click Length = 10000, Pre sample = 5000, Post Samples = 5000)",
     "crumbs": [
       "Software & Analysis",
       "PAMGuard User Tips"
@@ -176,7 +176,7 @@
     "section": "TDR’s (Time-Depth Recorders)",
     "text": "TDR’s (Time-Depth Recorders)\n\nAcoustics_TDR_Inventory",
     "crumbs": [
-      "Lab Management",
+      "Hardware",
       "Inventory"
     ]
   },
@@ -187,7 +187,7 @@
     "section": "Building 130 Equipment Storage",
     "text": "Building 130 Equipment Storage\n\nPIFSC CRP Equipment Inventory-New contains mainly the visual team’s equipment inventory, but the B130 Inventory sheet lists all field equipment CRP has stored in Building 130 (Acoustic & Visual).\nFill out this sheet to request or return field equipment to Building 130. B130 Secured Storage Tracker",
     "crumbs": [
-      "Lab Management",
+      "Hardware",
       "Inventory"
     ]
   },
@@ -241,24 +241,42 @@
     "href": "content/SoftwareAnalysis.html",
     "title": "Software & Analysis Methods",
     "section": "",
-    "text": "PAMGuard\n\nWebsite for PAMGuard\nGitHub source code and platform to report issues\nVisual to Array Angles (Plugin)\nCurrent version of PAMGuard that has been field tested is 2.02.17a\nNote (6/22/2025): There is known issue with using Windows 11 and SailDAQ soundcards. Version 2.02.17a has a instant restart built into the psfx files while the error is being resolved.\nStandardize Post Processing methods for data to be run through BANTER.\n\n\n\nTriton\n\nWebsite for up to date version of acoustic analysis software.\nWorks with xwav and wav files to genterate long-term spectral averages (LTSA) of passive acoustic monitoring data.\n\n\n\nTethys\n\nMetadata storage system for passive acoustic monitoring data (website).\n\n\n\nCustom MATLAB Software\n\nFalse Killer Whale Localization Effort\n\nResearch Compendium: CRP_PC_TowedArray\n1_TDOA: TDOA_tracking_master\n2_Extract-PG: Extract_Pamguard_detections\n3_Localize: Localization_Towed_Array",
+    "text": "PAMGuard\n\nWebsite for PAMGuard\nGitHub source code and platform to report issues\nVisual to Array Angles (Plugin)\nCurrent version of PAMGuard that has been field tested is 2.02.17a\nNote (6/22/2025): There is known issue with using Windows 11 and SailDAQ soundcards. Version 2.02.17a has a instant restart built into the psfx files while the error is being resolved.\n\n\n\nTriton\n\nWebsite for up to date version of acoustic analysis software.\nWorks with xwav and wav files to genterate long-term spectral averages (LTSA) of passive acoustic monitoring data.\n\n\n\nTethys\n\nMetadata storage system for passive acoustic monitoring data (website).\n\n\n\nCustom MATLAB Software\n\nFalse Killer Whale Localization Effort\n\nResearch Compendium: CRP_PC_TowedArray\n1_TDOA: TDOA_tracking_master\n2_Extract-PG: Extract_Pamguard_detections\n3_Localize: Localization_Towed_Array",
     "crumbs": [
       "Software & Analysis"
     ]
   },
   {
-    "objectID": "content/AnalysisMethods.html",
-    "href": "content/AnalysisMethods.html",
-    "title": "Analysis Methods",
-    "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example"
+    "objectID": "content/TA_Depth.html#kellar",
+    "href": "content/TA_Depth.html#kellar",
+    "title": "Towed Array Depth Senors",
+    "section": "Kellar:",
+    "text": "Kellar:\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "crumbs": [
+      "Hardware",
+      "Towed Array Depth"
+    ]
   },
   {
-    "objectID": "content/Onboarding.html",
-    "href": "content/Onboarding.html",
-    "title": "Onboarding",
+    "objectID": "content/TA_Depth.html#honeywell",
+    "href": "content/TA_Depth.html#honeywell",
+    "title": "Towed Array Depth Senors",
+    "section": "Honeywell:",
+    "text": "Honeywell:\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "crumbs": [
+      "Hardware",
+      "Towed Array Depth"
+    ]
+  },
+  {
+    "objectID": "content/LabManagement.html",
+    "href": "content/LabManagement.html",
+    "title": "Lab Management",
     "section": "",
-    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
+    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
+    "crumbs": [
+      "Lab Management"
+    ]
   },
   {
     "objectID": "index.html#passive-acoustics-monitoring---lab-manual",
@@ -311,14 +329,18 @@
     ]
   },
   {
-    "objectID": "content/LabManagement.html",
-    "href": "content/LabManagement.html",
-    "title": "Lab Management",
+    "objectID": "content/Onboarding.html",
+    "href": "content/Onboarding.html",
+    "title": "Onboarding",
     "section": "",
-    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
-    "crumbs": [
-      "Lab Management"
-    ]
+    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
+  },
+  {
+    "objectID": "content/AnalysisMethods.html",
+    "href": "content/AnalysisMethods.html",
+    "title": "Analysis Methods",
+    "section": "",
+    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example"
   },
   {
     "objectID": "content/DataManagement.html#metadata",
@@ -377,7 +399,6 @@
     "section": "",
     "text": "NOAA Fisheries collects passive acoustic monitoring data through a variety of instruments. Below are the types of instruments used by the Cetacean Research Program.",
     "crumbs": [
-      "Lab Management",
       "Hardware"
     ]
   },
@@ -388,7 +409,6 @@
     "section": "Towed Array",
     "text": "Towed Array",
     "crumbs": [
-      "Lab Management",
       "Hardware"
     ]
   },
@@ -399,7 +419,6 @@
     "section": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
     "text": "DASBR: Dirfting Acoustic Spar Buoy Recorder",
     "crumbs": [
-      "Lab Management",
       "Hardware"
     ]
   },
@@ -410,7 +429,6 @@
     "section": "Glider",
     "text": "Glider\nGlider Blog\n\n\n\n\n\n\n\nSchematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi\n\n\n\n\n\n\n\nGlider buoyancy testing in a tank before deployment.\n\nGlider aboard a small vessel in preparation for a several week deployment.\n\nGlider at the surface checking in with the satellite before its next dive.",
     "crumbs": [
-      "Lab Management",
       "Hardware"
     ]
   },
@@ -421,7 +439,6 @@
     "section": "HARP: High-Frequency Acoustic Recording Package",
     "text": "HARP: High-Frequency Acoustic Recording Package",
     "crumbs": [
-      "Lab Management",
       "Hardware"
     ]
   },
@@ -432,7 +449,6 @@
     "section": "Sonobuoy",
     "text": "Sonobuoy",
     "crumbs": [
-      "Lab Management",
       "Hardware"
     ]
   },

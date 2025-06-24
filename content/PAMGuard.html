@@ -299,18 +299,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Safety</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/Inventory.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Inventory</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/Hardware.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hardware</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -336,21 +324,38 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../content/Hardware.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../content/Hardware.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hardware</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/Inventory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inventory</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/TA_Depth.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Towed Array Depth</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../content/SoftwareAnalysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software &amp; Analysis</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/PAMGuard.html" class="sidebar-item-text sidebar-link active">
@@ -373,13 +378,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
  <span class="menu-text">NMFS Open Science Directions</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/NMFS_OpenSciDirections/Intro.html" class="sidebar-item-text sidebar-link">
@@ -468,7 +473,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="pamguard.exe">PAMGuard.exe</h2>
 <ul>
 <li>Used for real-time field data collection efforts and post processing of instrument collected recordings.</li>
-<li>Click Detector Module
+<li>Standardize Post Processing <a href="https://docs.google.com/document/d/1RQcSfDIS4yER879oKVjSV6GmCV3Fz2Bnn_FcQ-KrMkE/edit?usp=sharing">methods</a> for data to be run through <a href="https://github.com/SWFSC/banter">BANTER</a>.</li>
+<li><strong>Click Detector Module</strong>
 <ul>
 <li>Click Size
 <ul>
@@ -515,7 +521,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Used for viewing and annotating acoustic data processed in PAMGuard.exe</li>
 <li>Required modules for Viewer Mode are <strong>Database</strong> &amp; <strong>Binaries</strong></li>
-<li>Click Detector Module
+<li><strong>Click Detector Module</strong>
 <ul>
 <li>Click Size
 <ul>
