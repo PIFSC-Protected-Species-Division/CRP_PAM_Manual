@@ -210,186 +210,82 @@
     "text": "NOTES: - The above example contains some low frequency clicks in the concatenated spectrogram. These are noise and will be removed.\n\nCurrently PIFSC has no examples of whistles from this species."
   },
   {
-    "objectID": "content/Reporting.html#acoustic-contracted-projects",
-    "href": "content/Reporting.html#acoustic-contracted-projects",
-    "title": "Reporting",
-    "section": "Acoustic Contracted Projects",
-    "text": "Acoustic Contracted Projects\nProject List\nThis Google Sheet contains contracted projects with information about priority level, status to completion, acoustic instrument type, and funding source.",
-    "crumbs": [
-      "Reporting"
-    ]
-  },
-  {
-    "objectID": "content/Reporting.html#permit",
-    "href": "content/Reporting.html#permit",
-    "title": "Reporting",
-    "section": "Permit",
-    "text": "Permit\nInformation coming soon",
-    "crumbs": [
-      "Reporting"
-    ]
-  },
-  {
-    "objectID": "content/Resources.html",
-    "href": "content/Resources.html",
-    "title": "Resources",
+    "objectID": "content/TA_LabSetup.html",
+    "href": "content/TA_LabSetup.html",
+    "title": "Towed Array Lab Setup",
     "section": "",
-    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
-  },
-  {
-    "objectID": "content/SoftwareAnalysis.html",
-    "href": "content/SoftwareAnalysis.html",
-    "title": "Software & Analysis Methods",
-    "section": "",
-    "text": "PAMGuard\n\nWebsite for PAMGuard\nGitHub source code and platform to report issues\nVisual to Array Angles (Plugin)\nCurrent version of PAMGuard that has been field tested is 2.02.17a\nNote (6/22/2025): There is known issue with using Windows 11 and SailDAQ soundcards. Version 2.02.17a has a instant restart built into the psfx files while the error is being resolved.\n\n\n\nTriton\n\nWebsite for up to date version of acoustic analysis software.\nWorks with xwav and wav files to genterate long-term spectral averages (LTSA) of passive acoustic monitoring data.\n\n\n\nTethys\n\nMetadata storage system for passive acoustic monitoring data (website).\n\n\n\nCustom MATLAB Software\n\nFalse Killer Whale Localization Effort\n\nResearch Compendium: CRP_PC_TowedArray\n1_TDOA: TDOA_tracking_master\n2_Extract-PG: Extract_Pamguard_detections\n3_Localize: Localization_Towed_Array",
-    "crumbs": [
-      "Software & Analysis"
-    ]
-  },
-  {
-    "objectID": "content/TA_Depth.html#kellar",
-    "href": "content/TA_Depth.html#kellar",
-    "title": "Towed Array Depth Senors",
-    "section": "Kellar:",
-    "text": "Kellar:\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "text": "Acoustic Recording System (ARS) - Schematic\n\n\n\n\n\nHigh Resolution PDF for better zooming found here.",
     "crumbs": [
       "Hardware",
-      "Towed Array Depth"
+      "Towed Array Lab Schematic"
     ]
   },
   {
-    "objectID": "content/TA_Depth.html#honeywell",
-    "href": "content/TA_Depth.html#honeywell",
-    "title": "Towed Array Depth Senors",
-    "section": "Honeywell:",
-    "text": "Honeywell:\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
-    "crumbs": [
-      "Hardware",
-      "Towed Array Depth"
-    ]
-  },
-  {
-    "objectID": "content/LabManagement.html",
-    "href": "content/LabManagement.html",
-    "title": "Lab Management",
+    "objectID": "content/072.html",
+    "href": "content/072.html",
+    "title": "Bryde’s Whale",
     "section": "",
-    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
-    "crumbs": [
-      "Lab Management"
-    ]
+    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
   },
   {
-    "objectID": "index.html#passive-acoustics-monitoring---lab-manual",
-    "href": "index.html#passive-acoustics-monitoring---lab-manual",
-    "title": "Home",
-    "section": "Passive Acoustics Monitoring - Lab Manual",
-    "text": "Passive Acoustics Monitoring - Lab Manual\nA key priority of the Passive Acoustic Monitoring - Strategic Initiative (PAM-SI) is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we have developed national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#team-members",
-    "href": "index.html#team-members",
-    "title": "Home",
-    "section": "Team Members",
-    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nAcousticians\nAnn Allen, Acting - Cetacean Research Program Lead\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nVisual Experts (Photo ID, Biopsy, UAS)\nMarie Hill\nKym Yano\nQuantitative Ecologists\nJanelle Badger\nAmanda Bradford",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#additional-national-marine-fisheries-lab-manuals",
-    "href": "index.html#additional-national-marine-fisheries-lab-manuals",
-    "title": "Home",
-    "section": "Additional National Marine Fisheries Lab Manuals",
-    "text": "Additional National Marine Fisheries Lab Manuals\n\nSWFSC: Southwest Fisheries\nNWFSC: Northwest Fisheries\nAFSC: Alaska Fisheries\nSEFSC: Southeast Fisheries\nNEFSC: Northeast Fisheries\nNational PAM Network",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#location",
-    "href": "index.html#location",
-    "title": "Home",
-    "section": "Location",
-    "text": "Location\nOur main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the Inouye Regional Center.\nShipping Address: NOAA/PIFSC/PSD, 1845 Wasp Blvd., Bldg 176, Honolulu, HI 96818",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#cetacean-research-program-calendar",
-    "href": "index.html#cetacean-research-program-calendar",
-    "title": "Home",
-    "section": "Cetacean Research Program Calendar",
-    "text": "Cetacean Research Program Calendar",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "content/Onboarding.html",
-    "href": "content/Onboarding.html",
-    "title": "Onboarding",
+    "objectID": "content/072.html#biotwang",
+    "href": "content/072.html#biotwang",
+    "title": "Bryde’s Whale",
     "section": "",
-    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
+    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
   },
   {
-    "objectID": "content/AnalysisMethods.html",
-    "href": "content/AnalysisMethods.html",
-    "title": "Analysis Methods",
+    "objectID": "content/072.html#hz-call",
+    "href": "content/072.html#hz-call",
+    "title": "Bryde’s Whale",
+    "section": "500 Hz Call",
+    "text": "500 Hz Call\nAn unknown nocturnal call type in teh Mariana Archipelago thought to be associated to Bryde’s whales. Manuscript"
+  },
+  {
+    "objectID": "content/OpenScience.html",
+    "href": "content/OpenScience.html",
+    "title": "Open Science",
     "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example"
+    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
   },
   {
-    "objectID": "content/DataManagement.html#metadata",
-    "href": "content/DataManagement.html#metadata",
-    "title": "Data Management",
-    "section": "Metadata",
-    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nArray_Info contains the following folder structure:\n\n2010-2016: Contains Excel file with tabs for all arrays used during thoses years including a tab highlighting which hydrophones have been used for PAMGuard processing.\n2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details.\n\nBANTER_EventTimes contains the following folder structure:\n\nIndividual CSV event time files used to process acoustic studies in PAMpal.\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDeployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.\nDrift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package PAMpal).\nTethys_Deployment_Files contains Excel files of deployment information and gps tracks formatted for Tethys.\nSummary of all sampling information by cruise.\n\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
+    "objectID": "content/FieldMethods.html#manual",
+    "href": "content/FieldMethods.html#manual",
+    "title": "Field Methods",
+    "section": "Manual",
+    "text": "Manual\n\nAcoustic Field Manual: Towed Array, Sonobuoy, DASBR\nDASBR: SoundTrap Instructions\nDASBR: TDR Instructions",
     "crumbs": [
-      "Data Management"
+      "Field Methods"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#raw-data",
-    "href": "content/DataManagement.html#raw-data",
-    "title": "Data Management",
-    "section": "Raw Data",
-    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
+    "objectID": "content/FieldMethods.html#protocols",
+    "href": "content/FieldMethods.html#protocols",
+    "title": "Field Methods",
+    "section": "Protocols",
+    "text": "Protocols\n\nAcoustic Beaked Whale & Kogia\nAcoustic Chase\nAcoustic Pass\nAcoustic False Killer Whale Protocol\nSperm whale Protocol: Visual & Acoustics",
     "crumbs": [
-      "Data Management"
+      "Field Methods"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#focus-species-project-information",
-    "href": "content/DataManagement.html#focus-species-project-information",
-    "title": "Data Management",
-    "section": "Focus Species Project Information",
-    "text": "Focus Species Project Information\n\nFalse killer whale\n\nResearch Compendium: CRP_PC_TowedArray\n\nSperm whale",
+    "objectID": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
+    "href": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
+    "title": "Field Methods",
+    "section": "Troubleshooting Towed Array Equipment",
+    "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\nNote when setting up the multimeter for the depth sensor test make sure the following settings are applied: (1) mA is set to Auto range (2) AC+DC: On the FLUKE 289 this setting is changed under MENU (F1) and you have to select it every time the device is turned ON. There is no enter button so just hit F1 again.\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
     "crumbs": [
-      "Data Management"
+      "Field Methods"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
-    "href": "content/DataManagement.html#species-examples-pacific-island-region",
-    "title": "Data Management",
-    "section": "Species Examples (Pacific Island Region)",
-    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\nExample\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nExample\n\n\nBottlenose dolphin\nTursiops truncatus\n018\nExample\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\nExample\n\n\nPygmy killer whale\nFeresa attenuata\n032\nExample\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nGinkgo-toothed beaked whale\nMesoplodon ginkgodens\n057\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nExample\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nExample\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nExample\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\nExample\n\n\nBryde’s whale\nBalaenoptera edeni\n072\nExample\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\nExample\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nExample",
+    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
+    "href": "content/FieldMethods.html#pamguard-field-setting-files",
+    "title": "Field Methods",
+    "section": "PAMGuard Field Setting Files",
+    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
     "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html#species-codes-definitions-for-unknown-odontocetes",
-    "href": "content/DataManagement.html#species-codes-definitions-for-unknown-odontocetes",
-    "title": "Data Management",
-    "section": "Species Codes & Definitions for Unknown Odontocetes",
-    "text": "Species Codes & Definitions for Unknown Odontocetes\n\n77: Unidentified dolphin (only whistles OR only echolocation clicks of any frequency)\n177: Unidentified small dolphin (whistles &gt; 15 kHz beginning frequency and echolocation clicks &gt; 30 kHz peak)\n277: Unidentified medium dolphins (whistles 10–15 kHz beginning frequency and echolocation clicks 15–30 kHz peak)\n377: Unidentified large dolphins (whistles 3–10 kHz beginning frequency and echolocation clicks 15–25 kHz peak)\nYano et al. (2025) NOAA Technical Memorandum NMFS-PIFSC-175",
-    "crumbs": [
-      "Data Management"
+      "Field Methods"
     ]
   },
   {
@@ -453,72 +349,187 @@
     ]
   },
   {
-    "objectID": "content/FieldMethods.html#manual",
-    "href": "content/FieldMethods.html#manual",
-    "title": "Field Methods",
-    "section": "Manual",
-    "text": "Manual\n\nAcoustic Field Manual: Towed Array, Sonobuoy, DASBR\nDASBR: SoundTrap Instructions\nDASBR: TDR Instructions",
+    "objectID": "content/DataManagement.html#metadata",
+    "href": "content/DataManagement.html#metadata",
+    "title": "Data Management",
+    "section": "Metadata",
+    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nArray_Info contains the following folder structure:\n\n2010-2016: Contains Excel file with tabs for all arrays used during those years including a tab highlighting which hydrophones have been used for PAMGuard processing.\n2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details.\n\nBANTER_EventTimes contains the following folder structure:\n\nIndividual CSV event time files used to process acoustic studies in PAMpal.\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDeployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.\nDrift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package PAMpal).\nTethys_Deployment_Files contains Excel files of deployment information and gps tracks formatted for Tethys.\nSummary of all sampling information by cruise.\n\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
     "crumbs": [
-      "Field Methods"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/FieldMethods.html#protocols",
-    "href": "content/FieldMethods.html#protocols",
-    "title": "Field Methods",
-    "section": "Protocols",
-    "text": "Protocols\n\nAcoustic Beaked Whale & Kogia\nAcoustic Chase\nAcoustic Pass\nAcoustic False Killer Whale Protocol\nSperm whale Protocol: Visual & Acoustics",
+    "objectID": "content/DataManagement.html#raw-data",
+    "href": "content/DataManagement.html#raw-data",
+    "title": "Data Management",
+    "section": "Raw Data",
+    "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.",
     "crumbs": [
-      "Field Methods"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
-    "href": "content/FieldMethods.html#troubleshooting-towed-array-equipment",
-    "title": "Field Methods",
-    "section": "Troubleshooting Towed Array Equipment",
-    "text": "Troubleshooting Towed Array Equipment\n\nDepth Sensor Testing Video\n\n\n\n\nSetup For Testing Depth Sensor\n\n\nNote when setting up the multimeter for the depth sensor test make sure the following settings are applied: (1) mA is set to Auto range (2) AC+DC: On the FLUKE 289 this setting is changed under MENU (F1) and you have to select it every time the device is turned ON. There is no enter button so just hit F1 again.\n\nPin Testing Hydrophones Video\n\n\n\n\nTowed Array Pin Diagrams (Male = Arrays; Female = Tow Cable)\n\n\n\nBench Testing Preamp Video",
+    "objectID": "content/DataManagement.html#focus-species-project-information",
+    "href": "content/DataManagement.html#focus-species-project-information",
+    "title": "Data Management",
+    "section": "Focus Species Project Information",
+    "text": "Focus Species Project Information\n\nFalse killer whale\n\nResearch Compendium: CRP_PC_TowedArray\n\nSperm whale",
     "crumbs": [
-      "Field Methods"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/FieldMethods.html#pamguard-field-setting-files",
-    "href": "content/FieldMethods.html#pamguard-field-setting-files",
-    "title": "Field Methods",
-    "section": "PAMGuard Field Setting Files",
-    "text": "PAMGuard Field Setting Files\n\nRecording Computer… no link\nTracking Computer… no link",
+    "objectID": "content/DataManagement.html#species-examples-pacific-island-region",
+    "href": "content/DataManagement.html#species-examples-pacific-island-region",
+    "title": "Data Management",
+    "section": "Species Examples (Pacific Island Region)",
+    "text": "Species Examples (Pacific Island Region)\n\n\n\nCommon Name\nScientific Name\nPIFSC Code#\nAcoustic Signals\n\n\n\n\nPantropical spotted dolphin\nStenella attenuata\n002\nExample\n\n\nStriped dolphin\nStenella coeruleoalba\n013\nExample\n\n\nRough-toothed dolphin\nSteno bredanensis\n015\nExample\n\n\nBottlenose dolphin\nTursiops truncatus\n018\nExample\n\n\nRisso’s dolphin\nGrampus griseus\n021\nExample\n\n\nFraser’s dolphin\nLagenodelphis hosei\n026\nExample\n\n\nMelon-headed whale\nPeponocephala electra\n031\nExample\n\n\nPygmy killer whale\nFeresa attenuata\n032\nExample\n\n\nFalse killer whale\nPseudorca crassidens\n033\nExample\n\n\nShort-finned pilot whale\nGlobicephala macrorhynchus\n036\nExample\n\n\nKiller whale\nOrcinus orca\n037\nExample\n\n\nSperm whale\nPhyseter macrocephalus\n046\nExample\n\n\nPygmy sperm whale\nKogia breviceps\n047\n[Example]\n\n\nDwarf sperm whale\nKogia sima\n048\nExample\n\n\nGinkgo-toothed beaked whale\nMesoplodon ginkgodens\n057\nExample\n\n\nBlainville’s beaked whale\nMesoplodon densirostris\n059\nExample\n\n\nGoose-beaked whale (Cuvier’s)\nZiphius cavirostris\n061\nExample\n\n\nLongman’s beaked whale\nIndopacetus pacificus\n065\nExample\n\n\nCommon minke whale\nBalaenoptera acutorostrata\n071\nExample\n\n\nBryde’s whale\nBalaenoptera edeni\n072\nExample\n\n\nSei whale\nBalaenoptera borealis\n073\n[Example]\n\n\nFin whale\nBalaenoptera physalus\n074\n[Example]\n\n\nBlue whale\nBalaenoptera musculus\n075\n[Example]\n\n\nHumpback whale\nMegaptera novaeangliae\n076\n[Example]\n\n\nKogia\nKogia sp.\n080\nExample\n\n\nCross Seamount beaked whale\nBWC\n049 (Unknown)\nExample",
     "crumbs": [
-      "Field Methods"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/OpenScience.html",
-    "href": "content/OpenScience.html",
-    "title": "Open Science",
+    "objectID": "content/DataManagement.html#species-codes-definitions-for-unknown-odontocetes",
+    "href": "content/DataManagement.html#species-codes-definitions-for-unknown-odontocetes",
+    "title": "Data Management",
+    "section": "Species Codes & Definitions for Unknown Odontocetes",
+    "text": "Species Codes & Definitions for Unknown Odontocetes\n\n77: Unidentified dolphin (only whistles OR only echolocation clicks of any frequency)\n177: Unidentified small dolphin (whistles &gt; 15 kHz beginning frequency and echolocation clicks &gt; 30 kHz peak)\n277: Unidentified medium dolphins (whistles 10–15 kHz beginning frequency and echolocation clicks 15–30 kHz peak)\n377: Unidentified large dolphins (whistles 3–10 kHz beginning frequency and echolocation clicks 15–25 kHz peak)\nYano et al. (2025) NOAA Technical Memorandum NMFS-PIFSC-175",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/AnalysisMethods.html",
+    "href": "content/AnalysisMethods.html",
+    "title": "Analysis Methods",
     "section": "",
-    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
+    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example"
   },
   {
-    "objectID": "content/072.html",
-    "href": "content/072.html",
-    "title": "Bryde’s Whale",
+    "objectID": "content/Onboarding.html",
+    "href": "content/Onboarding.html",
+    "title": "Onboarding",
     "section": "",
-    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
+    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
   },
   {
-    "objectID": "content/072.html#biotwang",
-    "href": "content/072.html#biotwang",
-    "title": "Bryde’s Whale",
+    "objectID": "index.html#passive-acoustics-monitoring---lab-manual",
+    "href": "index.html#passive-acoustics-monitoring---lab-manual",
+    "title": "Home",
+    "section": "Passive Acoustics Monitoring - Lab Manual",
+    "text": "Passive Acoustics Monitoring - Lab Manual\nA key priority of the Passive Acoustic Monitoring - Strategic Initiative (PAM-SI) is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we have developed national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#team-members",
+    "href": "index.html#team-members",
+    "title": "Home",
+    "section": "Team Members",
+    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nAcousticians\nAnn Allen, Acting - Cetacean Research Program Lead\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nVisual Experts (Photo ID, Biopsy, UAS)\nMarie Hill\nKym Yano\nQuantitative Ecologists\nJanelle Badger\nAmanda Bradford",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#additional-national-marine-fisheries-lab-manuals",
+    "href": "index.html#additional-national-marine-fisheries-lab-manuals",
+    "title": "Home",
+    "section": "Additional National Marine Fisheries Lab Manuals",
+    "text": "Additional National Marine Fisheries Lab Manuals\n\nSWFSC: Southwest Fisheries\nNWFSC: Northwest Fisheries\nAFSC: Alaska Fisheries\nSEFSC: Southeast Fisheries\nNEFSC: Northeast Fisheries\nNational PAM Network",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#location",
+    "href": "index.html#location",
+    "title": "Home",
+    "section": "Location",
+    "text": "Location\nOur main office is located on Ford Island in the middle of Pearl Harbor, Hawaii at the Inouye Regional Center.\nShipping Address: NOAA/PIFSC/PSD, 1845 Wasp Blvd., Bldg 176, Honolulu, HI 96818",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#cetacean-research-program-calendar",
+    "href": "index.html#cetacean-research-program-calendar",
+    "title": "Home",
+    "section": "Cetacean Research Program Calendar",
+    "text": "Cetacean Research Program Calendar",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/LabManagement.html",
+    "href": "content/LabManagement.html",
+    "title": "Lab Management",
     "section": "",
-    "text": "J. Acoust. Soc. Am.. 2016;140(3):EL274-EL279. doi:10.1121/1.4962377\nExample Call\nBioTwang Web Story"
+    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
+    "crumbs": [
+      "Lab Management"
+    ]
   },
   {
-    "objectID": "content/072.html#hz-call",
-    "href": "content/072.html#hz-call",
-    "title": "Bryde’s Whale",
-    "section": "500 Hz Call",
-    "text": "500 Hz Call\nAn unknown nocturnal call type in teh Mariana Archipelago thought to be associated to Bryde’s whales. Manuscript"
+    "objectID": "content/TA_Depth.html#kellar",
+    "href": "content/TA_Depth.html#kellar",
+    "title": "Towed Array Depth Senors",
+    "section": "Kellar:",
+    "text": "Kellar:\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "crumbs": [
+      "Hardware",
+      "Towed Array Depth"
+    ]
+  },
+  {
+    "objectID": "content/TA_Depth.html#honeywell",
+    "href": "content/TA_Depth.html#honeywell",
+    "title": "Towed Array Depth Senors",
+    "section": "Honeywell:",
+    "text": "Honeywell:\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "crumbs": [
+      "Hardware",
+      "Towed Array Depth"
+    ]
+  },
+  {
+    "objectID": "content/SoftwareAnalysis.html",
+    "href": "content/SoftwareAnalysis.html",
+    "title": "Software & Analysis Methods",
+    "section": "",
+    "text": "PAMGuard\n\nWebsite for PAMGuard\nGitHub source code and platform to report issues\nVisual to Array Angles (Plugin)\nCurrent version of PAMGuard that has been field tested is 2.02.17a\nNote (6/22/2025): There is known issue with using Windows 11 and SailDAQ soundcards. Version 2.02.17a has a instant restart built into the psfx files while the error is being resolved.\n\n\n\nTriton\n\nWebsite for up to date version of acoustic analysis software.\nWorks with xwav and wav files to genterate long-term spectral averages (LTSA) of passive acoustic monitoring data.\n\n\n\nTethys\n\nMetadata storage system for passive acoustic monitoring data (website).\n\n\n\nCustom MATLAB Software\n\nFalse Killer Whale Localization Effort\n\nResearch Compendium: CRP_PC_TowedArray\n1_TDOA: TDOA_tracking_master\n2_Extract-PG: Extract_Pamguard_detections\n3_Localize: Localization_Towed_Array",
+    "crumbs": [
+      "Software & Analysis"
+    ]
+  },
+  {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
+  },
+  {
+    "objectID": "content/Reporting.html#acoustic-contracted-projects",
+    "href": "content/Reporting.html#acoustic-contracted-projects",
+    "title": "Reporting",
+    "section": "Acoustic Contracted Projects",
+    "text": "Acoustic Contracted Projects\nProject List\nThis Google Sheet contains contracted projects with information about priority level, status to completion, acoustic instrument type, and funding source.",
+    "crumbs": [
+      "Reporting"
+    ]
+  },
+  {
+    "objectID": "content/Reporting.html#permit",
+    "href": "content/Reporting.html#permit",
+    "title": "Reporting",
+    "section": "Permit",
+    "text": "Permit\nInformation coming soon",
+    "crumbs": [
+      "Reporting"
+    ]
   },
   {
     "objectID": "content/ReferenceSpectra.html",
