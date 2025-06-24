@@ -7,7 +7,8 @@ title: PAMGuard User Tips
 ## PAMGuard.exe
 
 -   Used for real-time field data collection efforts and post processing of instrument collected recordings.
--   Click Detector Module
+-   Standardize Post Processing [methods](https://docs.google.com/document/d/1RQcSfDIS4yER879oKVjSV6GmCV3Fz2Bnn_FcQ-KrMkE/edit?usp=sharing) for data to be run through [BANTER](https://github.com/SWFSC/banter).
+-   **Click Detector Module**
     -   Click Size
         -   Bearing Time Display –\> Right click –\> Settings
         -   Set the click size to equal values so that the icons are not distorted (ex. Click length 8 x 8 & Click height 8 x 8.
@@ -36,7 +37,7 @@ title: PAMGuard User Tips
 
 -   Used for viewing and annotating acoustic data processed in PAMGuard.exe
 -   Required modules for Viewer Mode are **Database** & **Binaries**
--   Click Detector Module
+-   **Click Detector Module**
     -   Click Size
         -   Bearing Time Display –\> Right click –\> Settings
         -   Set the click size to equal values so that the icons are not distorted (ex. Click length 8 x 8 & Click height 8 x 8.

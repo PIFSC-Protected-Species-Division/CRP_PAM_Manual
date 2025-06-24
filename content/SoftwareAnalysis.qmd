@@ -11,7 +11,6 @@ title: Software & Analysis Methods
 -   Visual to Array Angles ([Plugin](https://www.pamguard.org/plugins/visangles.html))
 -   Current version of PAMGuard that has been field tested is 2.02.17a
 -   Note (6/22/2025): There is known issue with using Windows 11 and SailDAQ soundcards. Version 2.02.17a has a instant restart built into the psfx files while the error is being resolved.
--   Standardize Post Processing [methods](https://docs.google.com/document/d/1RQcSfDIS4yER879oKVjSV6GmCV3Fz2Bnn_FcQ-KrMkE/edit?usp=sharing) for data to be run through [BANTER](https://github.com/SWFSC/banter).
 
 # **Triton**
 

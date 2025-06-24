@@ -1,0 +1,47 @@
+---
+title: Towed Array Depth Senors
+---
+
+![](images/Wave_wWhales_v4.png)
+
+# **Array Depth Measurement Information Base on Sensor Type**
+
+## **Kellar:**
+
+The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model \# PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:
+
+Depth (m) = \[current (mA) \* 12.5\] - 50.
+
+Notes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA \[20-4\].
+
+            12.5 meters per mA \* 4 = 50 (to account for not starting at 0 mA)
+
+To display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model \# USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):
+
+V= I \* R
+
+So, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:
+
+Depth (m) = \[voltage (V) \* 125\] - 50.
+
+The Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.
+
+## **Honeywell:**
+
+The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model \# PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:
+
+Depth (m) = \[current (mA) \* 8.6\] – 34.4.
+
+Notes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA \[20-4\].
+
+            8.6 meters per mA \* 4 = 34.4 (to account for not starting at 0 mA)
+
+To display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model \# USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):
+
+V= I \* R
+
+So, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:
+
+Depth (m) = \[voltage (V) \* 86\] – 34.4.
+
+The Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.
