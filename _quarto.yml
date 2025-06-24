@@ -54,7 +54,9 @@ website:
         - href: content/Inventory.qmd
           text: Inventory
         - href: content/TA_Depth.qmd
-          text: Towed Array Depth 
+          text: Towed Array Depth
+        - href: content/TA_LabSetup.qmd
+          text: Towed Array Lab Schematic
       - section: content/SoftwareAnalysis.qmd
         text: Software & Analysis
         contents:

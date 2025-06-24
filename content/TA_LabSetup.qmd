@@ -1,0 +1,11 @@
+---
+title: Towed Array Lab Setup
+---
+
+![](images/Wave_wWhales_v4.png)
+
+# **Acoustic Recording System (ARS) - Schematic**
+
+![](images/Acoustic_Recording_System_20250624.png){fig-align="left"}
+
+High Resolution PDF for better zooming found [here](https://drive.google.com/file/d/11aSSTe9cjoWrGphNXa20uQeGt9DV9olJ/view?usp=sharing).
