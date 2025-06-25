@@ -41,7 +41,7 @@ website:
       - section: content/LabManagement.qmd
         contents:
           - href: content/Inventory.qmd
-            text: Inventory
+            text: Equipment Inventory
           - href: content/Safety.qmd
             text: Safety
       - href: content/FieldMethods.qmd
@@ -54,9 +54,9 @@ website:
       - section: content/Hardware.qmd
         contents:
         - href: content/TA_Depth.qmd
-          text: Towed Array: Depth
+          text: Towed Array Depth
         - href: content/TA_LabSetup.qmd
-          text: Towed Array: Lab Schematic
+          text: Towed Array Lab Schematic
       - section: content/SoftwareAnalysis.qmd
         text: Software & Analysis
         contents:

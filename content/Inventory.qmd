@@ -1,5 +1,5 @@
 ---
-title: Inventory
+title: Equipment Inventory
 ---
 ![](images/Wave_wWhales_v4.png)
 

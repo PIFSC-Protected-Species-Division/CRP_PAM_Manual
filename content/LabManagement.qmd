@@ -5,10 +5,10 @@ title: Lab Management
 
 -   [Safety](Safety.qmd)
 
--   [Inventory](Inventory.qmd)
+-   [Equipment Inventory](Inventory.qmd)
 
 Links to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program's passive acoustic monitoring team.
 
--   [Hardware](Hardware.qmd)
+-   [Passive Acosutic Monitoring Hardware](Hardware.qmd)
 
 Description of the types of hardware used to collect passive acoustic monitoring data.
