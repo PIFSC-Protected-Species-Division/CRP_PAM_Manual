@@ -172,23 +172,23 @@
   {
     "objectID": "content/Inventory.html#tdrs-time-depth-recorders",
     "href": "content/Inventory.html#tdrs-time-depth-recorders",
-    "title": "Inventory",
+    "title": "Equipment Inventory",
     "section": "TDR’s (Time-Depth Recorders)",
     "text": "TDR’s (Time-Depth Recorders)\n\nAcoustics_TDR_Inventory",
     "crumbs": [
-      "Hardware",
-      "Inventory"
+      "Lab Management",
+      "Equipment Inventory"
     ]
   },
   {
     "objectID": "content/Inventory.html#building-130-equipment-storage",
     "href": "content/Inventory.html#building-130-equipment-storage",
-    "title": "Inventory",
+    "title": "Equipment Inventory",
     "section": "Building 130 Equipment Storage",
     "text": "Building 130 Equipment Storage\n\nPIFSC CRP Equipment Inventory-New contains mainly the visual team’s equipment inventory, but the B130 Inventory sheet lists all field equipment CRP has stored in Building 130 (Acoustic & Visual).\nFill out this sheet to request or return field equipment to Building 130. B130 Secured Storage Tracker",
     "crumbs": [
-      "Hardware",
-      "Inventory"
+      "Lab Management",
+      "Equipment Inventory"
     ]
   },
   {
@@ -239,7 +239,7 @@
     "href": "content/072.html#hz-call",
     "title": "Bryde’s Whale",
     "section": "500 Hz Call",
-    "text": "500 Hz Call\nAn unknown nocturnal call type in teh Mariana Archipelago thought to be associated to Bryde’s whales. Manuscript"
+    "text": "500 Hz Call\nAn unknown nocturnal call type in the Mariana Archipelago, thought to be associated to Bryde’s whales. Manuscript"
   },
   {
     "objectID": "content/OpenScience.html",
@@ -467,7 +467,7 @@
     "href": "content/LabManagement.html",
     "title": "Lab Management",
     "section": "",
-    "text": "Safety\nInventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nHardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
+    "text": "Safety\nEquipment Inventory\n\nLinks to inventory held by Pacific Island Fisheries Science Centers - Cetacean Research Program’s passive acoustic monitoring team.\n\nPassive Acosutic Monitoring Hardware\n\nDescription of the types of hardware used to collect passive acoustic monitoring data.",
     "crumbs": [
       "Lab Management"
     ]
