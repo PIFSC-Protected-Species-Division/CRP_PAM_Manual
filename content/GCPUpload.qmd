@@ -45,16 +45,20 @@ A web browser window will open where you login with your NOAA Google Account ema
 
 `gcloud auth revoke --all`
 
-### Manually upload a folder
+### Manually **copy** a folder
 
-Use the below command to copy an entire folder. This will upload everything regardless if it is already present on the cloud and will upload contents of all subdirectories.  
+Use the below command to copy an entire folder. This will upload everything regardless if it is already present on the cloud and will upload contents of all subdirectories. 
 
-`gsutil -m cp -c -r <localsource> <cloudfolder>`
+Change `<local_source>` to the path to the local folder and `<cloud_destination>` to the GCP parent folder where you want the local folder to be copied. If that folder doesn't yet exist on the cloud it will be created. 
+
+```default
+gsutil -m cp -c -r <local_source> <cloud_destination>
+```
 
 Example: 
 
 ```default
-gsutil -m cp -c -r \\PICCRPNAS\CRP4\glider_MHI_spring_2022\sg680_MHI_Apr2022\recordings\wav gs://pifsc-1/glider/sg680_MHI_Apr2022/recordings/wav
+gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/
 ```
 
 - The `-m` flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using `-m` cannot be exited out of using `Ctrl + C`
@@ -62,39 +66,71 @@ gsutil -m cp -c -r \\PICCRPNAS\CRP4\glider_MHI_spring_2022\sg680_MHI_Apr2022\rec
 - The `-c` flag is for `cp` and means that the copying will continue if an error occurs
 - The `-r` flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders
 
+::: {.callout-important collapse="true"}
+#### Trailing slashes
+
+If you want to copy an entire folder and preserve it's original name, the source folder should not have a trailing slash (`/`) and the cloud destination should have a trailing slash. The cloud destintation must be the parent folder where you want the local source folder to be copied into. In this example, all the files will be copied to a `wav` folder within the `gs://pifsc-1/glider/recordings` folder. If `wav` doesn't exist it will be created. If `wav` does exist, the local contents will be added to it. 
+
+If you want to copy an entire folder but change its name in the process (aka just copy the contents of a folder to a new location), then neither the source folder or the destination should have a trailing slash and the cloud destination should be the new name. Following the above example, if you wanted to rename `wav` to `sound_files` (but still have it within the `recordings` folder) use `gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/sound_files`. **_Be careful_** this can lead to nesting issues if the cloud directory already exists! 
+
+:::
+
 #### Include a log file
 
 Optionally, a log file can be created and saved: 
 
-`gsutil -m cp -c -r -l <logfile> <localsource> <cloudfolder>`
+```default
+gsutil -m cp -c -r -l <logfile> <local_source> <cloud_destination>
+```
 
 - the `-l` flag outputs a log to the location at `<logfile>`. Enter the full path and desired logfile name such as `C:\users\user.name\desktop\log_file.txt`
 
 If an existing log file is loaded as `<logfile>`, `gsutils` will compare the contents of the cloud folder with the files listed in the log file and skip any files that have already been uploaded. It will append new uploads to the specified log file. 
 
 
-### Manually sync a folder
+### Manually **sync** a folder
 
-Use the below command to sync an entire folder. This is different than copying because it will check what files are already present and only uploads new or changed files (without a log). *NOTE it will also delete files on the cloud that no longer exist on the local drive.*
+Use the below command to sync the contents of a folder. This is different than copying because it will check what files are already present and only uploads new or changed files (without a log). The syncing function `rsync` operates on contents rather than folders so the destination path is slightly different than when using `cp` *NOTE it will also delete files on the cloud that no longer exist on the local drive.*
 
-Change `<localsource>` to the path to the local files and `<cloudfolder>` to the GPC location. If that folder doesn't yet exist on the cloud it will be created. 
+Change `<local_source>` to the path to the local folder and `<cloud_destination>` to the GCP folder. If that folder doesn't yet exist on the cloud it will be created. 
 
-`gsutil -m rsync -d -r <localsource> <cloudfolder>`
+```default
+gsutil -m rsync -r <local_source> <cloud_destination>
+```
 
 Example: 
 
 ```default
-gsutil -m rsync -d -r \\PICCRPNAS\CRP4\glider_MHI_spring_2022\sg680_MHI_Apr2022\recordings\wav gs://pifsc-1/glider/sg680_MHI_Apr2022/recordings/wav
+gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/
 ```
 
 - The `-m` flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using `-m` cannot be exited out of using `Ctrl + C`
 - The `rsync` argument will sync files across the local and cloud folders so will check what is on each first and only copy what is new/updated (it checks modification times)
-- The `-d` flag is for `rsync` and means it will delete files from the cloud that aren't on the source location any more. *Be careful with this because you could accidentally delete stuff if local/cloud get switched!! (can use `-n` flag to do a 'dry run' to be safe)*
 - The `-r` flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders
 
-*Note*  
-Earlier versions of this included - The `-o GSUtil:parallel_composite_upload_threshold=100M` after the `-m` flag which first overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. This works fine but there is a warning about this flag that the person downloading will need to recompile and later when trying to `rsync` without the parallel step it actually has to re-do the process. 
+Optional flags
+- The `-d` flag can be placed after `rsync` and means it will delete files from the cloud that aren't on the source location any more. *Be careful with this because you could accidentally delete stuff if local/cloud get switched!! 
+- The `-n` flag can be placed after `rsync` and can be used to do a **'dry run'** to check what would actually happen if you ran without the `-n` flag but won't actually copy/delete/modify anything. Useful for testing!
 
+::: {.callout-important collapse="true"}
+#### Trailing slashes
+
+`rsync` is not as sensitive to trailing slashes on the source path because it will always operate on contents not the folder itself. That being said, it can still be finicky with trailing slashes on the destination path so best to specify the whole path with a trailing slash like the above example. 
+:::
+
+#### Write to a log file
+
+You can print out the command window contents to a log file when running `rsync`. Specify a log file as a final argument `> log_file.log 2>&1`. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use `>>` instead of one. 
+
+```default
+gsutil -m rsync -r \\PICCRPNAS\CRP4\glider_MHI_spring_2022\sg680_MHI_Apr2022\recordings\wav gs://pifsc-1/glider/sg680_MHI_Apr2022/recordings/wav > C:\users\user.name\desktop\logfile.log 2>&1
+```
+
+::: {.callout-note collapse="true"}
+##### Note on parallel composite upload
+
+Earlier versions of this included - The `-o GSUtil:parallel_composite_upload_threshold=100M` after the `-m` flag which first overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. This works fine but there is a warning about this flag that the person downloading will need to recompile and later when trying to `rsync` without the parallel step it actually has to re-do the process. 
+:::
 
 ### Bulk upload via R script
 
@@ -133,6 +169,51 @@ HARP-specific script that should be used to upload single frequency/site combina
   - *It is possible to re-run using an old log and it will only upload the items that did not properly upload originally. This is pretty fast!*
 - A log is created and appended to as it loops through each deployment and disk and at the end the log is 'cleaned up' and saved as a more readable xlsx file that identifies any errors
 
+### Reorganizing files in the GCP buckets
+
+Individual files can be moved by click the three vertical dots to the right of each file...but this is tedious for lots of files! You also cannot manually rename folders via the web. 
+
+The Cloud Shell Terminal at the bottom of the pifsc-1 bucket can be used to do more major reorganization. 
+
+The basic format uses the `mv` command to move folders or files: 
+
+`gsutil mv <originalpath> <newpath>`
+
+Some examples:
+
+To move an individual file, specify the path and filename. This example would move just the `test.wav` file from the `recordings` folder to the `archive` folder.
+
+```default
+gsutil mv gs://pifsc-1/glider/sg680/recordings/test.wav gs://pifsc-1/glider/archive/test.wav
+
+```
+
+If you want to just move all files of a certain type, use a wildcard `*`. This example will move all the `.wav` files out of the `recordings` folder and into a `recordings_new` folder.
+
+```default
+gsutil mv gs://pifsc-1/glider/sg680/recordings/*.wav gs://pifsc-1/glider/sg680/recordings_new/
+```
+
+If you want to rename a folder just specify folder names as `<originalpath>` and `<newpath>`. Do not put any trailing slashes on the paths. This will delete the original folder. 
+
+```default
+gsutil mv gs://pifsc-1/glider/sg680/recordings gs://pifsc-1/glider/sg680/recordings_new 
+```
+
+To move an entire folder inside of a different folder, put a trailing slash on the `<newpath>`. In this example, the `wav` folder will be moved out of the `recordings` folder and into the main `sg680` folder. Whatever else is in `recordings` will remain there. 
+
+```default
+gsutil mv gs://pifsc-1/glider/sg680/recordings/wav gs://pifsc-1/glider/sg680/ 
+```
+
+<!-- If you want to move all contents out of a subfolder into the directory above it, use two `**` for the input path and specify the upper directory for the output path, with a trailing slash. This example will move all the contents of the `recordings` folder into the `sg680` folder. The original `recordings` folder will still exist, it will just now be empty. It can be deleted on the web with the three vertical dots menu. **_NOTE_** if there are subdirectories they will be 'flattened' meaning all contents will be pulled out of them and put into the destination folder, so be careful with this!  -->
+
+<!-- ```default -->
+<!-- gsutil mv gs://pifsc-1/glider/sg680/recordings/** gs://pifsc-1/glider/sg680/ -->
+<!-- ``` -->
+
+
+
 ::: {.callout-caution collapse="true"}
 ##### ARCHIVE NOTES - DO NOT USE
 
@@ -144,10 +225,6 @@ HARP-specific script that should be used to upload single frequency/site combina
   - *It may be possible to re-run using an old log and it will only upload the items that did not properly upload originally. This needs more investigation*
 - A log is created and appended to as it loops through each deployment and disk and at the end the log is 'cleaned up' and saved as a more readable xlsx file that identifies any errors
 :::
-
-
-
-
 
 
 
