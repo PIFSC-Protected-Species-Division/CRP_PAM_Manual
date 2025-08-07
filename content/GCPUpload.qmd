@@ -45,7 +45,7 @@ A web browser window will open where you login with your NOAA Google Account ema
 
 `gcloud auth revoke --all`
 
-### Manually **copy** a folder
+### Manually upload a folder (`cp`)
 
 Use the below command to copy an entire folder. This will upload everything regardless if it is already present on the cloud and will upload contents of all subdirectories. 
 
@@ -98,9 +98,9 @@ gsutil -m cp -c -r -n -L <logfile> //local/path/* gs://cloud_bucket/path/
 - the `*` indicates to copy the contents of the `path` folder rather than the folder itself
 
 
-### Manually **sync** a folder
+### Manually sync a folder (`rsync`)
 
-Use the below command to sync the contents of a folder. This is different than copying because it will check what files are already present and only uploads new or changed files (without a log). The syncing function `rsync` operates on contents rather than folders so the destination path is slightly different than when using `cp` *NOTE it will also delete files on the cloud that no longer exist on the local drive.*
+Use the below command to sync the contents of a folder. This is different than copying because it will check what files are already present and only uploads new or changed files (without a log). The syncing function `rsync` operates on contents rather than folders so the destination path is slightly different than when using `cp` *NOTE the `-d` flag will also delete files on the cloud that no longer exist on the local drive.*
 
 Change `<local_source>` to the path to the local folder and `<cloud_destination>` to the GCP folder. If that folder doesn't yet exist on the cloud it will be created. 
 
@@ -130,16 +130,16 @@ Optional flags
 
 #### Write to a log file
 
-You can print out the command window contents to a log file when running `rsync`. Specify a log file as a final argument `> log_file.log 2>&1`. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use `>>` instead of one. 
+You can print out the command window contents to a log file when running `rsync`. Specify a log file as a final argument `> log_file.log 2>&1`. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use `>>` instead of `>`. 
 
 ```default
-gsutil -m rsync -r //PICCRPNAS/CRP4/glider_MHI_spring_2022/g680_MHI_Apr2022/recordings/wav gs://pifsc-1/glider/sg680_MHI_Apr2022/recordings/wav > C:/users/user.name/desktop/logfile.log 2>&1
+gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/ > C:/users/user.name/desktop/logfile.log 2>&1
 ```
 
 ::: {.callout-note collapse="true"}
 ##### Note on parallel composite upload
 
-Earlier versions of this included - The `-o GSUtil:parallel_composite_upload_threshold=100M` after the `-m` flag which first overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. This works fine but there is a warning about this flag that the person downloading will need to recompile and later when trying to `rsync` without the parallel step it actually has to re-do the process. 
+Earlier versions of this included - The `-o GSUtil:parallel_composite_upload_threshold=100M` after the `-m` flag which first overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. This works fine but there is a warning about this flag that the person downloading will need to recompile and later when trying to `rsync` without the parallel step it actually has to re-do the process.
 :::
 
 ### Bulk upload via R script
