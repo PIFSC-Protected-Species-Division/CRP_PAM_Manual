@@ -1,5 +1,8 @@
 ---
 title: Sperm Whale
+# format: 
+#   html: default
+#   pdf: default
 ---
 
 ![](images/046/046_01.PNG){fig-align="left"}

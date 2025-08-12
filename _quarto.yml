@@ -51,6 +51,8 @@ website:
         contents:
         - href: content/GCPUpload.qmd
           text: GCP Data Upload
+        - href: content/Species.qmd
+          text: Species Information
       - section: content/Hardware.qmd
         contents:
         - href: content/TA_Depth.qmd
