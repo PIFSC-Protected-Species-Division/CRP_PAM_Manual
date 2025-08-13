@@ -68,14 +68,6 @@ gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recording
 - The `-c` flag is for `cp` and means that the copying will continue if an error occurs
 - The `-r` flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders
 
-::: {.callout-important collapse="true"}
-#### Trailing slashes
-
-If you want to copy an entire folder and preserve it's original name, the source folder should not have a trailing slash (`/`) and the cloud destination should have a trailing slash. The cloud destintation must be the parent folder where you want the local source folder to be copied into. In this example, all the files will be copied to a `wav` folder within the `gs://pifsc-1/glider/recordings/` folder. If `wav` doesn't exist it will be created. If `wav` does exist, the local contents will be added to it. 
-
-If you want to copy an entire folder but change its name in the process (aka just copy the contents of a folder to a new location), then neither the source folder or the destination should have a trailing slash and the cloud destination should be the new name. Following the above example, if you wanted to rename `wav` to `sound_files` (but still have it within the `recordings` folder) use `gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/sound_files`. **_Be careful_** this can lead to nesting issues if the cloud directory already exists! 
-
-:::
 
 #### Include a log file
 
@@ -89,9 +81,21 @@ gsutil -m cp -c -r -L <logfile> <local_source> <cloud_destination>
 
 If an existing log file is loaded as `<logfile>`, `gsutils` will compare the contents of the cloud folder with the files listed in the log file and skip any files that have already been uploaded. It will append new uploads to the specified log file. 
 
+Re-starting things can lead to unexpected issues with nested subdirectories - see the trailing slashes note below. 
+
+
+::: {.callout-important collapse="true"}
+#### Trailing slashes
+
+If you want to copy an entire folder and preserve it's original name (e.g., `wav`), the source folder should not have a trailing slash (`/`) and the cloud destination should have a trailing slash. The cloud destintation must be the parent folder where you want the local source folder to be copied into. In the above example, all the files will be copied to a `wav` folder within the `gs://pifsc-1/glider/recordings/` folder. If `wav` doesn't exist it will be created. If `wav` does exist, the local contents will be added to it. 
+
+If you want to copy an entire folder but change its name in the process (aka just copy the contents of a folder to a new location), then neither the source folder or the destination should have a trailing slash and the cloud destination should be the new name. Following the above example, if you wanted to rename `wav` to `sound_files` (but still have it within the `recordings` folder) use `gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/sound_files`. **_Be careful_** this can lead to nesting issues if the cloud directory already exists! 
+
+**These issues are exacerbated if an upload gets interrupted and is restarted.**
+
 If the local source folder is being uploaded in it's entirety to the destination folder (e.g., uploading 'Wake' into the '200kHz' folder where the parent folder is specified as the `<cloud_destination>`, as is being done for HARP data), then this `cp` process can be restarted with the log and files *should* appear where expected. 
 
-If the folder being copied is being renamed (like is being done for towed array data) then this will cause unexpected nesting issues - you cannot restart with the original command or the source directory will be created again nested within the original source directory name. For example, if a `recordings` folder was being copied to a `year_cruise_number` folder, and the process gets restarted, the remaining files will be put in a `year_cruise_number/recordings/recordings` folder. To avoid this, restart with the following:
+If the folder being copied is being renamed (like is being done for towed array data) then this could cause unexpected nesting issues - you cannot restart with the original command or the source directory will be created again nested within the original source directory name. For example, if a `recordings` folder was being copied to a `year_cruise_number` folder, and the process gets restarted, the remaining files will be put in a `year_cruise_number/recordings/recordings` folder. To avoid this, restart with the following:
 
 ```default
 gsutil -m cp -c -r -n -L <logfile> //local/path/* gs://cloud_bucket/path/
@@ -99,17 +103,17 @@ gsutil -m cp -c -r -n -L <logfile> //local/path/* gs://cloud_bucket/path/
 - the `-n` flag will check if a file already exists and skip it if it does. It only checks file names and will not check for dates or sizes (like `rsync`)
 - the `*` indicates to copy the contents of the `path` folder rather than the folder itself
 
-From my limited understanding this has to do with how trailing slashes are interpreted on Windows. Try to avoid it if you can. 
+:::
 
 
-### Manually sync a folder (`rsync`) __*Preferred method*__
+### Manually sync a folder (`rsync`) - __*preferred method*__
 
 Use the below command to sync the contents of a folder. This will check what files are already present and only uploads new or changed files (without a log). The syncing function `rsync` operates on contents rather than folders so the destination path is slightly different than when using `cp` - specify the actual target folder rather than the parent folder. Nesting subfolders is less of a problem. 
 
 ::: {.callout-note}
 
 ##### Running `rsync` after `cp`
-If a folder was previously copied with `cp` and you run `rsync` on it to update it, it will need to run a series of checks and update timestamps which will take a while (i.e. 24 hours for 8 TB). But once that is completed once future `rsync` runs will go much faster.* 
+If a folder was previously copied with `cp` and you run `rsync` on it to update it, it will need to run a series of checks and update timestamps which will take a while (i.e. 24 hours for 8 TB). But once that is completed once future `rsync` runs will go much faster.
 :::
 
 Set `<local_source>` to the path to the local folder that you want to upload and `<cloud_destination>` to target GCP folder (not the parent folder). If that folder doesn't yet exist on the cloud it will be created. `rsync` will copy the contents of `<local_source>` into `<cloud_destination>`. 
@@ -129,8 +133,9 @@ gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recording
 - The `-r` flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders
 
 Optional flags
-- The `-d` flag can be placed after `rsync` and means it will delete files from the cloud that aren't on the source location any more. *Be careful with this because you could accidentally delete stuff if local/cloud get switched!! 
+
 - The `-n` flag can be placed after `rsync` and can be used to do a **'dry run'** to check what would actually happen if you ran without the `-n` flag but won't actually copy/delete/modify anything. Useful for testing!
+- The `-d` flag can be placed after `rsync` and means it will delete files from the cloud that aren't on the source location any more. *Be careful with this because you could accidentally delete stuff if local/cloud get switched!!*'=
 
 ::: {.callout-note collapse="true"}
 ##### Note on parallel composite upload
