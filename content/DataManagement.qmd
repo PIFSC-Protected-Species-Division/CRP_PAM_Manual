@@ -54,3 +54,7 @@ Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
 ## Raw Data
 
 -   Acoustic recordings are housed on several internal servers at PIFSC. Location of data can be found [here](https://docs.google.com/spreadsheets/d/12dkFpM7FA4qUG-K3MNQCJFebb_e-9eTtFJ_p4G_hbAs/edit?usp=sharing) along with a list of available servers and their model information.
+
+-   [NMFS Data Inventory](https://docs.google.com/spreadsheets/d/1ywNgFyNB_Fem45PTm-HxhbY_x8tukQ_wzzeDRO2TlkU/edit?pli=1&gid=182396032#gid=182396032) for datasets that will move the cloud.
+
+-   Reference [slides](https://docs.google.com/presentation/d/1M2AcYmtE4_T-R7lhWRN9RD3iXEB_VZ_DmeBIOoAgMUw/edit?usp=sharing) for Google Transfer Appliance for PIFSC and points of contact.
