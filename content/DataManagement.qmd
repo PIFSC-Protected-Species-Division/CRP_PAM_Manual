@@ -33,6 +33,9 @@ title: Data Management
 
 (*Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.*)
 
+4_Submitted_Makara_Files
+(*Edited CSV files uploaded to the Makara database server.*)
+
 -   **DASBR:** Stored `\\PICCRPNAS\CRP3\_PAM_Metadata`
 
 Deployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.
@@ -53,8 +56,19 @@ Summary of all sampling information by [cruise](DASBR_Sampling.qmd).
 
 ## Raw Data
 
--   Acoustic recordings are housed on several internal servers at PIFSC. Location of data can be found [here](https://docs.google.com/spreadsheets/d/12dkFpM7FA4qUG-K3MNQCJFebb_e-9eTtFJ_p4G_hbAs/edit?usp=sharing) along with a list of available servers and their model information.
+-   Acoustic recordings are housed on several internal servers at PIFSC. Location of data can be found [here](https://docs.google.com/spreadsheets/d/12dkFpM7FA4qUG-K3MNQCJFebb_e-9eTtFJ_p4G_hbAs/edit?usp=sharing){target="_blank"} along with a list of available servers and their model information.
 
--   [NMFS Data Inventory](https://docs.google.com/spreadsheets/d/1ywNgFyNB_Fem45PTm-HxhbY_x8tukQ_wzzeDRO2TlkU/edit?pli=1&gid=182396032#gid=182396032) for datasets that will move the cloud.
+-   [NMFS Data Inventory](https://docs.google.com/spreadsheets/d/1ywNgFyNB_Fem45PTm-HxhbY_x8tukQ_wzzeDRO2TlkU/edit?pli=1&gid=182396032#gid=182396032){target="_blank"} for datasets that will move the cloud.
 
--   Reference [slides](https://docs.google.com/presentation/d/1M2AcYmtE4_T-R7lhWRN9RD3iXEB_VZ_DmeBIOoAgMUw/edit?usp=sharing) for Google Transfer Appliance for PIFSC and points of contact.
+-   Reference [slides](https://docs.google.com/presentation/d/1M2AcYmtE4_T-R7lhWRN9RD3iXEB_VZ_DmeBIOoAgMUw/edit?usp=sharing){target="_blank"} for Google Transfer Appliance for PIFSC and points of contact.
+
+## Cloud Data
+
+-   Management of cloud data the bucket structure is done through Dan Woodrich (Github name: DanWoodrichNOAA) by reporting an issue through the [PAM-Cloud](https://github.com/nmfs-ost/PAM-Cloud){target="_blank"} Github repository.
+
+-   PAM Data Cloud Bucket Permissions are located [here](https://docs.google.com/spreadsheets/d/1SD2jRsqoOnRyW2g6HH16zyP2cqBHieIzd6L6eEDhdzU/edit?usp=sharing){target="_blank"} and any changes to the document automatically notify Dan Woodrich.
+
+-   [PIFSC Cloud Buckets](https://console.cloud.google.com/storage/browser?project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnBucketsSortingFiltering=true&bucketType=live){target="_blank"}
+  1. **pifsc-1**: Holds raw passive acoustic monitoring data (e.g. wav, xwav, sud, etc.)
+  2. **pifsc-1-detector-output**: Contains processing outputs from various data streams (e.g. PAMGuard database and binary files)
+  3. **pifsc-1-working**: Contains all other data some of which can be temporary depending on the need.
