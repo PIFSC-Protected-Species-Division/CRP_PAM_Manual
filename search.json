@@ -734,7 +734,7 @@
     "href": "content/DataManagement.html#metadata",
     "title": "Data Management",
     "section": "Metadata",
-    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nArray_Info contains the following folder structure:\n\n2010-2016: Contains Excel file with tabs for all arrays used during those years including a tab highlighting which hydrophones have been used for PAMGuard processing.\n2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details.\n\nBANTER_EventTimes contains the following folder structure:\n\nIndividual CSV event time files used to process acoustic studies in PAMpal.\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n\nDASBR: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDeployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.\nDrift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package PAMpal).\nTethys_Deployment_Files contains Excel files of deployment information and gps tracks formatted for Tethys.\nSummary of all sampling information by cruise.\n\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
+    "text": "Metadata\n\nTowed Array: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nArray_Info contains the following folder structure:\n\n2010-2016: Contains Excel file with tabs for all arrays used during those years including a tab highlighting which hydrophones have been used for PAMGuard processing.\n2017, 2018-2021, 2022-2023: Contain individual Excel files per array with all specs including pin wiring details.\n\nBANTER_EventTimes contains the following folder structure:\n\nIndividual CSV event time files used to process acoustic studies in PAMpal.\n\nDetection_Logs contains the following folder structure:\n1_Field_SQLite_Databases\n(SQLite databases collected via PAMGuard using the Logger Form Module. Depending on the cruise they are broken down by day, leg, or cruise. This is there most raw form.)\n2_Compiled_CSV_Excel\n(R-script compiled all the databases by sheet into CSV files and there is single Excel file containing all the data except the gps CSV. The Excel file used to keep track of edits from the field collected data.)\n3_Finalized_EncounterTime-Species\n(Edited Excel file containing only the towed array information, edited encounter start/end times, and finalized species codes.)\n4_Submitted_Makara_Files (Edited CSV files uploaded to the Makara database server.)\n\nDASBR: Stored \\\\PICCRPNAS\\CRP3\\_PAM_Metadata\n\nDeployment_Logs folder contains an Excel file by cruise of each DASBR deployment, the makeup of each drift, and time in water.\nDrift_Tracks folder contains two folders: Original (original track info from the instrument) & Formatted_For_PAMPal (columns edited to be ingesting into the R package PAMpal).\nTethys_Deployment_Files contains Excel files of deployment information and gps tracks formatted for Tethys.\nSummary of all sampling information by cruise.\n\nSonobuoy:\nHARP:\nLLharp:\nGlider:",
     "crumbs": [
       "Data Management"
     ]
@@ -745,6 +745,16 @@
     "title": "Data Management",
     "section": "Raw Data",
     "text": "Raw Data\n\nAcoustic recordings are housed on several internal servers at PIFSC. Location of data can be found here along with a list of available servers and their model information.\nNMFS Data Inventory for datasets that will move the cloud.\nReference slides for Google Transfer Appliance for PIFSC and points of contact.",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#cloud-data",
+    "href": "content/DataManagement.html#cloud-data",
+    "title": "Data Management",
+    "section": "Cloud Data",
+    "text": "Cloud Data\n\nManagement of cloud data the bucket structure is done through Dan Woodrich (Github name: DanWoodrichNOAA) by reporting an issue through the PAM-Cloud Github repository.\nPAM Data Cloud Bucket Permissions are located here and any changes to the document automatically notify Dan Woodrich.\nPIFSC Cloud Buckets\n\n\npifsc-1: Holds raw passive acoustic monitoring data (e.g. wav, xwav, sud, etc.)\npifsc-1-detector-output: Contains processing outputs from various data streams (e.g. PAMGuard database and binary files)\npifsc-1-working: Contains all other data some of which can be temporary depending on the need.",
     "crumbs": [
       "Data Management"
     ]
