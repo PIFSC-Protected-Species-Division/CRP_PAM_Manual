@@ -18,6 +18,8 @@ NOAA Fisheries collects passive acoustic monitoring data through a variety of in
 
 ## Glider
 
+PIFSC Glider Lab [website](https://noaa-pifsc.github.io/glider-lab/){target="_blank"}.
+
 [Glider Blog](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider){target="_blank"}
 
 [![Schematic showing typical glider operation. The glider descends from the surface to 1000 m and then ascends back to the surface. It records acoustic data files while underwater, picking up sounds of things like echolocating beaked whales. At the surface it calls a base station using satellite communications to transmit data and receive new commands. Credit: NOAA Fisheries/Selene Fregosi](images/Glider_Path.jpg){fig-align="left"}](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider)
