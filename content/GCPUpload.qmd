@@ -17,7 +17,7 @@ For more detail on this overall effort see the [PAM-Cloud Cloud Storage page](ht
 
 ### Install GoogleCloudSDK using Windows Powershell
 
-Install using Windows Powershell. Paste in the below two commands and hit Enter. Use all defaults during installation. First time it runs it should ask you to login with NOAA Google account. When prompted to select the could project, choose `ggn-nmfs-pamdata-prod-1`.
+Install using Windows Powershell. Paste in the below two commands and hit Enter. Use all defaults during installation. First time it runs it should ask you to login with NOAA Google account. When prompted to select the cloud project, choose `ggn-nmfs-pamdata-prod-1`.
 
 Run this:
 
@@ -44,6 +44,65 @@ A web browser window will open where you login with your NOAA Google Account ema
 **To logout of all accounts** (e.g., when done on shared computer)
 
 `gcloud auth revoke --all`
+
+
+### Manually sync a folder (`rsync`) - __*preferred method*__
+
+Use the below command to sync the contents of a folder. This will check what files are already present and only uploads new or changed files (without a log). The syncing function `rsync` operates on contents rather than folders so the destination path is slightly different than when using `cp` - specify the actual target folder rather than the parent folder. Nesting subfolders is less of a problem. 
+
+::: {.callout-note}
+
+##### Running `rsync` after `cp`
+If a folder was previously copied with `cp` and you run `rsync` on it to update it, it will need to run a series of checks and update timestamps which will take a while (i.e. 24 hours for 8 TB). But once that is completed once future `rsync` runs will go much faster.
+:::
+
+Set `<local_source>` to the path to the local folder that you want to upload and `<cloud_destination>` to target GCP folder (not the parent folder). If that folder doesn't yet exist on the cloud it will be created. `rsync` will copy the contents of `<local_source>` into `<cloud_destination>`. 
+
+```default
+gsutil -m rsync -r <local_source> <cloud_destination>
+```
+
+Example: 
+
+```default
+gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/
+```
+
+- The `-m` flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using `-m` cannot be exited out of using `Ctrl + C`
+- The `rsync` argument will sync files across the local and cloud folders so will check what is on each first and only copy what is new/updated (it checks modification times)
+- The `-r` flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders
+
+Optional flags
+
+- The `-n` flag can be placed after `rsync` and can be used to do a **'dry run'** to check what would actually happen if you ran without the `-n` flag but won't actually copy/delete/modify anything. Useful for testing!
+- The `-d` flag can be placed after `rsync` and means it will delete files from the cloud that aren't on the source location any more. *Be careful with this because you could accidentally delete stuff if local/cloud get switched!!*'=
+
+::: {.callout-note collapse="true"}
+##### Note on parallel composite upload
+
+`gsutil` may suggest using parallel composite uploads to speed up transfer times. To do this add `-o GSUtil:parallel_composite_upload_threshold=100M` after the `-m` flag and before the `rsync` flag. It overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. 
+
+```default
+gsutil -m -o GSUtil:parallel_composite_upload_threshold=100M rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/
+```
+
+You will see evidence of this on the GCP pifsc-1 bucket - folders with long numbers or short phrases may show up in the main bucket during the sync. These are the temporary files and they will be automatically deleted after the run is complete. However, if the process gets interupted, temporary folders may be left behind. If so, I recommend making sure the folder is completely synced (re-runs of `rsync` will pick up and re-use some of these pieces) and then manual deleting of those folders on the GCP site. 
+
+:::
+
+::: {.callout-important collapse="true"}
+#### Trailing slashes
+
+`rsync` is not as sensitive to trailing slashes on the source path because it will always operate on contents not the folder itself. That being said, it can still be finicky with trailing slashes on the destination path so best to specify the whole path with a trailing slash like the above example. 
+:::
+
+#### Write to a log file
+
+You can print out the command window contents to a log file when running `rsync`. Specify a log file as a final argument `> log_file.log 2>&1`. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use `>>` instead of `>`. 
+
+```default
+gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/ > C:/users/user.name/desktop/logfile.log 2>&1
+```
 
 ### Manually upload a folder (`cp`)
 
@@ -105,64 +164,6 @@ gsutil -m cp -c -r -n -L <logfile> //local/path/* gs://cloud_bucket/path/
 
 :::
 
-
-### Manually sync a folder (`rsync`) - __*preferred method*__
-
-Use the below command to sync the contents of a folder. This will check what files are already present and only uploads new or changed files (without a log). The syncing function `rsync` operates on contents rather than folders so the destination path is slightly different than when using `cp` - specify the actual target folder rather than the parent folder. Nesting subfolders is less of a problem. 
-
-::: {.callout-note}
-
-##### Running `rsync` after `cp`
-If a folder was previously copied with `cp` and you run `rsync` on it to update it, it will need to run a series of checks and update timestamps which will take a while (i.e. 24 hours for 8 TB). But once that is completed once future `rsync` runs will go much faster.
-:::
-
-Set `<local_source>` to the path to the local folder that you want to upload and `<cloud_destination>` to target GCP folder (not the parent folder). If that folder doesn't yet exist on the cloud it will be created. `rsync` will copy the contents of `<local_source>` into `<cloud_destination>`. 
-
-```default
-gsutil -m rsync -r <local_source> <cloud_destination>
-```
-
-Example: 
-
-```default
-gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/
-```
-
-- The `-m` flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using `-m` cannot be exited out of using `Ctrl + C`
-- The `rsync` argument will sync files across the local and cloud folders so will check what is on each first and only copy what is new/updated (it checks modification times)
-- The `-r` flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders
-
-Optional flags
-
-- The `-n` flag can be placed after `rsync` and can be used to do a **'dry run'** to check what would actually happen if you ran without the `-n` flag but won't actually copy/delete/modify anything. Useful for testing!
-- The `-d` flag can be placed after `rsync` and means it will delete files from the cloud that aren't on the source location any more. *Be careful with this because you could accidentally delete stuff if local/cloud get switched!!*'=
-
-::: {.callout-note collapse="true"}
-##### Note on parallel composite upload
-
-`gsutil` may suggest using parallel composite uploads to speed up transfer times. To do this add `-o GSUtil:parallel_composite_upload_threshold=100M` after the `-m` flag and before the `rsync` flag. It overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster. 
-
-```default
-gsutil -m -o GSUtil:parallel_composite_upload_threshold=100M rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/
-```
-
-You will see evidence of this on the GCP pifsc-1 bucket - folders with long numbers or short phrases may show up in the main bucket during the sync. These are the temporary files and they will be automatically deleted after the run is complete. However, if the process gets interupted, temporary folders may be left behind. If so, I recommend making sure the folder is completely synced (re-runs of `rsync` will pick up and re-use some of these pieces) and then manual deleting of those folders on the GCP site. 
-
-:::
-
-::: {.callout-important collapse="true"}
-#### Trailing slashes
-
-`rsync` is not as sensitive to trailing slashes on the source path because it will always operate on contents not the folder itself. That being said, it can still be finicky with trailing slashes on the destination path so best to specify the whole path with a trailing slash like the above example. 
-:::
-
-#### Write to a log file
-
-You can print out the command window contents to a log file when running `rsync`. Specify a log file as a final argument `> log_file.log 2>&1`. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use `>>` instead of `>`. 
-
-```default
-gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/ > C:/users/user.name/desktop/logfile.log 2>&1
-```
 
 ### Compare number of files
 
