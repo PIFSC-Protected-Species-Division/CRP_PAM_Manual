@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -74,14 +74,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-094a5dae543c72fe8dcccb444bbc8b50.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-6878c03325e4b83cf38f0baaf9c01681.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-094a5dae543c72fe8dcccb444bbc8b50.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c5254b8d5cca483192446b07114bb890.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-232e4682cfd531faa731a02c7ded2837.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c5254b8d5cca483192446b07114bb890.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -492,8 +492,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#install-googlecloudsdk-using-windows-powershell" id="toc-install-googlecloudsdk-using-windows-powershell" class="nav-link" data-scroll-target="#install-googlecloudsdk-using-windows-powershell">Install GoogleCloudSDK using Windows Powershell</a></li>
   <li><a href="#gcp-authorization" id="toc-gcp-authorization" class="nav-link" data-scroll-target="#gcp-authorization">GCP authorization</a></li>
-  <li><a href="#manually-upload-a-folder-cp" id="toc-manually-upload-a-folder-cp" class="nav-link" data-scroll-target="#manually-upload-a-folder-cp">Manually upload a folder (<code>cp</code>)</a></li>
   <li><a href="#manually-sync-a-folder-rsync---preferred-method" id="toc-manually-sync-a-folder-rsync---preferred-method" class="nav-link" data-scroll-target="#manually-sync-a-folder-rsync---preferred-method">Manually sync a folder (<code>rsync</code>) - <strong><em>preferred method</em></strong></a></li>
+  <li><a href="#manually-upload-a-folder-cp" id="toc-manually-upload-a-folder-cp" class="nav-link" data-scroll-target="#manually-upload-a-folder-cp">Manually upload a folder (<code>cp</code>)</a></li>
   <li><a href="#compare-number-of-files" id="toc-compare-number-of-files" class="nav-link" data-scroll-target="#compare-number-of-files">Compare number of files</a></li>
   <li><a href="#bulk-upload-via-r-script" id="toc-bulk-upload-via-r-script" class="nav-link" data-scroll-target="#bulk-upload-via-r-script">Bulk upload via R script</a></li>
   <li><a href="#reorganizing-files-in-the-gcp-buckets" id="toc-reorganizing-files-in-the-gcp-buckets" class="nav-link" data-scroll-target="#reorganizing-files-in-the-gcp-buckets">Reorganizing files in the GCP buckets</a></li>
@@ -535,7 +535,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <section id="install-googlecloudsdk-using-windows-powershell" class="level3">
 <h3 class="anchored" data-anchor-id="install-googlecloudsdk-using-windows-powershell">Install GoogleCloudSDK using Windows Powershell</h3>
-<p>Install using Windows Powershell. Paste in the below two commands and hit Enter. Use all defaults during installation. First time it runs it should ask you to login with NOAA Google account. When prompted to select the could project, choose <code>ggn-nmfs-pamdata-prod-1</code>.</p>
+<p>Install using Windows Powershell. Paste in the below two commands and hit Enter. Use all defaults during installation. First time it runs it should ask you to login with NOAA Google account. When prompted to select the cloud project, choose <code>ggn-nmfs-pamdata-prod-1</code>.</p>
 <p>Run this:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>&amp; $env:Temp\GoogleCloudSDKInstaller.exe</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -550,56 +550,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>A web browser window will open where you login with your NOAA Google Account email address and password.</p>
 <p><strong>To logout of all accounts</strong> (e.g., when done on shared computer)</p>
 <p><code>gcloud auth revoke --all</code></p>
-</section>
-<section id="manually-upload-a-folder-cp" class="level3">
-<h3 class="anchored" data-anchor-id="manually-upload-a-folder-cp">Manually upload a folder (<code>cp</code>)</h3>
-<p>Use the below command to copy an entire folder. This will upload everything regardless if it is already present on the cloud and will upload contents of all subdirectories.</p>
-<p>Change <code>&lt;local_source&gt;</code> to the path to the local folder and <code>&lt;cloud_destination&gt;</code> to the GCP parent folder taht you want the local folder to be copied into. If that folder doesn’t yet exist on the cloud it will be created.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r &lt;local_source&gt; &lt;cloud_destination&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Example:</p>
-<p>The below command will copy the entire <code>wav</code> folder into the <code>recordings</code> folder in the GCP pifsc-1 bucket.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li>The <code>-m</code> flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using <code>-m</code> cannot be exited out of using <code>Ctrl + C</code></li>
-<li>The <code>cp</code> argument will copy all files from the local location to the could regardless if they are already present on the cloud</li>
-<li>The <code>-c</code> flag is for <code>cp</code> and means that the copying will continue if an error occurs</li>
-<li>The <code>-r</code> flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders</li>
-</ul>
-<section id="include-a-log-file" class="level4">
-<h4 class="anchored" data-anchor-id="include-a-log-file">Include a log file</h4>
-<p>Optionally, a log file can be created and saved:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r -L &lt;logfile&gt; &lt;local_source&gt; &lt;cloud_destination&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li>the <code>-L</code> flag outputs a log to the location at <code>&lt;logfile&gt;</code>. Enter the full path and desired logfile name such as <code>C:/users/user.name/desktop/log_file.txt</code></li>
-</ul>
-<p>If an existing log file is loaded as <code>&lt;logfile&gt;</code>, <code>gsutils</code> will compare the contents of the cloud folder with the files listed in the log file and skip any files that have already been uploaded. It will append new uploads to the specified log file.</p>
-<p>Re-starting things can lead to unexpected issues with nested subdirectories - see the trailing slashes note below.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Trailing slashes
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>If you want to copy an entire folder and preserve it’s original name (e.g., <code>wav</code>), the source folder should not have a trailing slash (<code>/</code>) and the cloud destination should have a trailing slash. The cloud destintation must be the parent folder where you want the local source folder to be copied into. In the above example, all the files will be copied to a <code>wav</code> folder within the <code>gs://pifsc-1/glider/recordings/</code> folder. If <code>wav</code> doesn’t exist it will be created. If <code>wav</code> does exist, the local contents will be added to it.</p>
-<p>If you want to copy an entire folder but change its name in the process (aka just copy the contents of a folder to a new location), then neither the source folder or the destination should have a trailing slash and the cloud destination should be the new name. Following the above example, if you wanted to rename <code>wav</code> to <code>sound_files</code> (but still have it within the <code>recordings</code> folder) use <code>gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/sound_files</code>. <strong><em>Be careful</em></strong> this can lead to nesting issues if the cloud directory already exists!</p>
-<p><strong>These issues are exacerbated if an upload gets interrupted and is restarted.</strong></p>
-<p>If the local source folder is being uploaded in it’s entirety to the destination folder (e.g., uploading ‘Wake’ into the ‘200kHz’ folder where the parent folder is specified as the <code>&lt;cloud_destination&gt;</code>, as is being done for HARP data), then this <code>cp</code> process can be restarted with the log and files <em>should</em> appear where expected.</p>
-<p>If the folder being copied is being renamed (like is being done for towed array data) then this could cause unexpected nesting issues - you cannot restart with the original command or the source directory will be created again nested within the original source directory name. For example, if a <code>recordings</code> folder was being copied to a <code>year_cruise_number</code> folder, and the process gets restarted, the remaining files will be put in a <code>year_cruise_number/recordings/recordings</code> folder. To avoid this, restart with the following:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r -n -L &lt;logfile&gt; //local/path/* gs://cloud_bucket/path/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li>the <code>-n</code> flag will check if a file already exists and skip it if it does. It only checks file names and will not check for dates or sizes (like <code>rsync</code>)</li>
-<li>the <code>*</code> indicates to copy the contents of the <code>path</code> folder rather than the folder itself</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
 </section>
 <section id="manually-sync-a-folder-rsync---preferred-method" class="level3">
 <h3 class="anchored" data-anchor-id="manually-sync-a-folder-rsync---preferred-method">Manually sync a folder (<code>rsync</code>) - <strong><em>preferred method</em></strong></h3>
@@ -618,9 +568,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Set <code>&lt;local_source&gt;</code> to the path to the local folder that you want to upload and <code>&lt;cloud_destination&gt;</code> to target GCP folder (not the parent folder). If that folder doesn’t yet exist on the cloud it will be created. <code>rsync</code> will copy the contents of <code>&lt;local_source&gt;</code> into <code>&lt;cloud_destination&gt;</code>.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -r &lt;local_source&gt; &lt;cloud_destination&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -r &lt;local_source&gt; &lt;cloud_destination&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Example:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>The <code>-m</code> flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using <code>-m</code> cannot be exited out of using <code>Ctrl + C</code></li>
 <li>The <code>rsync</code> argument will sync files across the local and cloud folders so will check what is on each first and only copy what is new/updated (it checks modification times)</li>
@@ -632,7 +582,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>The <code>-d</code> flag can be placed after <code>rsync</code> and means it will delete files from the cloud that aren’t on the source location any more. <em>Be careful with this because you could accidentally delete stuff if local/cloud get switched!!</em>’=</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -641,14 +591,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><code>gsutil</code> may suggest using parallel composite uploads to speed up transfer times. To do this add <code>-o GSUtil:parallel_composite_upload_threshold=100M</code> after the <code>-m</code> flag and before the <code>rsync</code> flag. It overrides a config setting temporarily and then sets up parallel composite uploads for files larger than 100 MB, meaning it will split the file into chunks and upload the chunks in parallel to go faster.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gsutil -m -o GSUtil:parallel_composite_upload_threshold=100M rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>gsutil -m -o GSUtil:parallel_composite_upload_threshold=100M rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>You will see evidence of this on the GCP pifsc-1 bucket - folders with long numbers or short phrases may show up in the main bucket during the sync. These are the temporary files and they will be automatically deleted after the run is complete. However, if the process gets interupted, temporary folders may be left behind. If so, I recommend making sure the folder is completely synced (re-runs of <code>rsync</code> will pick up and re-use some of these pieces) and then manual deleting of those folders on the GCP site.</p>
 </div>
 </div>
 </div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Trailing slashes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><code>rsync</code> is not as sensitive to trailing slashes on the source path because it will always operate on contents not the folder itself. That being said, it can still be finicky with trailing slashes on the destination path so best to specify the whole path with a trailing slash like the above example.</p>
+</div>
+</div>
+</div>
+<section id="write-to-a-log-file" class="level4">
+<h4 class="anchored" data-anchor-id="write-to-a-log-file">Write to a log file</h4>
+<p>You can print out the command window contents to a log file when running <code>rsync</code>. Specify a log file as a final argument <code>&gt; log_file.log 2&gt;&amp;1</code>. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use <code>&gt;&gt;</code> instead of <code>&gt;</code>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/ &gt; C:/users/user.name/desktop/logfile.log 2&gt;&amp;1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="manually-upload-a-folder-cp" class="level3">
+<h3 class="anchored" data-anchor-id="manually-upload-a-folder-cp">Manually upload a folder (<code>cp</code>)</h3>
+<p>Use the below command to copy an entire folder. This will upload everything regardless if it is already present on the cloud and will upload contents of all subdirectories.</p>
+<p>Change <code>&lt;local_source&gt;</code> to the path to the local folder and <code>&lt;cloud_destination&gt;</code> to the GCP parent folder taht you want the local folder to be copied into. If that folder doesn’t yet exist on the cloud it will be created.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r &lt;local_source&gt; &lt;cloud_destination&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Example:</p>
+<p>The below command will copy the entire <code>wav</code> folder into the <code>recordings</code> folder in the GCP pifsc-1 bucket.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>The <code>-m</code> flag will use multi-threading/multi-processing to process multiple files at once to speed things up. But a command using <code>-m</code> cannot be exited out of using <code>Ctrl + C</code></li>
+<li>The <code>cp</code> argument will copy all files from the local location to the could regardless if they are already present on the cloud</li>
+<li>The <code>-c</code> flag is for <code>cp</code> and means that the copying will continue if an error occurs</li>
+<li>The <code>-r</code> flag is for recursive meaning it will operate on folders (rather than a single file) and will include any subfolders</li>
+</ul>
+<section id="include-a-log-file" class="level4">
+<h4 class="anchored" data-anchor-id="include-a-log-file">Include a log file</h4>
+<p>Optionally, a log file can be created and saved:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r -L &lt;logfile&gt; &lt;local_source&gt; &lt;cloud_destination&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>the <code>-L</code> flag outputs a log to the location at <code>&lt;logfile&gt;</code>. Enter the full path and desired logfile name such as <code>C:/users/user.name/desktop/log_file.txt</code></li>
+</ul>
+<p>If an existing log file is loaded as <code>&lt;logfile&gt;</code>, <code>gsutils</code> will compare the contents of the cloud folder with the files listed in the log file and skip any files that have already been uploaded. It will append new uploads to the specified log file.</p>
+<p>Re-starting things can lead to unexpected issues with nested subdirectories - see the trailing slashes note below.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -661,14 +656,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><code>rsync</code> is not as sensitive to trailing slashes on the source path because it will always operate on contents not the folder itself. That being said, it can still be finicky with trailing slashes on the destination path so best to specify the whole path with a trailing slash like the above example.</p>
+<p>If you want to copy an entire folder and preserve it’s original name (e.g., <code>wav</code>), the source folder should not have a trailing slash (<code>/</code>) and the cloud destination should have a trailing slash. The cloud destintation must be the parent folder where you want the local source folder to be copied into. In the above example, all the files will be copied to a <code>wav</code> folder within the <code>gs://pifsc-1/glider/recordings/</code> folder. If <code>wav</code> doesn’t exist it will be created. If <code>wav</code> does exist, the local contents will be added to it.</p>
+<p>If you want to copy an entire folder but change its name in the process (aka just copy the contents of a folder to a new location), then neither the source folder or the destination should have a trailing slash and the cloud destination should be the new name. Following the above example, if you wanted to rename <code>wav</code> to <code>sound_files</code> (but still have it within the <code>recordings</code> folder) use <code>gsutil -m cp -c -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/sound_files</code>. <strong><em>Be careful</em></strong> this can lead to nesting issues if the cloud directory already exists!</p>
+<p><strong>These issues are exacerbated if an upload gets interrupted and is restarted.</strong></p>
+<p>If the local source folder is being uploaded in it’s entirety to the destination folder (e.g., uploading ‘Wake’ into the ‘200kHz’ folder where the parent folder is specified as the <code>&lt;cloud_destination&gt;</code>, as is being done for HARP data), then this <code>cp</code> process can be restarted with the log and files <em>should</em> appear where expected.</p>
+<p>If the folder being copied is being renamed (like is being done for towed array data) then this could cause unexpected nesting issues - you cannot restart with the original command or the source directory will be created again nested within the original source directory name. For example, if a <code>recordings</code> folder was being copied to a <code>year_cruise_number</code> folder, and the process gets restarted, the remaining files will be put in a <code>year_cruise_number/recordings/recordings</code> folder. To avoid this, restart with the following:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>gsutil -m cp -c -r -n -L &lt;logfile&gt; //local/path/* gs://cloud_bucket/path/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>the <code>-n</code> flag will check if a file already exists and skip it if it does. It only checks file names and will not check for dates or sizes (like <code>rsync</code>)</li>
+<li>the <code>*</code> indicates to copy the contents of the <code>path</code> folder rather than the folder itself</li>
+</ul>
 </div>
 </div>
 </div>
-<section id="write-to-a-log-file" class="level4">
-<h4 class="anchored" data-anchor-id="write-to-a-log-file">Write to a log file</h4>
-<p>You can print out the command window contents to a log file when running <code>rsync</code>. Specify a log file as a final argument <code>&gt; log_file.log 2&gt;&amp;1</code>. This will print out both standard output and error outputs. To append to the log instead of ovewrite, use <code>&gt;&gt;</code> instead of <code>&gt;</code>.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>gsutil -m rsync -r //PICCRPNAS/CRP4/recordings/wav gs://pifsc-1/glider/recordings/wav/ &gt; C:/users/user.name/desktop/logfile.log 2&gt;&amp;1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
 <section id="compare-number-of-files" class="level3">
