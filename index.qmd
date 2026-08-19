@@ -4,7 +4,7 @@ subtitle: "Pacific Island Fisheries Science Center"
 page-layout: full
 ---
 
-![](content/images/PSDwCRP_v3.png){width="427"}
+![](content/images/PSDwCRP_v4.png){width="427"}
 
 ## Passive Acoustics Monitoring - Lab Manual
 
@@ -13,8 +13,6 @@ A key priority of the Passive Acoustic Monitoring - Strategic Initiative (PAM-SI
 ## Team Members
 
 Protected Species Division Director: [Erin Oleson](https://www.fisheries.noaa.gov/contact/erin-oleson-phd){target="_blank"}
-
-Acting - Cetacean Research Program Lead: [Amanda Bradford](https://www.fisheries.noaa.gov/contact/amanda-bradford-phd){target="_blank"}
 
 **ACOUSTICS TEAM**
 
