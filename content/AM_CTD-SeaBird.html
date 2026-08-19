@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DASBR Sampling Info – CRP-PAM Lab Manual</title>
+<title>CTD (Contectivity-Temperature-Depth) Post Data Processing – CRP-PAM Lab Manual</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/AnalysisMethods.html" rel="next">
+<link href="../content/PAMGuard.html" rel="prev">
 <link href="../content/images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -252,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">DASBR Sampling Info</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/SoftwareAnalysis.html">Software &amp; Analysis</a></li><li class="breadcrumb-item"><a href="../content/AM_CTD-SeaBird.html">CTD-SeaBird Instructions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -368,11 +370,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/SoftwareAnalysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software &amp; Analysis</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/PAMGuard.html" class="sidebar-item-text sidebar-link">
@@ -381,7 +383,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/AM_CTD-SeaBird.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/AM_CTD-SeaBird.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">CTD-SeaBird Instructions</span></a>
   </div>
 </li>
@@ -463,16 +465,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#seabird-software-instructions" id="toc-seabird-software-instructions" class="nav-link active" data-scroll-target="#seabird-software-instructions">SeaBird Software Instructions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/AM_CTD-SeaBird.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/AM_CTD-SeaBird.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/SoftwareAnalysis.html">Software &amp; Analysis</a></li><li class="breadcrumb-item"><a href="../content/AM_CTD-SeaBird.html">CTD-SeaBird Instructions</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">DASBR Sampling Info</h1>
+<h1 class="title">CTD (Contectivity-Temperature-Depth) Post Data Processing</h1>
 </div>
 
 
@@ -489,79 +497,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>2017_HICEAS</strong></p>
+<p><img src="images/Wave_wWhales_v4.png" class="img-fluid"></p>
+<section id="seabird-software-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="seabird-software-instructions">SeaBird Software Instructions</h2>
+<p>After installing <a href="https://www.seabird.com/">Sea-Bird</a> to your workstation, the following steps should be run to convert raw CTD data into .cnv files for future use:</p>
+<ol type="1">
+<li><p>Copy the DatCnv.psa preference file from <code>\pifsc1-detector-output\CTD\_Data\\0_CTD data conversion\</code> setup files into C:/users/YOU/AppData/Local/Sea-Bird/SBEDataProcessing-Win32</p>
 <ul>
-<li><p>Cruise #: 1706</p></li>
-<li><p>Recording Interval: 2 ON 8 OFF (minutes)</p></li>
-<li><p>Sampling rate: 288000 Hz</p></li>
-<li><p>Site: MHI</p></li>
-<li><p>Region: MainHawaiianIslands</p></li>
-<li><p>Vessel: R/V Oscar E Sette</p></li>
-<li><p>GPS Tracker: NAL</p></li>
-</ul>
-<p><strong>2018_MACS</strong></p>
+<li><p>To see AppData you might have to change View Settings to show hidden folders</p></li>
+<li><p>You MUST have the preference file already here, otherwise Sea-Bird will create a new one and continually switch to that even if you change the preference file manually afterwards</p></li>
+</ul></li>
+<li><p>Open Sea-Bird SBEDataProc.exe &amp; select 1. Data Conversion</p></li>
+<li><p>Under File Setup, insure the following:</p>
 <ul>
-<li><p>Cruise #: 1803</p></li>
-<li><p>Recording Interval: 2 ON 3 OFF (minutes)</p></li>
-<li><p>Sampling rate: 576000 Hz</p></li>
-<li><p>Site: MW</p></li>
-<li><p>Region: WestMariana</p></li>
-<li><p>Vessel: R/V Oscar E Sette</p></li>
-<li><p>GPS Tracker: NAL</p></li>
-</ul>
-<p><strong>2019_CRPGT</strong></p>
+<li><p>Program setup file: <code>\C:\Users\YOU\AppData\Local\Sea-Bird\SBEDataProcessing- Win32\DatCnv.psa\</code></p></li>
+<li><p>Instrument Configuration file: navigate to <code>pifsc-1-detector-output\CTD\_Data</code>, then toggle into the specific cruise’s CTD data until you reach the file folder containing all the XMLCON files (usually in the inner CTD folder)</p>
 <ul>
-<li><p>Cruise #: 1901</p></li>
-<li><p>Recording Interval: 2 ON 3 OFF (minutes)</p></li>
-<li><p>Sampling rate: 576000 Hz</p></li>
-<li><p>Site: MHI</p></li>
-<li><p>Region: MainHawaiianIslands</p></li>
-<li><p>Vessel: R/V Oscar E Sette</p></li>
-<li><p>GPS Tracker: NAL</p></li>
-</ul>
-<p><strong>2019_Falkor</strong></p>
+<li><p>Select the first available XMLCON file</p></li>
+<li><p>Make sure the optional selection for “Match instrument configuration to input file” is ON</p></li>
+</ul></li>
+<li><p>Input Directory: same folder as above (the cruise’s inner CTD folder)</p>
 <ul>
-<li><p>Cruise #: 191021</p></li>
-<li><p>Recording Interval: 2 ON 0 OFF (minutes) - continuous</p></li>
-<li><p>Sampling rate: 288000 Hz</p></li>
-<li><p>Site: MHI</p></li>
-<li><p>Region: MainHawaiianIslands</p></li>
-<li><p>Vessel: R/V Falkor</p></li>
-<li><p>GPS Tracker: NAL</p></li>
-</ul>
-<p><strong>2020_WHICEAS</strong></p>
+<li>For Input files, select all available</li>
+</ul></li>
+<li><p>Output Directory: create a folder with initials_YYMMDD_downcast as name within the cruise’s CTD folder &amp; use this folder as the output directory</p>
 <ul>
-<li><p>Cruise #: 2001</p></li>
-<li><p>Recording Interval: 2 ON 3 OFF (minutes)</p></li>
-<li><p>Sampling rate: 288000 Hz (DS3: 384000 Hz)</p></li>
-<li><p>Site: MHI</p></li>
-<li><p>Region: MainHawaiianIslands</p></li>
-<li><p>Vessel: R/V Oscar E Sette</p></li>
-<li><p>GPS Tracker: NAL</p></li>
-</ul>
-<p><strong>2021_MACS</strong></p>
+<li>In name append use “_INITIALS_down” (ie _MAW_down)</li>
+</ul></li>
+</ul></li>
+<li><p>Double-check preferences file loaded properly by selecting the Data Setup tab. The “convert data from” option should be set to downcast (NOT upcast &amp; downcast)</p></li>
+<li><p>Hit Start Process</p>
 <ul>
-<li><p>Cruise #: 2102</p></li>
-<li><p>Recording Interval: 2 ON 8 OFF (minutes)</p></li>
-<li><p>Sampling rate: 384000 Hz</p></li>
-<li><p>Site: MA</p></li>
-<li><p>Region: MarianaArchipelago</p></li>
-<li><p>Vessel: R/V Oscar E Sette</p></li>
-<li><p>GPS Tracker: NAL</p></li>
-</ul>
-<p><strong>2023_HICEAS</strong></p>
-<ul>
-<li><p>Cruise #: 2303 (DS13: 2401)</p></li>
-<li><p>Recording Interval: 2 ON 8 OFF (minutes)</p></li>
-<li><p>Sampling rate: 384000 Hz</p></li>
-<li><p>Site: HEEZ</p></li>
-<li><p>Region: HawaiianEEZ</p></li>
-<li><p>Vessel Deploy: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS13: R/V Ruben Lasker)</p></li>
-<li><p>Vessel Pickup: R/V Oscar E Sette (DS12: CRC-SmallBoat; DS9, DS10, DS11, DS13: R/V Ruben Lasker)</p></li>
-<li><p>GPS Tracker: Satlink</p></li>
-</ul>
+<li>If a .hex file doesn’t have a matching XMLCON file, a popup will appear asking you to skip. Select Okay until all files are processed</li>
+</ul></li>
+<li><p>Once finished, checked output directory and compare # of _downcast files to number of hex/XMLCON files to see if any issues</p></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -977,6 +950,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/PAMGuard.html" class="pagination-link" aria-label="PAMGuard User Tips">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">PAMGuard User Tips</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/AnalysisMethods.html" class="pagination-link" aria-label="Analysis Methods Repositories">
+        <span class="nav-page-text">Analysis Methods Repositories</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -985,7 +970,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/DASBR_Sampling.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/DASBR_Sampling.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/edit/main/content/AM_CTD-SeaBird.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/blob/main/content/AM_CTD-SeaBird.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

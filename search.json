@@ -14,7 +14,7 @@
     "href": "index.html#team-members",
     "title": "Home",
     "section": "Team Members",
-    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nACOUSTICS TEAM\nAnn Allen\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough - Team Lead\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nASSESSMENT TEAM\nJanelle Badger\nAmanda Bradford - Team Lead\nMarie Hill\nKym Yano",
+    "text": "Team Members\nProtected Species Division Director: Erin Oleson\nACOUSTICS TEAM\nAnn Allen\nYvonne Barkley\nSelene Fregosi\nJennifer McCullough\nKarlina Merkens\nErik Norris\nJenny Trickey\nMegan Wood\nASSESSMENT TEAM\nJanelle Badger\nAmanda Bradford\nMarie Hill\nKym Yano",
     "crumbs": [
       "Home"
     ]
@@ -297,11 +297,15 @@
     "text": "Zoomed OUT with overlapping dolphin clicks.\n Zoomed IN with overlapping dolphin clicks.\n Zoomed IN with overlapping humpack whale calls."
   },
   {
-    "objectID": "content/AnalysisMethods.html",
-    "href": "content/AnalysisMethods.html",
-    "title": "Analysis Methods",
-    "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example"
+    "objectID": "content/AnalysisMethods.html#links-to-repositories",
+    "href": "content/AnalysisMethods.html#links-to-repositories",
+    "title": "Analysis Methods Repositories",
+    "section": "Links to Repositories",
+    "text": "Links to Repositories",
+    "crumbs": [
+      "Software & Analysis",
+      "Analysis Methods Repositories"
+    ]
   },
   {
     "objectID": "content/PAMGuard.html#pamguard.exe",
@@ -384,18 +388,18 @@
     ]
   },
   {
-    "objectID": "content/ReferenceSpectra.html",
-    "href": "content/ReferenceSpectra.html",
-    "title": "Creating Reference Spectra for Event Summary Reports",
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "Example reference spectrum for sperm whales\n\n\nThe average spectrum plot in an event summary report can include reference spectra of potential species of interest. These can be created using clicks manually selected as a Pamguard event. An example workflow can be found here: workflow_referenceSpectra.R.\nThe process requires a Pamguard database and binaries and a manually selected event or selection of events. It then uses the calculateAvgerageSpectra function from PAMpal to export the average spectrum data and cleans it up into a .csv for reading into the summary reports."
+    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
   },
   {
-    "objectID": "content/Onboarding.html",
-    "href": "content/Onboarding.html",
-    "title": "Onboarding",
+    "objectID": "content/OpenScience.html",
+    "href": "content/OpenScience.html",
+    "title": "Open Science",
     "section": "",
-    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
+    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
   },
   {
     "objectID": "content/TA_Depth.html#kellar",
@@ -420,18 +424,29 @@
     ]
   },
   {
-    "objectID": "content/OpenScience.html",
-    "href": "content/OpenScience.html",
-    "title": "Open Science",
+    "objectID": "content/Onboarding.html",
+    "href": "content/Onboarding.html",
+    "title": "Onboarding",
     "section": "",
-    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example"
+    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example"
   },
   {
-    "objectID": "content/Resources.html",
-    "href": "content/Resources.html",
-    "title": "Resources",
+    "objectID": "content/ReferenceSpectra.html",
+    "href": "content/ReferenceSpectra.html",
+    "title": "Creating Reference Spectra for Event Summary Reports",
     "section": "",
-    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to."
+    "text": "Example reference spectrum for sperm whales\n\n\nThe average spectrum plot in an event summary report can include reference spectra of potential species of interest. These can be created using clicks manually selected as a Pamguard event. An example workflow can be found here: workflow_referenceSpectra.R.\nThe process requires a Pamguard database and binaries and a manually selected event or selection of events. It then uses the calculateAvgerageSpectra function from PAMpal to export the average spectrum data and cleans it up into a .csv for reading into the summary reports."
+  },
+  {
+    "objectID": "content/AM_CTD-SeaBird.html#seabird-software-instructions",
+    "href": "content/AM_CTD-SeaBird.html#seabird-software-instructions",
+    "title": "CTD (Contectivity-Temperature-Depth) Post Data Processing",
+    "section": "SeaBird Software Instructions",
+    "text": "SeaBird Software Instructions\nAfter installing Sea-Bird to your workstation, the following steps should be run to convert raw CTD data into .cnv files for future use:\n\nCopy the DatCnv.psa preference file from \\pifsc1-detector-output\\CTD\\_Data\\\\0_CTD data conversion\\ setup files into C:/users/YOU/AppData/Local/Sea-Bird/SBEDataProcessing-Win32\n\nTo see AppData you might have to change View Settings to show hidden folders\nYou MUST have the preference file already here, otherwise Sea-Bird will create a new one and continually switch to that even if you change the preference file manually afterwards\n\nOpen Sea-Bird SBEDataProc.exe & select 1. Data Conversion\nUnder File Setup, insure the following:\n\nProgram setup file: \\C:\\Users\\YOU\\AppData\\Local\\Sea-Bird\\SBEDataProcessing- Win32\\DatCnv.psa\\\nInstrument Configuration file: navigate to pifsc-1-detector-output\\CTD\\_Data, then toggle into the specific cruise’s CTD data until you reach the file folder containing all the XMLCON files (usually in the inner CTD folder)\n\nSelect the first available XMLCON file\nMake sure the optional selection for “Match instrument configuration to input file” is ON\n\nInput Directory: same folder as above (the cruise’s inner CTD folder)\n\nFor Input files, select all available\n\nOutput Directory: create a folder with initials_YYMMDD_downcast as name within the cruise’s CTD folder & use this folder as the output directory\n\nIn name append use “_INITIALS_down” (ie _MAW_down)\n\n\nDouble-check preferences file loaded properly by selecting the Data Setup tab. The “convert data from” option should be set to downcast (NOT upcast & downcast)\nHit Start Process\n\nIf a .hex file doesn’t have a matching XMLCON file, a popup will appear asking you to skip. Select Okay until all files are processed\n\nOnce finished, checked output directory and compare # of _downcast files to number of hex/XMLCON files to see if any issues",
+    "crumbs": [
+      "Software & Analysis",
+      "CTD-SeaBird Instructions"
+    ]
   },
   {
     "objectID": "content/Hardware.html",
