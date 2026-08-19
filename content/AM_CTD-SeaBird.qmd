@@ -1,0 +1,43 @@
+---
+title: CTD (Contectivity-Temperature-Depth) Post Data Processing
+---
+
+![](images/Wave_wWhales_v4.png)
+
+## SeaBird Software Instructions
+
+After installing [Sea-Bird](https://www.seabird.com/) to your workstation, the following steps should be run to convert raw CTD data into .cnv files for future use:
+
+1.  Copy the DatCnv.psa preference file from `\pifsc1-detector-output\CTD\_Data\\0_CTD data conversion\` setup files into C:/users/YOU/AppData/Local/Sea-Bird/SBEDataProcessing-Win32
+
+    -   To see AppData you might have to change View Settings to show hidden folders
+
+    -   You MUST have the preference file already here, otherwise Sea-Bird will create a new one and continually switch to that even if you change the preference file manually afterwards
+
+2.  Open Sea-Bird SBEDataProc.exe & select 1. Data Conversion
+
+3.  Under File Setup, insure the following:
+
+    -   Program setup file: `\C:\Users\YOU\AppData\Local\Sea-Bird\SBEDataProcessing- Win32\DatCnv.psa\`
+
+    -   Instrument Configuration file: navigate to `pifsc-1-detector-output\CTD\_Data`, then toggle into the specific cruise’s CTD data until you reach the file folder containing all the XMLCON files (usually in the inner CTD folder)
+
+        -   Select the first available XMLCON file
+
+        -   Make sure the optional selection for “Match instrument configuration to input file” is ON
+
+    -   Input Directory: same folder as above (the cruise’s inner CTD folder)
+
+        -   For Input files, select all available
+
+    -   Output Directory: create a folder with initials_YYMMDD_downcast as name within the cruise’s CTD folder & use this folder as the output directory
+
+        -   In name append use “\_INITIALS_down” (ie \_MAW_down)
+
+4.  Double-check preferences file loaded properly by selecting the Data Setup tab. The “convert data from” option should be set to downcast (NOT upcast & downcast)
+
+5.  Hit Start Process
+
+    -   If a .hex file doesn’t have a matching XMLCON file, a popup will appear asking you to skip. Select Okay until all files are processed
+
+6.  Once finished, checked output directory and compare \# of \_downcast files to number of hex/XMLCON files to see if any issues

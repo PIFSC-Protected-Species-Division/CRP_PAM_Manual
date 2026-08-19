@@ -65,7 +65,10 @@ website:
         # - href: content/Software.qmd
         - href: content/PAMGuard.qmd
           text: PAMGuard User Tips
-        # - href: content/AnalysisMethods.qmd
+        - href: content/AM_CTD-SeaBird.qmd
+          text: CTD-SeaBird Instructions
+        - href: content/AnalysisMethods.qmd
+          text: Analysis Methods Repositories
       - href: content/Reporting.qmd
         text: Reporting
       - href: content/PublicationsPresentations.qmd
