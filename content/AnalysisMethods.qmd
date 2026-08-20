@@ -4,6 +4,62 @@ title: Analysis Methods Repositories
 
 ![](images/Wave_wWhales_v4.png)
 
-![](images/UnderwaterAtTheMoment.png){fig-align="center" width="283"}
 
-## Links to Repositories
+## Metadata
+[Makara Data Prep](https://github.com/PIFSC-Protected-Species-Division/CRP_Makara){target="_blank"}
+
+## General Tools
+[CRPTools: Toolbox of various code](https://github.com/sfregosi-noaa/CRPTools){target="_blank"}
+
+[Post Processing of CTD Data](https://github.com/PIFSC-Protected-Species-Division/CRP_CTD_Processing){target="_blank"}
+
+[picMaps Mapping: Base maps for the Pacific Region](https://github.com/PIFSC-Protected-Species-Division/picMaps){target="_blank"}
+
+[Triton quick start guide presentation: Triton Walkthrough - Google Slides](https://docs.google.com/presentation/d/16cygD65A956eHqJ48FJK6r8Y7VbGXAiDzPpJuZC3L5g/edit?slide=id.p#slide=id.p){target="_blank"} 
+
+## Noise and Sound Propagtion
+
+[Noise Processing Gliders](https://github.com/PIFSC-Protected-Species-Division/SPACIOUS-NoiseProcessing){target="_blank"}
+
+[Propagation Modelling (more final version)](https://github.com/PIFSC-Protected-Species-Division/SPACIOUS-Propagation){target="_blank"}
+
+[Propagation Modelling (less final version, prototypes be here and irregularly updated)](https://github.com/PIFSC-Protected-Species-Division/SPACIOUS-Propagation-Modes){target="_blank"}
+
+[Monte Carlo Simulation (mostly R) for the sensitivity analysis](https://github.com/PIFSC-Protected-Species-Division/SPACIOUS-MC-Simulation){target="_blank"} 
+
+[Triton (owned by MBARC/SIO)](https://github.com/MarineBioAcousticsRC/Triton){target="_blank"}
+
+[PACE (owned by NCEI & associates)](https://github.com/CI-CMG/pace){target="_blank"}
+
+## Glider
+[SPACIOUS Glider Sperm whale Click Presence](https://github.com/PIFSC-Protected-Species-Division/Glider-PAM-Sperm-Whale){target="_blank"}
+
+[MHI 2021-2023 Glider Results](https://github.com/sfregosi-noaa/glider-MHI){target="_blank"}
+
+[CalCurCEAS 2024 Glider Piloting](https://github.com/sfregosi-noaa/glider-CalCurCEAS){target="_blank"}
+
+[Agate Glider Analysis Tools](https://github.com/sfregosi/agate){target="_blank"}
+
+## Drifting Recorder (DASBR)
+
+[False Killer Whale DASBR Encounter Processing](https://github.com/noaa-pifsc/CRP-PC-DASBR){target="_blank"}
+
+[Kogia DASBR processing](https://github.com/jtrickey86/Kogia_DASBR){target="_blank"}
+
+[Sperm whale DASBR processing](https://github.com/jtrickey86/SpermWhale_DASBR){target="_blank"}
+
+[Beaked whale DASBR processing](https://github.com/jtrickey86/BeakedWhale_DASBR){target="_blank"}
+
+[False killer whale DASBR processing](https://github.com/jtrickey86/FKW_DASBR){target="_blank"}
+
+[Beaked Whale Density from DASBRs](https://github.com/jlkeating/BeakedWhale_Density){target="_blank"}
+
+## Towed Hydrophone Array
+
+[False Killer Whale Towed Array Localization](https://github.com/noaa-pifsc/CRP_PC_TowedArray){target="_blank"}
+
+[Predict Species Classification with Banter](https://github.com/jlkeating/BANTER_Predict){target="_blank"}
+
+[Towed array multi-species banter model](https://github.com/PIFSC-Protected-Species-Division/Acoustics_MultiSpecies_TA){target="_blank"}
+
+
