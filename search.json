@@ -312,18 +312,18 @@
     "href": "content/AnalysisMethods.html#general-tools",
     "title": "Analysis Methods Repositories",
     "section": "General Tools",
-    "text": "General Tools\nCRPTools: Toolbox of various code\nPost Processing of CTD Data\npicMaps Mapping: Base maps for the Pacific Region\nTriton quick start guide presentation: Triton Walkthrough - Google Slides",
+    "text": "General Tools\nCRPTools: Toolbox of various code\ncrputils: R package of miscellaneous R functions\nPost Processing of CTD Data\npicMaps Mapping: Base maps for the Pacific Region\nTriton quick start guide presentation: Triton Walkthrough - Google Slides",
     "crumbs": [
       "Software & Analysis",
       "Analysis Methods Repositories"
     ]
   },
   {
-    "objectID": "content/AnalysisMethods.html#noise-and-sound-propagtion",
-    "href": "content/AnalysisMethods.html#noise-and-sound-propagtion",
+    "objectID": "content/AnalysisMethods.html#noise-and-sound-propagation",
+    "href": "content/AnalysisMethods.html#noise-and-sound-propagation",
     "title": "Analysis Methods Repositories",
-    "section": "Noise and Sound Propagtion",
-    "text": "Noise and Sound Propagtion\nNoise Processing Gliders\nPropagation Modelling (more final version)\nPropagation Modelling (less final version, prototypes be here and irregularly updated)\nMonte Carlo Simulation (mostly R) for the sensitivity analysis\nTriton (owned by MBARC/SIO)\nPACE (owned by NCEI & associates)",
+    "section": "Noise and Sound Propagation",
+    "text": "Noise and Sound Propagation\nNoise Processing Gliders\nPropagation Modelling (more final version)\nPropagation Modelling (less final version, prototypes be here and irregularly updated)\nMonte Carlo Simulation (mostly R) for the sensitivity analysis\nTriton (owned by MBARC/SIO)\nPACE (owned by NCEI & associates)",
     "crumbs": [
       "Software & Analysis",
       "Analysis Methods Repositories"
@@ -334,7 +334,7 @@
     "href": "content/AnalysisMethods.html#glider",
     "title": "Analysis Methods Repositories",
     "section": "Glider",
-    "text": "Glider\nSPACIOUS Glider Sperm whale Click Presence\nMHI 2021-2023 Glider Results\nCalCurCEAS 2024 Glider Piloting\nAgate Glider Analysis Tools",
+    "text": "Glider\nSPACIOUS Glider Sperm whale Click Presence\nglider-MHI: MHI 2021-2023 Glider Analysis\nglider-CalCurCEAS: CalCurCEAS 2024 Glider Analysis\nglider-WHICEAS: WHICEAS 2026 Glider Analysis\nagate: Acoustic Glider Analysis Tools Environment MATLAB toolbox",
     "crumbs": [
       "Software & Analysis",
       "Analysis Methods Repositories"
