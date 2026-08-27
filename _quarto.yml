@@ -27,7 +27,7 @@ website:
         text: "NOAA Fisheries PIFSC - Passive Acoustic Monitoring"
         target: _blank
       - icon: github
-        href: https://github.com/PIFSC-Protected-Species-Division
+        href: https://github.com/PIFSC-Protected-Species-Division/CRP_PAM_Manual
         text: "NOAA Fisheries PIFSC Protected Species Division"
         target: _blank
 
