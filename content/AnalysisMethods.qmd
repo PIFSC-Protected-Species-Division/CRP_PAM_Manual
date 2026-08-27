@@ -11,13 +11,15 @@ title: Analysis Methods Repositories
 ## General Tools
 [CRPTools: Toolbox of various code](https://github.com/sfregosi-noaa/CRPTools){target="_blank"}
 
+[crputils: R package of miscellaneous R functions](https://github.com/PIFSC-Protected-Species-Division/crputils){target="_blank"}
+
 [Post Processing of CTD Data](https://github.com/PIFSC-Protected-Species-Division/CRP_CTD_Processing){target="_blank"}
 
 [picMaps Mapping: Base maps for the Pacific Region](https://github.com/PIFSC-Protected-Species-Division/picMaps){target="_blank"}
 
 [Triton quick start guide presentation: Triton Walkthrough - Google Slides](https://docs.google.com/presentation/d/16cygD65A956eHqJ48FJK6r8Y7VbGXAiDzPpJuZC3L5g/edit?slide=id.p#slide=id.p){target="_blank"} 
 
-## Noise and Sound Propagtion
+## Noise and Sound Propagation
 
 [Noise Processing Gliders](https://github.com/PIFSC-Protected-Species-Division/SPACIOUS-NoiseProcessing){target="_blank"}
 
@@ -34,11 +36,13 @@ title: Analysis Methods Repositories
 ## Glider
 [SPACIOUS Glider Sperm whale Click Presence](https://github.com/PIFSC-Protected-Species-Division/Glider-PAM-Sperm-Whale){target="_blank"}
 
-[MHI 2021-2023 Glider Results](https://github.com/sfregosi-noaa/glider-MHI){target="_blank"}
+[glider-MHI: MHI 2021-2023 Glider Analysis](https://github.com/sfregosi-noaa/glider-MHI){target="_blank"}
 
-[CalCurCEAS 2024 Glider Piloting](https://github.com/sfregosi-noaa/glider-CalCurCEAS){target="_blank"}
+[glider-CalCurCEAS: CalCurCEAS 2024 Glider Analysis](https://github.com/sfregosi-noaa/glider-CalCurCEAS){target="_blank"}
 
-[Agate Glider Analysis Tools](https://github.com/sfregosi/agate){target="_blank"}
+[glider-WHICEAS: WHICEAS 2026 Glider Analysis](https://github.com/sfregosi-noaa/glider-WHICEAS){target="_blank"}
+
+[agate: Acoustic Glider Analysis Tools Environment MATLAB toolbox](https://github.com/sfregosi/agate){target="_blank"}
 
 ## Drifting Recorder (DASBR)
 
