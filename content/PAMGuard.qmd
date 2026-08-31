@@ -2,9 +2,7 @@
 title: PAMGuard User Tips
 ---
 
-![](images/Wave_wWhales_v4.png)
-
-## PAMGuard.exe
+## ![](images/Wave_wWhales_v3.png)PAMGuard.exe
 
 -   Used for real-time field data collection efforts and post processing of instrument collected recordings.
 -   Standardize Post Processing [methods](https://docs.google.com/document/d/1RQcSfDIS4yER879oKVjSV6GmCV3Fz2Bnn_FcQ-KrMkE/edit?usp=sharing) for data to be run through [BANTER](https://github.com/SWFSC/banter).

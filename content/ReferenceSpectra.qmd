@@ -2,7 +2,7 @@
 title: Creating Reference Spectra for Event Summary Reports
 ---
 
-![](images/Wave_wWhales_v4.png)
+![](images/Wave_wWhales_v3.png)
 
 ![Example reference spectrum for sperm whales](images/refSpec_example_Pm.png){fig-align="center" width="300"}
 

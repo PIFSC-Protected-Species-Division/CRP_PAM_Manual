@@ -1,7 +1,7 @@
 ---
 title: Reporting
 ---
-![](images/Wave_wWhales_v4.png)
+![](images/Wave_wWhales_v3.png)
 
 ## Acoustic Contracted Projects
 

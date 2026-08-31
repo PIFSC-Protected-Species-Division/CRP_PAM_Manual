@@ -2,9 +2,7 @@
 title: Towed Array Lab Setup
 ---
 
-![](images/Wave_wWhales_v4.png)
-
-# **Acoustic Recording System (ARS) - Schematic**
+# ![](images/Wave_wWhales_v3.png)**Acoustic Recording System (ARS) - Schematic**
 
 ![](images/Acoustic_Recording_System_20250624.png){fig-align="left"}
 

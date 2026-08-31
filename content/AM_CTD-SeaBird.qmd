@@ -2,9 +2,7 @@
 title: CTD (Contectivity-Temperature-Depth) Post Data Processing
 ---
 
-![](images/Wave_wWhales_v4.png)
-
-## SeaBird Software Instructions
+## ![](images/Wave_wWhales_v3.png)SeaBird Software Instructions
 
 After installing [Sea-Bird](https://www.seabird.com/) to your workstation, the following steps should be run to convert raw CTD data into .cnv files for future use:
 

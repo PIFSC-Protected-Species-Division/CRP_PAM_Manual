@@ -2,9 +2,7 @@
 title: Towed Array Depth Senors
 ---
 
-![](images/Wave_wWhales_v4.png)
-
-# **Array Depth Measurement Information Base on Sensor Type**
+# ![](images/Wave_wWhales_v3.png)**Array Depth Measurement Information Base on Sensor Type**
 
 ## **Kellar:**
 

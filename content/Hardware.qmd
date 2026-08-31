@@ -2,7 +2,7 @@
 title: Hardware
 ---
 
-![](images/Wave_wWhales_v4.png)
+![](images/Wave_wWhales_v3.png)
 
 ![](images/illustration-noaa-nefsc-passive-acoustics-technologies.png){fig-align="left"}
 

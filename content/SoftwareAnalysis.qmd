@@ -2,9 +2,7 @@
 title: Software & Analysis Methods
 ---
 
-![](images/Wave_wWhales_v4.png)
-
-# **PAMGuard**
+# ![](images/Wave_wWhales_v3.png)**PAMGuard**
 
 -   Website for [PAMGuard](https://www.pamguard.org/)
 -   [GitHub](https://github.com/PAMGuard/PAMGuard) source code and platform to report issues

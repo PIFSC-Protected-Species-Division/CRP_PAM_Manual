@@ -1,7 +1,7 @@
 ---
 title: Lab Management
 ---
-![](images/Wave_wWhales_v4.png)
+![](images/Wave_wWhales_v3.png)
 
 -   [Safety](Safety.qmd)
 
