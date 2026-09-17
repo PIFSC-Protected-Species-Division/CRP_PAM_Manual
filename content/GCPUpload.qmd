@@ -37,7 +37,7 @@ Use the Windows Command Prompt to interact with `gsutils` once it is installed.
 
 **To login to an account**
 `gcloud auth login` 
-OR (in beta tesing currently)
+OR (in beta testing currently)
 `gcloud auth application-default login`
 
 A web browser window will open where you login with your NOAA Google Account email address and password.
